@@ -1,0 +1,359 @@
+{
+  "generated_at": "2026-05-08T10:17:56.810Z",
+  "date": "08/05/2026",
+  "query": "leads chauds du jour",
+  "min_score": 70,
+  "summary": {
+    "total_leads": 12,
+    "hot_leads": 9,
+    "avg_score": 83,
+    "top_sector": "Santé publique"
+  },
+  "leads": [
+    {
+      "id": "r02",
+      "company": "Abeille Assurances",
+      "sector": "Assurance",
+      "size": "3 900 sal.",
+      "city": "Bois-Colombes",
+      "contact_name": "Sandrine Racouchot",
+      "contact_title": "DSI",
+      "contact_email": "sandrine.racouchot@abeille-assurances.fr",
+      "contact_linkedin": "https://www.linkedin.com/in/sandrine-racouchot-74aa0172",
+      "icp_score": 89,
+      "pain_points": [
+        "SI legacy post-AXA",
+        "intégration post-fusion"
+      ],
+      "buy_signal": "Ex-AXA France — refonte SI post-renommage, recrutements IT actifs",
+      "case_type": "legacy",
+      "priority": "chaud",
+      "tags": [
+        "Assurance",
+        "Legacy"
+      ]
+    },
+    {
+      "id": "r01",
+      "company": "La Banque Postale",
+      "sector": "Banque",
+      "size": "20 000 sal.",
+      "city": "Lille",
+      "contact_name": "Bernard Héquet",
+      "contact_title": "DSI",
+      "contact_email": "bernard.hequet@labanquepostale.fr",
+      "contact_linkedin": "https://www.linkedin.com/in/bernard-h%C3%A9quet-a062aa25",
+      "icp_score": 88,
+      "pain_points": [
+        "SI bancaire legacy",
+        "conformité DORA 2025"
+      ],
+      "buy_signal": "Grand compte bancaire — refonte SI en cours",
+      "case_type": "legacy",
+      "priority": "chaud",
+      "tags": [
+        "Banque",
+        "Legacy"
+      ]
+    },
+    {
+      "id": "r03",
+      "company": "PRO BTP Groupe",
+      "sector": "Assurance / Prévoyance",
+      "size": "6 000 sal.",
+      "city": "Paris",
+      "contact_name": "Stéphane Danthon",
+      "contact_title": "DSI",
+      "contact_email": "stephane.danthon@probtp.com",
+      "contact_linkedin": "https://www.linkedin.com/in/stephanedanthon-385471b",
+      "icp_score": 87,
+      "pain_points": [
+        "workflows sinistres longs",
+        "reporting réglementaire complexe"
+      ],
+      "buy_signal": "Prévoyance BTP — digitalisation processus prioritaire",
+      "case_type": "processus",
+      "priority": "chaud",
+      "tags": [
+        "Assurance",
+        "Grand compte"
+      ]
+    },
+    {
+      "id": "r12",
+      "company": "Caisse des Dépôts — DSI",
+      "sector": "Finances publiques",
+      "size": "600 sal.",
+      "city": "Paris",
+      "contact_name": "Direction SI",
+      "contact_title": "Directrice Études SI",
+      "contact_email": "dsi@caissedesdepots.fr",
+      "contact_linkedin": "https://www.linkedin.com/company/caisse-des-depots",
+      "icp_score": 87,
+      "pain_points": [
+        "legacy Cobol",
+        "souveraineté réglementaire"
+      ],
+      "buy_signal": "AO refonte SI épargne réglementée",
+      "case_type": "souverainete",
+      "priority": "chaud",
+      "tags": [
+        "Public",
+        "Banque",
+        "Souveraineté"
+      ]
+    },
+    {
+      "id": "r06",
+      "company": "Vivalto Santé",
+      "sector": "Santé privée",
+      "size": "21 000 sal.",
+      "city": "Rennes",
+      "contact_name": "Olivier Boixière",
+      "contact_title": "DSI",
+      "contact_email": "oboixiere@vivalto-sante.com",
+      "contact_linkedin": "https://www.linkedin.com/in/olivier-boixiere-8b307a25",
+      "icp_score": 86,
+      "pain_points": [
+        "SI hospitalier multi-sites",
+        "dossier patient non unifié"
+      ],
+      "buy_signal": "2ème groupe hospitalier privé France — programme SI groupe",
+      "case_type": "urgent",
+      "priority": "chaud",
+      "tags": [
+        "Santé",
+        "Grand compte"
+      ]
+    },
+    {
+      "id": "r11",
+      "company": "Macif",
+      "sector": "Assurance mutualiste",
+      "size": "1 600 sal.",
+      "city": "Niort",
+      "contact_name": "Direction Transformation",
+      "contact_title": "Directeur Transformation Digitale",
+      "contact_email": "direction@macif.fr",
+      "contact_linkedin": "https://www.linkedin.com/company/macif",
+      "icp_score": 86,
+      "pain_points": [
+        "processus sinistres manuels",
+        "dépendance éditeur"
+      ],
+      "buy_signal": "AO refonte portail sociétaires",
+      "case_type": "processus",
+      "priority": "chaud",
+      "tags": [
+        "Assurance",
+        "Legacy"
+      ]
+    },
+    {
+      "id": "r04",
+      "company": "UFF – Union Financière de France",
+      "sector": "Gestion de patrimoine",
+      "size": "2 500 sal.",
+      "city": "Bois-Colombes",
+      "contact_name": "Zarine Shaik",
+      "contact_title": "DSI",
+      "contact_email": "zarine_shaik@uff.net",
+      "contact_linkedin": "https://www.linkedin.com/in/zarine-shaik-190a5487",
+      "icp_score": 84,
+      "pain_points": [
+        "outils conseil fragmentés",
+        "reporting MIFID2"
+      ],
+      "buy_signal": "Filiale Abeille — enjeux intégration SI post-rapprochement",
+      "case_type": "processus",
+      "priority": "chaud",
+      "tags": [
+        "Banque",
+        "ETI"
+      ]
+    },
+    {
+      "id": "r05",
+      "company": "CAFPI",
+      "sector": "Courtage immobilier",
+      "size": "1 600 sal.",
+      "city": "Paris",
+      "contact_name": "Sébastien Vallecalle",
+      "contact_title": "DSI",
+      "contact_email": "s.vallecalle@cafpi.fr",
+      "contact_linkedin": "https://www.linkedin.com/in/sebastien-vallecalle-68461021",
+      "icp_score": 82,
+      "pain_points": [
+        "processus courtage non automatisés",
+        "reporting manuel"
+      ],
+      "buy_signal": "ETI en forte croissance — stack hétérogène à moderniser",
+      "case_type": "processus",
+      "priority": "chaud",
+      "tags": [
+        "Banque",
+        "ETI"
+      ]
+    },
+    {
+      "id": "r07",
+      "company": "CHU Grenoble Alpes",
+      "sector": "Santé publique",
+      "size": "12 000 sal.",
+      "city": "Grenoble",
+      "contact_name": "Bruno Lavaire",
+      "contact_title": "DSI",
+      "contact_email": "blavaire@chu-grenoble.fr",
+      "contact_linkedin": "https://www.linkedin.com/in/bruno-lavaire-53322534",
+      "icp_score": 80,
+      "pain_points": [
+        "SI hospitalier legacy",
+        "souveraineté données santé"
+      ],
+      "buy_signal": "Programme Hôpital Numérique — hébergement souverain",
+      "case_type": "souverainete",
+      "priority": "chaud",
+      "tags": [
+        "Santé",
+        "Public",
+        "Souveraineté"
+      ]
+    },
+    {
+      "id": "r08",
+      "company": "Centre Hospitalier Sud Francilien",
+      "sector": "Santé publique",
+      "size": "4 800 sal.",
+      "city": "Corbeil-Essonnes",
+      "contact_name": "Thierry Pasquelin",
+      "contact_title": "DSI",
+      "contact_email": "thierry.pasquelin@chsf.fr",
+      "contact_linkedin": "https://www.linkedin.com/in/thierry-pasquelin-b1785051",
+      "icp_score": 79,
+      "pain_points": [
+        "sécurité données patients",
+        "budget IT contraint"
+      ],
+      "buy_signal": "CH public — enjeux sécurité données critiques",
+      "case_type": "securite",
+      "priority": "tiede",
+      "tags": [
+        "Santé",
+        "Public"
+      ]
+    },
+    {
+      "id": "r09",
+      "company": "Concentrix Payment Services",
+      "sector": "Paiement",
+      "size": "410 sal.",
+      "city": "Chambéry",
+      "contact_name": "Myriam Boide",
+      "contact_title": "DSI",
+      "contact_email": "myriam.boide@concentrix.com",
+      "contact_linkedin": "https://www.linkedin.com/in/myriamboide",
+      "icp_score": 76,
+      "pain_points": [
+        "conformité PCI-DSS",
+        "haute disponibilité requise"
+      ],
+      "buy_signal": "ETI paiement — contraintes PCI-DSS, haute disponibilité 24/7",
+      "case_type": "securite",
+      "priority": "tiede",
+      "tags": [
+        "Banque",
+        "ETI"
+      ]
+    },
+    {
+      "id": "r10",
+      "company": "Denjean & Associés",
+      "sector": "Gestion d'actifs",
+      "size": "170 sal.",
+      "city": "Paris",
+      "contact_name": "Fabien Nantas",
+      "contact_title": "DSI",
+      "contact_email": "fabien.nantas@denjeansa.fr",
+      "contact_linkedin": "https://www.linkedin.com/in/fabien-nantas",
+      "icp_score": 75,
+      "pain_points": [
+        "reporting investisseurs sous Excel",
+        "outils propriétaires inexistants"
+      ],
+      "buy_signal": "Société de gestion — besoin outils souverains sur mesure",
+      "case_type": "souverainete",
+      "priority": "tiede",
+      "tags": [
+        "Banque",
+        "ETI",
+        "Souveraineté"
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "company": "Abeille Assurances",
+      "type": "annonce",
+      "title": "Refonte SI post-renommage AXA→Abeille",
+      "detail": "Transformation SI suite au rachat par Aéma Groupe.",
+      "score": 91,
+      "source": "Communiqué"
+    },
+    {
+      "company": "La Banque Postale",
+      "type": "recrutement",
+      "title": "Recrutements IT — conformité DORA",
+      "detail": "LBP publie offres architectes SI et experts cybersécurité.",
+      "score": 88,
+      "source": "LinkedIn"
+    },
+    {
+      "company": "PRO BTP Groupe",
+      "type": "appel_offres",
+      "title": "AO digitalisation processus prévoyance",
+      "detail": "Appel d'offres refonte workflows sinistres et prévoyance BTP.",
+      "score": 87,
+      "source": "BOAMP"
+    },
+    {
+      "company": "Vivalto Santé",
+      "type": "annonce",
+      "title": "Plan SI groupe 2025 — dossier patient unifié",
+      "detail": "2ème groupe hospitalier privé — programme SI multi-sites.",
+      "score": 86,
+      "source": "Communiqué"
+    },
+    {
+      "company": "CAFPI",
+      "type": "recrutement",
+      "title": "Recrute architecte SI et dev Java",
+      "detail": "CAFPI modernise sa plateforme de courtage immobilier.",
+      "score": 82,
+      "source": "Indeed"
+    },
+    {
+      "company": "CHU Grenoble Alpes",
+      "type": "appel_offres",
+      "title": "AO hébergement souverain HDS",
+      "detail": "Consultation migration données patients vers hébergeur HDS.",
+      "score": 80,
+      "source": "BOAMP"
+    },
+    {
+      "company": "Covéa (MAAF/MMA/GMF)",
+      "type": "annonce",
+      "title": "Migration SI post-fusion Phase 2",
+      "detail": "Refonte outils gestion sinistres MAAF/MMA annoncée.",
+      "score": 91,
+      "source": "Communiqué"
+    },
+    {
+      "company": "Natixis IM",
+      "type": "appel_offres",
+      "title": "Refonte reporting MIFID2",
+      "detail": "Automatisation reporting actuellement géré sous Excel.",
+      "score": 85,
+      "source": "Marchés publics"
+    }
+  ]
+}
