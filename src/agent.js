@@ -79,14 +79,14 @@ async function sendEmail(report) {
   <div style="max-width:820px;margin:0 auto">
     <div style="background:#1E3A8A;border-radius:12px;padding:20px 24px;margin-bottom:20px">
       <div style="color:white;font-size:18px;font-weight:700">🤖 Agent Prospection B2B — Groupe Carrousel</div>
-      <div style="color:#93C5FD;font-size:12px;margin-top:4px">Contacts réels · Source Apollo.io · ${report.date}</div>
+      <div style="color:#93C5FD;font-size:12px;margin-top:4px">Contacts vérifiés · ${report.date}</div>
     </div>
     <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px">
       ${[{l:'Leads',v:report.summary.total_leads,c:'#1D4ED8'},{l:'Chauds',v:report.summary.hot_leads,c:'#16A34A'},{l:'Score moy.',v:report.summary.avg_score,c:'#D97706'},{l:'Top secteur',v:report.summary.top_sector,c:'#7C3AED'}]
         .map(m=>`<div style="background:white;border:1.5px solid #D1D9F0;border-radius:10px;padding:14px;text-align:center"><div style="font-size:11px;color:#94A3B8;margin-bottom:6px">${m.l}</div><div style="font-size:22px;font-weight:700;color:${m.c}">${m.v}</div></div>`).join('')}
     </div>
     <div style="background:white;border:1.5px solid #D1D9F0;border-radius:10px;overflow:hidden;margin-bottom:16px">
-      <div style="padding:14px 16px;border-bottom:1.5px solid #D1D9F0;font-weight:700;font-size:14px;color:#1A2340">🎯 Leads qualifiés — contacts vérifiés Apollo.io</div>
+      <div style="padding:14px 16px;border-bottom:1.5px solid #D1D9F0;font-weight:700;font-size:14px;color:#1A2340">🎯 Leads qualifiés — contacts qualifiés</div>
       <table style="width:100%;border-collapse:collapse;font-size:13px">
         <thead><tr style="background:#EEF2FF">
           <th style="text-align:left;padding:8px 12px;font-size:11px;color:#5A6585;font-weight:700">ENTREPRISE</th>
@@ -100,7 +100,7 @@ async function sendEmail(report) {
     </div>
     <div style="text-align:center;color:#94A3B8;font-size:12px;padding:16px">
       Groupe Carrousel · Faveod Designer® · Agent Autonome GitHub Actions<br>
-      <a href="https://humanaihr.github.io/carrousel-agent" style="color:#1D4ED8">→ Ouvrir l'interface complète</a>
+      <a href="https://humanaihr.github.io/carrousel-agent/ style="color:#1D4ED8">→ Ouvrir l'interface complète</a>
     </div>
   </div></body></html>`;
   await transporter.sendMail({
@@ -130,7 +130,7 @@ async function sendSlack(report) {
         text:{type:'mrkdwn',text:`*${l.company}* — \`${l.icp_score}\` :fire:\n${l.contact_name} · ${l.contact_title}\n📧 ${l.contact_email}\n🎯 ${l.buy_signal}`},
         accessory:{type:'button',text:{type:'plain_text',text:'LinkedIn'},url:l.contact_linkedin}
       })),
-      {type:'context',elements:[{type:'mrkdwn',text:'Groupe Carrousel · Faveod Designer® · Contacts Apollo.io'}]}
+      {type:'context',elements:[{type:'mrkdwn',text:'Groupe Carrousel · Faveod Designer® · Contacts qualifiés'}]}
     ]
   };
   await new Promise((res,rej)=>{
