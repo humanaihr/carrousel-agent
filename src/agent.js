@@ -100,7 +100,7 @@ async function sendEmail(report) {
     </div>
     <div style="text-align:center;color:#94A3B8;font-size:12px;padding:16px">
       Groupe Carrousel · Faveod Designer® · Agent Autonome GitHub Actions<br>
-      <a href="https://humanaihr.github.io/carrousel-agent/ style="color:#1D4ED8">→ Ouvrir l'interface complète</a>
+      <a href="https://humanaihr.github.io/carrousel-agent/" style="color:#1D4ED8">→ Ouvrir l'interface complète</a>
     </div>
   </div></body></html>`;
   await transporter.sendMail({
