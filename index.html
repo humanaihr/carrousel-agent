@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agent Prospection — Groupe Carrousel</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+<style>
+:root{
+  --bg:#F0F4FF;--bg2:#FFFFFF;--bg3:#EEF2FF;--border:#D1D9F0;
+  --text:#1A2340;--text2:#5A6585;--text3:#9AA3BE;
+  --blue:#1D4ED8;--blue-light:#3B82F6;--blue-dim:#DBEAFE;--blue-dark:#1E3A8A;
+  --green:#16A34A;--green-dim:#DCFCE7;--amber:#D97706;--amber-dim:#FEF3C7;
+  --red:#DC2626;--red-dim:#FEE2E2;
+  --shadow:0 1px 3px rgba(29,78,216,.08);--shadow-md:0 4px 16px rgba(29,78,216,.10);
+  --font:'Inter',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);background:var(--bg);color:var(--text);min-height:100vh;display:grid;grid-template-columns:240px 1fr;grid-template-rows:60px 1fr}
+header{grid-column:1/-1;background:var(--blue-dark);padding:0 28px;display:flex;align-items:center;gap:14px;box-shadow:0 2px 8px rgba(29,78,216,.25)}
+.logo-mark{width:36px;height:36px;background:white;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.logo-text{font-size:16px;font-weight:700;color:white}
+.logo-sub{font-size:11px;color:#93C5FD;margin-top:1px}
+header .spacer{flex:1}
+.status-chip{display:flex;align-items:center;gap:6px;font-size:12px;color:#BFDBFE;background:rgba(255,255,255,.1);padding:5px 12px;border-radius:20px;border:1px solid rgba(255,255,255,.15)}
+.dot{width:7px;height:7px;border-radius:50%;background:#4ADE80;animation:blink 2s infinite;flex-shrink:0}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+.sync-info{font-size:11px;color:#93C5FD;margin-left:8px;display:flex;align-items:center;gap:5px}
+.hbadge{font-size:11px;padding:3px 10px;border-radius:12px;font-weight:600;background:rgba(255,255,255,.15);color:white;margin-left:6px}
+aside{background:var(--bg2);border-right:1.5px solid var(--border);padding:20px 0;display:flex;flex-direction:column}
+.nav-sec{font-size:10px;font-weight:600;color:var(--text3);padding:14px 20px 5px;text-transform:uppercase;letter-spacing:.12em}
+.nav-item{display:flex;align-items:center;gap:10px;padding:10px 20px;font-size:14px;cursor:pointer;color:var(--text2);border-left:3px solid transparent;transition:all .15s}
+.nav-item:hover{background:var(--bg3);color:var(--blue)}
+.nav-item.active{background:var(--blue-dim);color:var(--blue);border-left-color:var(--blue);font-weight:600}
+.nav-item i{font-size:17px;width:20px}
+main{padding:28px;overflow-y:auto}
+.page{display:none}.page.active{display:block}
+.btn{padding:9px 16px;font-size:13px;border:1.5px solid var(--border);border-radius:8px;background:white;color:var(--text);cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-family:var(--font);font-weight:500;transition:all .15s;box-shadow:var(--shadow)}
+.btn:hover{border-color:var(--blue);color:var(--blue);background:var(--blue-dim)}
+.btn-p{background:var(--blue);color:white;border-color:var(--blue)}
+.btn-p:hover{background:var(--blue-dark);color:white}
+.btn-s{padding:6px 12px;font-size:12px}
+input,select,textarea{padding:9px 13px;font-size:13px;border:1.5px solid var(--border);border-radius:8px;background:white;color:var(--text);font-family:var(--font)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px rgba(59,130,246,.15)}
+.row{display:flex;gap:8px;margin-bottom:12px;align-items:center;flex-wrap:wrap}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.chip{padding:5px 12px;font-size:12px;border:1.5px solid var(--border);border-radius:20px;cursor:pointer;color:var(--text2);background:white;font-weight:500}
+.chip.on{background:var(--blue-dim);color:var(--blue);border-color:var(--blue-light);font-weight:600}
+.badge{font-size:11px;padding:3px 8px;border-radius:5px;font-weight:600}
+.bb{background:var(--blue-dim);color:var(--blue)}.bg{background:var(--green-dim);color:var(--green)}
+.ba{background:var(--amber-dim);color:var(--amber)}.br{background:var(--red-dim);color:var(--red)}
+.tbl-wrap{overflow-x:auto;border:1.5px solid var(--border);border-radius:10px;box-shadow:var(--shadow-md);background:white}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;padding:10px 14px;font-size:11px;font-weight:700;color:var(--text2);border-bottom:1.5px solid var(--border);background:var(--bg3);text-transform:uppercase;letter-spacing:.07em}
+td{padding:12px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:#F8FAFF}
+.co-icon{width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0}
+.sp{display:inline-flex;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:700}
+.tag{display:inline-block;padding:2px 7px;border-radius:4px;font-size:11px;margin:1px;font-weight:500}
+.ta{background:var(--amber-dim);color:var(--amber)}.tb{background:var(--blue-dim);color:var(--blue)}
+.card{background:white;border:1.5px solid var(--border);border-radius:12px;padding:20px;box-shadow:var(--shadow)}
+.sec-title{font-size:13px;font-weight:700;color:var(--text);margin-bottom:14px;display:flex;align-items:center;gap:6px}
+.sec-title::before{content:'';display:inline-block;width:3px;height:16px;background:var(--blue);border-radius:2px}
+.lbl{font-size:12px;font-weight:600;color:var(--text2);margin-bottom:5px}
+.comp-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.tab-row{display:flex;gap:0;margin-bottom:14px;border:1.5px solid var(--border);border-radius:8px;overflow:hidden;background:white}
+.tbtn{flex:1;padding:9px;font-size:13px;border:none;background:transparent;color:var(--text2);cursor:pointer;font-family:var(--font);font-weight:500}
+.tbtn.on{background:var(--blue);color:white;font-weight:600}
+.pg{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.pc{background:white;border:1.5px solid var(--border);border-radius:10px;padding:14px;box-shadow:var(--shadow)}
+.pl{background:var(--bg3);border:1.5px solid var(--border);border-radius:8px;padding:10px;margin-bottom:8px;font-size:13px}
+.ag{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:18px}
+.sc-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:12px}
+.sc{background:var(--bg3);border:1.5px solid var(--border);border-radius:8px;padding:12px;text-align:center;cursor:pointer}
+.sc.on{border-color:var(--blue);background:var(--blue-dim)}
+.log-list{display:flex;flex-direction:column;gap:5px;max-height:220px;overflow-y:auto}
+.log-item{display:flex;align-items:flex-start;gap:8px;padding:8px 12px;background:var(--bg3);border-radius:7px;font-size:12px;border:1px solid var(--border)}
+.log-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0;margin-top:3px}
+.si{display:flex;align-items:flex-start;gap:12px;padding:14px 16px;background:white;border:1.5px solid var(--border);border-radius:10px;margin-bottom:8px;box-shadow:var(--shadow)}
+.sico{width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.mg{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px}
+.mc{background:white;border:1.5px solid var(--border);border-radius:10px;padding:16px;box-shadow:var(--shadow)}
+.empty{text-align:center;padding:3rem;color:var(--text2)}
+.empty i{font-size:36px;display:block;margin-bottom:12px;opacity:.25;color:var(--blue)}
+.sync-banner{background:var(--blue-dim);border:1.5px solid var(--blue-light);border-radius:8px;padding:12px 16px;margin-bottom:16px;display:flex;align-items:center;gap:10px;font-size:13px;color:var(--blue)}
+.spinner{width:16px;height:16px;border:2px solid var(--blue-dim);border-top-color:var(--blue);border-radius:50%;animation:spin .8s linear infinite;flex-shrink:0}
+@keyframes spin{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-mark"><i class="ti ti-robot" style="color:var(--blue);font-size:18px"></i></div>
+  <div>
+    <div class="logo-text">Agent Prospection B2B</div>
+    <div class="logo-sub">Groupe Carrousel · Faveod Designer®</div>
+  </div>
+  <div class="spacer"></div>
+  <div class="status-chip"><span class="dot"></span><span id="ast">Chargement...</span></div>
+  <div class="sync-info"><i class="ti ti-refresh" style="font-size:13px"></i><span id="sync-time">—</span></div>
+  <span class="hbadge" id="lc">0 leads</span>
+</header>
+
+<aside>
+  <span class="nav-sec">Prospection</span>
+  <div class="nav-item active" onclick="nav(this,'search')"><i class="ti ti-search"></i>Recherche leads</div>
+  <div class="nav-item" onclick="nav(this,'signals')"><i class="ti ti-radar"></i>Signaux d'achat</div>
+  <div class="nav-item" onclick="nav(this,'pipeline')"><i class="ti ti-layout-kanban"></i>Pipeline</div>
+  <span class="nav-sec">Actions</span>
+  <div class="nav-item" onclick="nav(this,'composer')"><i class="ti ti-mail"></i>Composer message</div>
+  <span class="nav-sec">Reporting</span>
+  <div class="nav-item" onclick="nav(this,'stats')"><i class="ti ti-chart-bar"></i>Métriques</div>
+</aside>
+
+<main>
+
+<!-- SEARCH -->
+<div class="page active" id="page-search">
+  <!-- EMAIL CONFIG -->
+  <div id="email-config" style="background:white;border:1.5px solid var(--border);border-radius:10px;padding:14px 16px;margin-bottom:14px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;box-shadow:var(--shadow)">
+    <i class="ti ti-mail" style="font-size:18px;color:var(--blue);flex-shrink:0"></i>
+    <div style="font-size:13px;font-weight:600;color:var(--text);flex-shrink:0">Envoyer les résultats à :</div>
+    <input type="email" id="dest-email" placeholder="dg@carrousel.fr" style="flex:1;min-width:200px" value="">
+    <button class="btn btn-p btn-s" onclick="saveEmail()"><i class="ti ti-check"></i>Enregistrer</button>
+    <span id="email-saved" style="font-size:12px;color:var(--green);display:none">✓ Enregistré</span>
+  </div>
+  <div id="sync-banner" class="sync-banner" style="display:none">
+    <div class="spinner"></div>
+    <span id="sync-msg">Synchronisation avec GitHub en cours...</span>
+  </div>
+  <div class="sec-title">Recherche & qualification de leads</div>
+  <div class="row">
+    <input type="text" id="sq" style="flex:1" placeholder="DSI banque Paris, CTO assurance ETI, refonte SI...">
+    <button class="btn btn-p" onclick="search()"><i class="ti ti-search"></i>Rechercher</button>
+    <button class="btn" onclick="loadFromGitHub()"><i class="ti ti-cloud-download"></i>Sync GitHub</button>
+    <button class="btn" id="email-btn" onclick="sendResultsEmail()" style="display:none;background:#16A34A;color:white;border-color:#16A34A"><i class="ti ti-mail-forward"></i>Envoyer par email</button>
+  </div>
+  <div class="chips">
+    <div class="chip on" data-v="Banque">Banque</div>
+    <div class="chip on" data-v="Assurance">Assurance</div>
+    <div class="chip on" data-v="Santé">Santé</div>
+    <div class="chip" data-v="Industrie">Industrie</div>
+    <div class="chip" data-v="Legacy">Legacy</div>
+    <div class="chip" data-v="Souveraineté">Souveraineté</div>
+    <div class="chip" data-v="Public">Public</div>
+  </div>
+  <div id="sout"><div class="empty"><i class="ti ti-cloud-download"></i><p>Clique <strong>Sync GitHub</strong> pour charger les leads en temps réel<br>ou <strong>Rechercher</strong> pour utiliser les leads locaux</p></div></div>
+</div>
+
+<!-- SIGNALS -->
+<div class="page" id="page-signals">
+  <div class="sec-title">Signaux d'achat</div>
+  <button class="btn btn-p" onclick="loadSigs()" style="margin-bottom:14px"><i class="ti ti-refresh"></i>Actualiser</button>
+  <div id="sigout"><div class="empty"><i class="ti ti-radar"></i><p>Clique Actualiser</p></div></div>
+</div>
+
+<!-- PIPELINE -->
+<div class="page" id="page-pipeline">
+  <div class="row" style="justify-content:space-between;margin-bottom:16px">
+    <div class="sec-title" style="margin:0">Pipeline de prospection</div>
+    <button class="btn btn-s" onclick="exportCSV()"><i class="ti ti-download"></i>Exporter CSV</button>
+  </div>
+  <div id="pout"><div class="empty"><i class="ti ti-layout-kanban"></i><p>Pipeline vide</p></div></div>
+</div>
+
+<!-- COMPOSER -->
+<div class="page" id="page-composer">
+  <div class="sec-title">Composer un message</div>
+  <div class="tab-row">
+    <button class="tbtn on" onclick="setTab(this,'li')">LinkedIn InMail</button>
+    <button class="tbtn" onclick="setTab(this,'em')">Email froid</button>
+    <button class="tbtn" onclick="setTab(this,'re')">Relance</button>
+    <button class="tbtn" onclick="setTab(this,'ca')">Cas client</button>
+  </div>
+  <div class="comp-grid">
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <div><div class="lbl">Lead cible</div><select id="cl" style="width:100%"><option value="">— Sélectionner —</option></select></div>
+      <div><div class="lbl">Cas d'usage</div>
+        <select id="cc" style="width:100%">
+          <option value="legacy">Refonte SI legacy</option>
+          <option value="urgent">Projet urgent</option>
+          <option value="processus">Processus métier complexe</option>
+          <option value="souverainete">Souveraineté</option>
+          <option value="securite">Données critiques</option>
+        </select>
+      </div>
+      <div><div class="lbl">Contexte</div><textarea id="cx" rows="4" style="width:100%" placeholder="Signal repéré, actualité..."></textarea></div>
+      <button class="btn btn-p" onclick="genMsg()"><i class="ti ti-sparkles"></i>Générer le message</button>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:8px">
+      <div class="lbl">Message généré</div>
+      <div id="mout" style="background:var(--bg3);border:1.5px solid var(--border);border-radius:10px;padding:16px;min-height:240px;font-size:14px;line-height:1.8;white-space:pre-wrap"><span style="color:var(--text3)">Le message apparaîtra ici...</span></div>
+      <div style="display:flex;gap:8px">
+        <button class="btn btn-s" onclick="copyM()"><i class="ti ti-copy"></i>Copier</button>
+        <button class="btn btn-s" onclick="genMsg()"><i class="ti ti-refresh"></i>Régénérer</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- STATS -->
+<div class="page" id="page-stats">
+  <div class="sec-title">Métriques</div>
+  <div class="mg">
+    <div class="mc"><div class="lbl">Leads chargés</div><div style="font-size:28px;font-weight:700;color:var(--blue)" id="ml">0</div></div>
+    <div class="mc"><div class="lbl">Score ICP moyen</div><div style="font-size:28px;font-weight:700" id="ms">—</div></div>
+    <div class="mc"><div class="lbl">Pipeline actif</div><div style="font-size:28px;font-weight:700;color:var(--green)" id="mp">0</div></div>
+    <div class="mc"><div class="lbl">Dernière sync</div><div style="font-size:14px;font-weight:600;color:var(--amber);margin-top:6px" id="last-sync">—</div></div>
+  </div>
+  <div class="card"><div class="lbl" style="margin-bottom:10px">Leads par secteur</div><div id="sbd" style="font-size:13px;color:var(--text2)">Aucune donnée</div></div>
+</div>
+
+</main>
+
+<script>
+// ── CONFIG — CHANGE ICI TON USERNAME GITHUB ──────────
+// Format: https://raw.githubusercontent.com/USERNAME/REPO/main/leads.json
+const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/humanaihr/carrousel-agent/main/leads.json';
+
+let allLeads=[], pipe=[], tab='li', lastSyncTime=null;
+const RAMP=['#DBEAFE:#1D4ED8','#DCFCE7:#16A34A','#FEF3C7:#D97706','#EDE9FE:#7C3AED','#FEE2E2:#DC2626','#D1FAE5:#059669'];
+const CI={legacy:'ti-clock-rewind',urgent:'ti-rocket',securite:'ti-shield-lock',souverainete:'ti-key',processus:'ti-sitemap'};
+const PB={chaud:'br',tiede:'ba',froid:'bb'};
+
+// Leads locaux de secours si GitHub non accessible
+const LOCAL_LEADS=[
+  {id:'r01',company:"La Banque Postale",sector:"Banque",size:"20 000 sal.",city:"Lille",contact_name:"Bernard Héquet",contact_title:"DSI",contact_email:"bernard.hequet@labanquepostale.fr",contact_linkedin:"https://www.linkedin.com/in/bernard-h%C3%A9quet-a062aa25",icp_score:88,pain_points:["SI bancaire legacy","conformité DORA"],buy_signal:"Grand compte bancaire — refonte SI en cours",case_type:"legacy",priority:"chaud",tags:["Banque","Legacy"]},
+  {id:'r02',company:"Abeille Assurances",sector:"Assurance",size:"3 900 sal.",city:"Bois-Colombes",contact_name:"Sandrine Racouchot",contact_title:"DSI",contact_email:"sandrine.racouchot@abeille-assurances.fr",contact_linkedin:"https://www.linkedin.com/in/sandrine-racouchot-74aa0172",icp_score:89,pain_points:["SI legacy post-AXA","intégration post-fusion"],buy_signal:"Ex-AXA — refonte SI post-renommage",case_type:"legacy",priority:"chaud",tags:["Assurance","Legacy"]},
+  {id:'r03',company:"PRO BTP Groupe",sector:"Assurance / Prévoyance",size:"6 000 sal.",city:"Paris",contact_name:"Stéphane Danthon",contact_title:"DSI",contact_email:"stephane.danthon@probtp.com",contact_linkedin:"https://www.linkedin.com/in/stephanedanthon-385471b",icp_score:87,pain_points:["workflows sinistres longs","reporting réglementaire"],buy_signal:"Prévoyance BTP — digitalisation processus",case_type:"processus",priority:"chaud",tags:["Assurance"]},
+  {id:'r04',company:"Vivalto Santé",sector:"Santé privée",size:"21 000 sal.",city:"Rennes",contact_name:"Olivier Boixière",contact_title:"DSI",contact_email:"oboixiere@vivalto-sante.com",contact_linkedin:"https://www.linkedin.com/in/olivier-boixiere-8b307a25",icp_score:86,pain_points:["SI multi-sites","dossier patient non unifié"],buy_signal:"2ème groupe hospitalier privé — programme SI",case_type:"urgent",priority:"chaud",tags:["Santé"]},
+  {id:'r05',company:"CHU Grenoble Alpes",sector:"Santé publique",size:"12 000 sal.",city:"Grenoble",contact_name:"Bruno Lavaire",contact_title:"DSI",contact_email:"blavaire@chu-grenoble.fr",contact_linkedin:"https://www.linkedin.com/in/bruno-lavaire-53322534",icp_score:80,pain_points:["SI legacy","souveraineté données"],buy_signal:"Programme Hôpital Numérique — hébergement souverain",case_type:"souverainete",priority:"chaud",tags:["Santé","Public"]},
+];
+
+const SIGNALS=[
+  {company:"Abeille Assurances",signal_type:"annonce",signal_title:"Refonte SI post-renommage AXA→Abeille",signal_detail:"Transformation SI suite au rachat par Aéma Groupe.",icp_match:["DSI","legacy"],score:91,date:"il y a 1 jour",source:"Communiqué"},
+  {company:"La Banque Postale",signal_type:"recrutement",signal_title:"Recrutements IT — conformité DORA",signal_detail:"LBP publie offres architectes SI et experts cybersécurité.",icp_match:["DSI","legacy"],score:88,date:"il y a 2 jours",source:"LinkedIn"},
+  {company:"PRO BTP Groupe",signal_type:"appel_offres",signal_title:"AO digitalisation processus prévoyance",signal_detail:"Appel d'offres refonte workflows sinistres et prévoyance BTP.",icp_match:["DSI","processus"],score:87,date:"il y a 3 jours",source:"BOAMP"},
+  {company:"Vivalto Santé",signal_type:"annonce",signal_title:"Plan SI groupe 2025 — dossier patient unifié",signal_detail:"2ème groupe hospitalier privé — programme SI multi-sites.",icp_match:["DSI","urgent"],score:86,date:"il y a 1 jour",source:"Communiqué"},
+  {company:"CHU Grenoble Alpes",signal_type:"appel_offres",signal_title:"AO hébergement souverain HDS",signal_detail:"Consultation migration données patients vers hébergeur HDS.",icp_match:["DSI","souverainete"],score:80,date:"il y a 5 jours",source:"BOAMP"},
+  {company:"Covéa (MAAF/MMA)",signal_type:"annonce",signal_title:"Migration SI post-fusion Phase 2",signal_detail:"Refonte outils gestion sinistres MAAF/MMA annoncée.",icp_match:["DSI","legacy"],score:91,date:"il y a 1 jour",source:"Communiqué"},
+];
+
+const MSGS={
+  li:{legacy:`Bonjour {nom},\n\nVotre récent recrutement pour {signal} m'a interpellé.\n\nBeaucoup d'ETI dans le secteur {secteur} font face au même défi : un SI historique devenu difficile à faire évoluer, coûteux à maintenir et qui bride la transformation.\n\nGroupe Carrousel a aidé une organisation similaire à livrer une refonte complète en 3 mois — sans interruption de service, avec 100% du code source propriété du client.\n\nCela résonne-t-il avec un sujet ouvert chez vous ?\n\nCordialement`,
+  urgent:`Bonjour {nom},\n\nJ'ai vu que {company} {signal}.\n\nAvec Faveod Designer®, Groupe Carrousel livre des applications métier critiques en 2 à 4 mois.\n\nUn échange de 20 minutes pour évaluer la faisabilité ?\n\nCordialement`,
+  processus:`Bonjour {nom},\n\nVos enjeux autour de {pain} ont retenu mon attention.\n\nChez CNP Assurances, un processus prenait 20 minutes. Après notre intervention : 2 minutes — automatisation complète.\n\nGroupe Carrousel développe des logiciels sur mesure adaptés à vos processus.\n\nDisponible pour un point rapide ?\n\nCordialement`,
+  souverainete:`Bonjour {nom},\n\nGroupe Carrousel : code 100% propriété client, aucune licence runtime, hébergement libre.\n\nCela correspond-il à vos orientations dans le secteur {secteur} ?\n\nCordialement`,
+  securite:`Bonjour {nom},\n\nNous avons livré pour SNCF un système à 98% de taux d'adoption, disponible 24/7.\n\nGroupe Carrousel serait-il pertinent pour votre contexte ?\n\nCordialement`},
+  em:{legacy:"Objet : Modernisation SI {company}\n\nBonjour {nom},\n\nGroupe Carrousel : développement logiciel sur mesure, code propriété client, livraison 2-4 mois.\n\nRéférences : BNP Paribas, CNP Assurances, SNCF.\n\nÉchange de 20 minutes ?\n\nBien cordialement",
+  urgent:"Objet : Projet urgent {company} — livraison 2 mois\n\nBonjour {nom},\n\nGroupe Carrousel livre en 2-4 mois avec Faveod Designer®.\n\nAppel cette semaine ?\n\nBien cordialement",
+  processus:"Objet : Automatisation processus {company}\n\nBonjour {nom},\n\nRésultat : 20min → 2min chez CNP Assurances.\n\nPoint rapide ?\n\nBien cordialement",
+  souverainete:"Objet : Souveraineté logicielle {company}\n\nBonjour {nom},\n\nCode propriété client, zéro licence runtime, hébergement libre.\n\nOrientations stratégiques compatibles ?\n\nBien cordialement",
+  securite:"Objet : Applications critiques {company}\n\nBonjour {nom},\n\nSystèmes à 98% taux d'adoption livrés.\n\nÉchange cette semaine ?\n\nBien cordialement"},
+  re:{legacy:"Bonjour {nom}, je reviens sur la modernisation SI de {company}. Disponible 15 min ? Cordialement",urgent:"Bonjour {nom}, votre projet a-t-il avancé ? Groupe Carrousel peut livrer rapidement. Cordialement",processus:"Bonjour {nom}, toujours intéressé par l'automatisation ? CNP : 20min→2min. Cordialement",souverainete:"Bonjour {nom}, avancé sur votre réflexion souveraineté ? Cordialement",securite:"Bonjour {nom}, disponible cette semaine pour vos applications critiques ? Cordialement"},
+  ca:{legacy:"Cas client — ETI {secteur} : refonte en 3 mois, 95→5 serveurs, code propriété client.\n\nÉchange possible chez {company} ? Cordialement",urgent:"Cas client — échéance 2 mois tenue avec Faveod Designer®.\n\nSituation similaire chez {company} ? Cordialement",processus:"Cas CNP Assurances — 20 étapes → automatisé, 20min→2min.\n\nContexte similaire chez {company} ? Cordialement",souverainete:"Cas client — sortie dépendance éditeur, code propriété client, zéro licence.\n\nOrientations {company} compatibles ? Cordialement",securite:"Cas SNCF — 300 000 utilisateurs, 24/7, 98% adoption.\n\n{company} a ce niveau d'exigence ? Cordialement"}
+};
+
+function now(){return new Date().toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'});}
+function sc(s){return s>=80?'var(--green)':s>=60?'var(--amber)':'var(--red)';}
+function scB(s){return s>=80?'var(--green-dim)':s>=60?'var(--amber-dim)':'var(--red-dim)';}
+function ini(n){return(n||'??').split(' ').slice(0,2).map(w=>w[0]||'').join('').toUpperCase();}
+
+// ── SYNC GITHUB ──────────────────────────────────────
+async function loadFromGitHub() {
+  const banner = document.getElementById('sync-banner');
+  const msg = document.getElementById('sync-msg');
+  banner.style.display = 'flex';
+  msg.textContent = 'Synchronisation avec GitHub en cours...';
+  try {
+    // Cache-bust pour forcer la dernière version
+    const url = GITHUB_RAW_URL + '?t=' + Date.now();
+    const res = await fetch(url);
+    if (!res.ok) throw new Error('Fichier leads.json non trouvé sur GitHub');
+    const data = await res.json();
+    if (data.leads && data.leads.length) {
+      allLeads = data.leads;
+      if (data.signals) window._githubSignals = data.signals;
+      lastSyncTime = data.generated_at ? new Date(data.generated_at) : new Date();
+      const timeStr = lastSyncTime.toLocaleString('fr-FR', {day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});
+      document.getElementById('sync-time').textContent = 'Sync: ' + timeStr;
+      document.getElementById('last-sync').textContent = timeStr;
+      document.getElementById('ast').textContent = 'Synchronisé';
+      document.getElementById('lc').textContent = allLeads.length + ' leads';
+      updCompSel();
+      renderLeads(allLeads);
+      msg.textContent = '✅ ' + allLeads.length + ' leads chargés depuis GitHub — dernière mise à jour: ' + timeStr;
+      setTimeout(() => { banner.style.display = 'none'; }, 3000);
+    } else {
+      throw new Error('leads.json vide ou format incorrect');
+    }
+  } catch(e) {
+    msg.textContent = '⚠️ ' + e.message + ' — utilisation des leads locaux';
+    allLeads = LOCAL_LEADS;
+    document.getElementById('ast').textContent = 'Mode local';
+    document.getElementById('lc').textContent = allLeads.length + ' leads (local)';
+    renderLeads(allLeads);
+    updCompSel();
+    setTimeout(() => { banner.style.display = 'none'; }, 4000);
+  }
+}
+
+// Charge automatiquement au démarrage
+window.addEventListener('load', () => {
+  loadFromGitHub();
+  // Re-sync toutes les 30 minutes
+  setInterval(loadFromGitHub, 30 * 60 * 1000);
+});
+
+function nav(el,id){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
+  document.getElementById('page-'+id).classList.add('active');
+  el.classList.add('active');
+  if(id==='stats')updStats();
+}
+document.querySelectorAll('.chip').forEach(c=>c.addEventListener('click',()=>c.classList.toggle('on')));
+
+function search(){
+  const q=document.getElementById('sq').value.trim().toLowerCase();
+  const filters=[...document.querySelectorAll('.chip.on')].map(c=>c.dataset.v);
+  let pool=allLeads.length?allLeads.slice():LOCAL_LEADS.slice();
+  if(filters.length) pool=pool.filter(l=>filters.some(f=>l.tags&&l.tags.some(t=>t.toLowerCase().includes(f.toLowerCase())||f.toLowerCase().includes(t.toLowerCase()))));
+  if(q){const kw=q.split(/\s+/);pool=pool.filter(l=>{const h=(l.company+l.sector+l.city+l.contact_title+(l.buy_signal||'')+(l.pain_points||[]).join(' ')).toLowerCase();return kw.some(k=>h.includes(k));});}
+  if(!pool.length) pool=allLeads.length?allLeads.slice():LOCAL_LEADS.slice();
+  renderLeads(pool);
+}
+
+function renderLeads(arr){
+  const c=document.getElementById('sout');
+  if(!arr||!arr.length){c.innerHTML='<div class="empty"><i class="ti ti-inbox"></i><p>Aucun résultat</p></div>';return;}
+  let h='<div class="tbl-wrap"><table><thead><tr><th>Entreprise</th><th>Contact</th><th>Signal d\'achat</th><th>Pain points</th><th>ICP</th><th>Actions</th></tr></thead><tbody>';
+  arr.forEach((l,i)=>{
+    const[bg,fg]=RAMP[i%RAMP.length].split(':');
+    h+=`<tr>
+      <td><div style="display:flex;align-items:flex-start;gap:10px">
+        <div class="co-icon" style="background:${bg};color:${fg};margin-top:1px">${ini(l.company)}</div>
+        <div><div style="font-weight:600;font-size:13px">${l.company}</div>
+        <div style="font-size:12px;color:var(--text2)">${l.sector} · ${l.city}</div>
+        <div style="font-size:11px;color:var(--text3)">${l.size}</div></div></div></td>
+      <td><div style="font-weight:600;font-size:13px">${l.contact_name}</div>
+        <div style="font-size:12px;color:var(--text2)">${l.contact_title}</div>
+        <div style="font-size:11px;color:var(--text3)">${l.contact_email||l.contact_email_pattern||''}</div></td>
+      <td><div style="display:flex;align-items:flex-start;gap:6px">
+        <i class="ti ${CI[l.case_type]||'ti-app-window'}" style="font-size:14px;color:var(--blue);margin-top:1px;flex-shrink:0"></i>
+        <span style="font-size:12px;line-height:1.5">${l.buy_signal}</span></div>
+        <span class="badge ${PB[l.priority]||'bb'}" style="margin-top:5px;display:inline-block">${l.priority}</span></td>
+      <td>${(l.pain_points||[]).slice(0,2).map(p=>'<span class="tag ta">'+p+'</span>').join('')}</td>
+      <td><span class="sp" style="background:${scB(l.icp_score)};color:${sc(l.icp_score)}">${l.icp_score}</span></td>
+      <td><div style="display:flex;gap:4px">
+        <button class="btn btn-s btn-p" onclick="addPL('${l.id}')" title="Pipeline"><i class="ti ti-plus"></i></button>
+        <a href="${l.contact_linkedin||'#'}" target="_blank" class="btn btn-s"><i class="ti ti-brand-linkedin"></i></a>
+        <button class="btn btn-s" onclick="prepC('${l.id}')" title="Message"><i class="ti ti-mail"></i></button>
+      </div></td></tr>`;
+  });
+  h+='</tbody></table></div>';c.innerHTML=h;
+  document.getElementById('lc').textContent=allLeads.length+' leads';
+  document.getElementById('email-btn').style.display='inline-flex';
+}
+
+function loadSigs(){
+  const sigs=window._githubSignals||SIGNALS;
+  const TI={recrutement:'ti-user-plus',appel_offres:'ti-file-description',annonce:'ti-speakerphone'};
+  const TB={recrutement:'var(--green-dim)',appel_offres:'var(--amber-dim)',annonce:'var(--blue-dim)'};
+  const TF={recrutement:'var(--green)',appel_offres:'var(--amber)',annonce:'var(--blue)'};
+  document.getElementById('sigout').innerHTML=sigs.map(s=>`<div class="si">
+    <div class="sico" style="background:${TB[s.signal_type||s.type]||'var(--bg3)'};color:${TF[s.signal_type||s.type]||'var(--text2)'}">
+      <i class="ti ${TI[s.signal_type||s.type]||'ti-radar'}" style="font-size:16px"></i>
+    </div>
+    <div style="flex:1">
+      <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+        <span style="font-size:13px;font-weight:700">${s.company}</span>
+        <span class="sp" style="background:${scB(s.score)};color:${sc(s.score)};font-size:11px">${s.score}</span>
+        <span class="badge bb">${s.source}</span>
+      </div>
+      <div style="font-size:13px;font-weight:600;margin-top:3px">${s.signal_title||s.title}</div>
+      <div style="font-size:12px;color:var(--text2);line-height:1.5;margin-top:3px">${s.signal_detail||s.detail}</div>
+      <div style="margin-top:5px">${(s.icp_match||[]).map(t=>'<span class="tag tb">'+t+'</span>').join('')}</div>
+      <div style="font-size:11px;color:var(--text3);margin-top:3px">${s.date||''}</div>
+    </div>
+  </div>`).join('');
+}
+
+function addPL(id){
+  const l=(allLeads.length?allLeads:LOCAL_LEADS).find(x=>x.id===id);
+  if(l&&!pipe.find(p=>p.id===id)){pipe.push({...l,stage:'nouveau'});updPipe();updCompSel();}
+}
+function mvS(id,s){const l=pipe.find(p=>p.id===id);if(l){l.stage=s;updPipe();}}
+function updPipe(){
+  const c=document.getElementById('pout');
+  if(!pipe.length){c.innerHTML='<div class="empty"><i class="ti ti-layout-kanban"></i><p>Pipeline vide</p></div>';return;}
+  const stages=[{id:'nouveau',label:'Nouveau',col:'var(--blue)'},{id:'contact',label:'Contacté',col:'var(--amber)'},{id:'reponse',label:'Réponse',col:'#7C3AED'},{id:'qualifie',label:'Qualifié',col:'var(--green)'}];
+  c.innerHTML='<div class="pg">'+stages.map(s=>{
+    const it=pipe.filter(p=>p.stage===s.id);
+    return`<div class="pc"><div style="font-size:12px;font-weight:700;color:${s.col};display:flex;justify-content:space-between;margin-bottom:10px">${s.label}<span class="badge bb">${it.length}</span></div>${
+      it.map(l=>`<div class="pl"><div style="font-weight:700">${l.company}</div><div style="font-size:12px;color:var(--text2);margin-top:2px">${l.contact_name}</div><div style="font-size:11px;color:var(--text3);margin-bottom:7px">${l.contact_title}</div><div style="display:flex;gap:3px;flex-wrap:wrap">${stages.filter(x=>x.id!==s.id).map(x=>`<button class="btn btn-s" style="font-size:11px;padding:3px 7px" onclick="mvS('${l.id}','${x.id}')">→ ${x.label}</button>`).join('')}</div></div>`).join('')}
+    </div>`;
+  }).join('')+'</div>';
+}
+function exportCSV(){
+  if(!pipe.length)return;
+  const r=['Entreprise,Secteur,Contact,Titre,Email,Score,Étape,Signal'];
+  pipe.forEach(l=>r.push([l.company,l.sector,l.contact_name,l.contact_title,l.contact_email||l.contact_email_pattern,l.icp_score,l.stage,l.buy_signal].map(v=>`"${String(v||'').replace(/"/g,'""')}"`).join(',')));
+  Object.assign(document.createElement('a'),{href:URL.createObjectURL(new Blob([r.join('\n')],{type:'text/csv'})),download:'pipeline_carrousel.csv'}).click();
+}
+function setTab(el,t){tab=t;document.querySelectorAll('.tbtn').forEach(b=>b.classList.remove('on'));el.classList.add('on');}
+function updCompSel(){
+  const s=document.getElementById('cl');
+  const all=[...pipe,...(allLeads.length?allLeads:LOCAL_LEADS).filter(l=>!pipe.find(p=>p.id===l.id))];
+  s.innerHTML='<option value="">— Sélectionner —</option>'+all.map(l=>`<option value="${l.id}">${l.company} · ${l.contact_name}</option>`).join('');
+}
+function genMsg(){
+  const lid=document.getElementById('cl').value;
+  const uc=document.getElementById('cc').value;
+  const ctx=document.getElementById('cx').value;
+  const lead=[...pipe,...(allLeads.length?allLeads:LOCAL_LEADS)].find(l=>l.id===lid);
+  const out=document.getElementById('mout');
+  const tpl=(MSGS[tab]||MSGS['li'])[uc]||MSGS['li']['legacy'];
+  const nom=lead?lead.contact_name.split(' ')[0]:'[Prénom]';
+  const company=lead?lead.company:'[Entreprise]';
+  const secteur=lead?lead.sector:'[Secteur]';
+  const pain=lead?(lead.pain_points||[])[0]||'vos enjeux SI':'vos enjeux SI';
+  const signal=lead?lead.buy_signal:'votre actualité récente';
+  let msg=tpl.replace(/{nom}/g,nom).replace(/{company}/g,company).replace(/{secteur}/g,secteur).replace(/{pain}/g,pain).replace(/{signal}/g,signal);
+  if(ctx) msg+='\n\nContexte : '+ctx;
+  out.textContent=msg;
+}
+function copyM(){navigator.clipboard?.writeText(document.getElementById('mout').textContent);}
+function prepC(id){document.querySelectorAll('.nav-item')[3]?.click();setTimeout(()=>{document.getElementById('cl').value=id;},150);}
+function updStats(){
+  const leads=allLeads.length?allLeads:LOCAL_LEADS;
+  document.getElementById('ml').textContent=leads.length;
+  document.getElementById('mp').textContent=pipe.length;
+  if(lastSyncTime) document.getElementById('last-sync').textContent=lastSyncTime.toLocaleString('fr-FR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});
+  if(leads.length){
+    document.getElementById('ms').textContent=Math.round(leads.reduce((s,l)=>s+(l.icp_score||0),0)/leads.length);
+    const by={};leads.forEach(l=>{const k=l.sector||'Autre';by[k]=(by[k]||0)+1;});
+    document.getElementById('sbd').innerHTML=Object.entries(by).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--border)"><span style="font-weight:500">${k}</span><span class="badge bb">${v}</span></div>`).join('');
+  }
+}
+
+// ── SEND EMAIL (mailto) ──────────────────────────────
+function saveEmail() {
+  const email = document.getElementById('dest-email').value.trim();
+  if (!email) return;
+  localStorage.setItem('carrousel_dest_email', email);
+  document.getElementById('email-saved').style.display = 'inline';
+  setTimeout(() => { document.getElementById('email-saved').style.display = 'none'; }, 2000);
+}
+
+function sendResultsEmail() {
+  const destEmail = localStorage.getItem('carrousel_dest_email') || document.getElementById('dest-email').value.trim();
+  if (!destEmail) {
+    document.getElementById('dest-email').focus();
+    document.getElementById('dest-email').style.borderColor = 'var(--red)';
+    setTimeout(() => { document.getElementById('dest-email').style.borderColor = ''; }, 2000);
+    return;
+  }
+  const leads = allLeads.length ? allLeads : LOCAL_LEADS;
+  if (!leads.length) return;
+
+  const date = new Date().toLocaleDateString('fr-FR');
+  const hot = leads.filter(l => l.priority === 'chaud');
+  const subject = encodeURIComponent(`🎯 [Carrousel] ${hot.length} leads chauds — ${date}`);
+
+  let body = `Agent Prospection B2B — Groupe Carrousel\n`;
+  body += `Rapport du ${date}\n`;
+  body += `${'='.repeat(50)}\n\n`;
+  body += `📊 RÉSUMÉ\n`;
+  body += `Leads analysés : ${leads.length}\n`;
+  body += `Leads chauds : ${hot.length}\n`;
+  body += `Score ICP moyen : ${Math.round(leads.reduce((s,l)=>s+l.icp_score,0)/leads.length)}/100\n\n`;
+  body += `${'='.repeat(50)}\n\n`;
+  body += `🎯 LEADS QUALIFIÉS\n\n`;
+
+  leads.slice(0, 15).forEach((l, i) => {
+    body += `${i+1}. ${l.company}\n`;
+    body += `   Secteur : ${l.sector} · ${l.city} · ${l.size}\n`;
+    body += `   Contact : ${l.contact_name} — ${l.contact_title}\n`;
+    body += `   Email   : ${l.contact_email || l.contact_email_pattern || '—'}\n`;
+    body += `   LinkedIn: ${l.contact_linkedin || '—'}\n`;
+    body += `   Score ICP : ${l.icp_score}/100 · Priorité : ${l.priority.toUpperCase()}\n`;
+    body += `   Signal  : ${l.buy_signal}\n`;
+    body += `   Pain    : ${(l.pain_points||[]).join(', ')}\n`;
+    body += `\n`;
+  });
+
+  body += `${'='.repeat(50)}\n`;
+  body += `Groupe Carrousel · Faveod Designer® · Agent Prospection Autonome\n`;
+
+  const mailtoUrl = `mailto:${destEmail}?subject=${subject}&body=${encodeURIComponent(body)}`;
+  window.location.href = mailtoUrl;
+}
+
+// Restore saved email on load
+window.addEventListener('load', () => {
+  const saved = localStorage.getItem('carrousel_dest_email');
+  if (saved) {
+    document.getElementById('dest-email').value = saved;
+  }
+});
+</script>
+</body>
+</html>
