@@ -122,7 +122,7 @@ tr:hover td{background:#F8FAFF}
   <div id="email-config" style="background:white;border:1.5px solid var(--border);border-radius:10px;padding:14px 16px;margin-bottom:14px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;box-shadow:var(--shadow)">
     <i class="ti ti-mail" style="font-size:18px;color:var(--blue);flex-shrink:0"></i>
     <div style="font-size:13px;font-weight:600;color:var(--text);flex-shrink:0">Envoyer les résultats à :</div>
-    <input type="email" id="dest-email" placeholder="dg@carrousel.fr" style="flex:1;min-width:200px" value="">
+    <input type="email" id="dest-email" placeholder="email destinataire" style="flex:1;min-width:200px" value="">
     <button class="btn btn-p btn-s" onclick="saveEmail()"><i class="ti ti-check"></i>Enregistrer</button>
     <span id="email-saved" style="font-size:12px;color:var(--green);display:none">✓ Enregistré</span>
   </div>
@@ -146,7 +146,7 @@ tr:hover td{background:#F8FAFF}
     <div class="chip" data-v="Souveraineté">Souveraineté</div>
     <div class="chip" data-v="Public">Public</div>
   </div>
-  <div id="sout"><div class="empty"><i class="ti ti-cloud-download"></i><p>Clique <strong>Sync GitHub</strong> pour charger les leads en temps réel<br>ou <strong>Rechercher</strong> pour utiliser les leads locaux</p></div></div>
+  <div id="sout"><div class="empty"><i class="ti ti-search"></i><p>Lance une recherche pour afficher les leads qualifiés</p></div></div>
 </div>
 
 <!-- SIGNALS -->
@@ -284,8 +284,7 @@ async function loadFromGitHub() {
       document.getElementById('ast').textContent = 'Synchronisé';
       document.getElementById('lc').textContent = allLeads.length + ' leads';
       updCompSel();
-      renderLeads(allLeads);
-      msg.textContent = '✅ ' + allLeads.length + ' leads chargés depuis GitHub — dernière mise à jour: ' + timeStr;
+      msg.textContent = '✅ ' + allLeads.length + ' leads chargés depuis GitHub — lance une recherche pour les afficher';
       setTimeout(() => { banner.style.display = 'none'; }, 3000);
     } else {
       throw new Error('leads.json vide ou format incorrect');
@@ -303,9 +302,9 @@ async function loadFromGitHub() {
 
 // Charge automatiquement au démarrage
 window.addEventListener('load', () => {
-  loadFromGitHub();
-  // Re-sync toutes les 30 minutes
-  setInterval(loadFromGitHub, 30 * 60 * 1000);
+  // Restore saved email only — no auto-load of leads
+  const saved = localStorage.getItem('carrousel_dest_email');
+  if (saved) document.getElementById('dest-email').value = saved;
 });
 
 function nav(el,id){
@@ -493,13 +492,7 @@ function sendResultsEmail() {
   window.location.href = mailtoUrl;
 }
 
-// Restore saved email on load
-window.addEventListener('load', () => {
-  const saved = localStorage.getItem('carrousel_dest_email');
-  if (saved) {
-    document.getElementById('dest-email').value = saved;
-  }
-});
+
 </script>
 </body>
 </html>
