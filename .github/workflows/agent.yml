@@ -1,21 +1,23 @@
 name: Agent Prospection Carrousel
 
 on:
-  # Cron : lundi-vendredi à 8h et 14h UTC
   schedule:
     - cron: '0 8 * * 1-5'
     - cron: '0 14 * * 1-5'
-  # Déclenchement manuel depuis l'onglet Actions
   workflow_dispatch:
     inputs:
       query:
-        description: 'Requête de prospection (ex: DSI banque Paris)'
+        description: 'Requête (ex: DSI banque Paris)'
         required: false
         default: 'leads chauds du jour'
       min_score:
-        description: 'Score ICP minimum (défaut: 75)'
+        description: 'Score minimum'
         required: false
-        default: '75'
+        default: '70'
+
+# Permission pour écrire dans le repo (push leads.json)
+permissions:
+  contents: write
 
 jobs:
   prospect:
@@ -34,20 +36,23 @@ jobs:
       - name: Install dependencies
         run: cd src && npm install
 
-      - name: Run prospection cycle
+      - name: Run agent + generate leads.json
         env:
-          EMAIL_TO:   ${{ secrets.EMAIL_TO }}
-          SMTP_HOST:  ${{ secrets.SMTP_HOST }}
-          SMTP_USER:  ${{ secrets.SMTP_USER }}
-          SMTP_PASS:  ${{ secrets.SMTP_PASS }}
+          EMAIL_TO:      ${{ secrets.EMAIL_TO }}
+          SMTP_HOST:     ${{ secrets.SMTP_HOST }}
+          SMTP_USER:     ${{ secrets.SMTP_USER }}
+          SMTP_PASS:     ${{ secrets.SMTP_PASS }}
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-          QUERY:      ${{ github.event.inputs.query || 'leads chauds du jour' }}
-          MIN_SCORE:  ${{ github.event.inputs.min_score || '75' }}
+          QUERY:         ${{ github.event.inputs.query || 'leads chauds du jour' }}
+          MIN_SCORE:     ${{ github.event.inputs.min_score || '70' }}
         run: cd src && node agent.js
 
-      - name: Upload rapport leads
-        uses: actions/upload-artifact@v4
-        with:
-          name: rapport-leads-${{ github.run_number }}
-          path: src/rapport-*.json
-          retention-days: 30
+      # Pousse leads.json dans le repo pour que le HTML puisse le lire
+      - name: Push leads.json to repo
+        run: |
+          cp src/leads.json leads.json
+          git config user.name "Agent Carrousel"
+          git config user.email "agent@carrousel.fr"
+          git add leads.json
+          git diff --staged --quiet || git commit -m "🤖 Mise à jour leads — $(date '+%d/%m/%Y %H:%M')"
+          git push
