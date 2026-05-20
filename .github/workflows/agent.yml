@@ -2,20 +2,31 @@ name: Agent Prospection Carrousel
 
 on:
   schedule:
+    # Leads + signaux : lundi-vendredi 8h et 14h UTC
     - cron: '0 8 * * 1-5'
     - cron: '0 14 * * 1-5'
+    # Signaux seuls : toutes les 4h en semaine
+    - cron: '0 6,10,12,16,18 * * 1-5'
   workflow_dispatch:
     inputs:
+      mode:
+        description: 'Mode execution'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - leads-only
+          - signals-only
       query:
-        description: 'Requête (ex: DSI banque Paris)'
+        description: 'Requête leads (ex: DSI banque Paris)'
         required: false
         default: 'leads chauds du jour'
       min_score:
-        description: 'Score minimum'
+        description: 'Score minimum leads'
         required: false
         default: '70'
 
-# Permission pour écrire dans le repo (push leads.json)
 permissions:
   contents: write
 
@@ -36,7 +47,8 @@ jobs:
       - name: Install dependencies
         run: cd src && npm install
 
-      - name: Run agent + generate leads.json
+      - name: Run leads agent
+        if: ${{ github.event.inputs.mode != 'signals-only' }}
         env:
           EMAIL_TO:      ${{ secrets.EMAIL_TO }}
           SMTP_HOST:     ${{ secrets.SMTP_HOST }}
@@ -47,12 +59,21 @@ jobs:
           MIN_SCORE:     ${{ github.event.inputs.min_score || '70' }}
         run: cd src && node agent.js
 
-      # Pousse leads.json dans le repo pour que le HTML puisse le lire
-      - name: Push leads.json to repo
+      - name: Run signals agent (BOAMP + RSS)
+        if: ${{ github.event.inputs.mode != 'leads-only' }}
+        env:
+          EMAIL_TO:  ${{ secrets.EMAIL_TO }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+        run: cd src && node agent-signals.js
+
+      - name: Push leads.json + signals.json to repo
         run: |
-          cp src/leads.json leads.json
+          cp src/leads.json leads.json 2>/dev/null || echo "No leads.json"
+          cp src/signals.json signals.json 2>/dev/null || echo "No signals.json"
           git config user.name "Agent Carrousel"
           git config user.email "agent@carrousel.fr"
-          git add leads.json
-          git diff --staged --quiet || git commit -m "🤖 Mise à jour leads — $(date '+%d/%m/%Y %H:%M')"
+          git add leads.json signals.json 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "🤖 Mise à jour leads + signaux — $(date '+%d/%m/%Y %H:%M')"
           git push
