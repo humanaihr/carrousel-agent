@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-05-20T09:05:45.506Z",
+  "total": 1,
+  "signals": [
+    {
+      "id": "rss_RGVsbCBwcmVuZCBs",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "Dell prend l’IA locale sous l’angle de la maîtrise des coûts",
+      "signal_detail": "À la « souveraineté », Dell préfère l'argument des coûts pour promouvoir l'extension de son son AI Factory aux stations de travail.\nThe post Dell prend l&rsquo;IA locale sous l&rsquo;angle de la maîtr",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/data-ia-1372/dell-ia-locale-227219",
+      "date": "2026-05-19",
+      "relevance_score": 20,
+      "keywords_matched": [],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    }
+  ]
+}
