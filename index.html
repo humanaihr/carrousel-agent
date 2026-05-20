@@ -6,7 +6,71 @@
 <title>Agent Prospection — Groupe Carrousel</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
-<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js">
+// ── SCORING HIERARCHIQUE ──────────────────────────────────
+var TITLE_WEIGHTS = {
+  // Niveau 1 — Decideur principal (100%)
+  "DSI": 1.0, "CTO": 1.0, "Directeur Systemes Information": 1.0,
+  "Directeur SI": 1.0, "Chief Information Officer": 1.0,
+  "Chief Technology Officer": 1.0, "Directeur Transformation Digitale": 1.0,
+  "Directeur Transformation": 0.95, "Directeur General": 0.90,
+  "CEO": 0.90, "DG": 0.90,
+  // Niveau 2 — Co-decideur metier (80%)
+  "Responsable Architecture SI": 0.82, "Responsable Applications Metier": 0.80,
+  "Directeur Etudes Informatiques": 0.80, "Directeur Operations IT": 0.80,
+  "Responsable Urbanisation SI": 0.78, "Directeur Conformite": 0.75,
+  "Directeur Operations": 0.75, "DAF": 0.72, "Directeur Financier": 0.72,
+  // Niveau 3 — Influenceur (60%)
+  "Chef Projet Transformation": 0.65, "Responsable MOA": 0.62,
+  "Chef Projet SI": 0.62, "Architecte SI": 0.60,
+  "Product Owner SI": 0.60, "Responsable Developpement": 0.58
+};
+
+function getTitleWeight(title) {
+  if (!title) return 0.5;
+  var t = title.toLowerCase();
+  for (var key in TITLE_WEIGHTS) {
+    if (t.indexOf(key.toLowerCase()) >= 0) return TITLE_WEIGHTS[key];
+  }
+  return 0.55; // inconnu
+}
+
+function getTitleLevel(title) {
+  var w = getTitleWeight(title);
+  if (w >= 0.9) return {label: "Decideur", color: "#16A34A", bg: "#DCFCE7", rank: 1};
+  if (w >= 0.75) return {label: "Co-decideur", color: "#D97706", bg: "#FEF3C7", rank: 2};
+  return {label: "Influenceur", color: "#7C3AED", bg: "#EDE9FE", rank: 3};
+}
+
+function calcAdjustedScore(baseScore, title) {
+  return Math.round(baseScore * getTitleWeight(title));
+}
+
+// Contacts alternatifs par secteur/cas
+var ALT_CONTACTS = {
+  "legacy": [
+    {title: "Responsable Architecture SI", linkedin_hint: "linkedin.com/in/search?keywords=Responsable+Architecture+SI"},
+    {title: "Directeur Etudes Informatiques", linkedin_hint: "linkedin.com/in/search?keywords=Directeur+Etudes+Informatiques"}
+  ],
+  "processus": [
+    {title: "Responsable Applications Metier", linkedin_hint: "linkedin.com/in/search?keywords=Responsable+Applications+Metier"},
+    {title: "Directeur Operations", linkedin_hint: "linkedin.com/in/search?keywords=Directeur+Operations"}
+  ],
+  "souverainete": [
+    {title: "Responsable Urbanisation SI", linkedin_hint: "linkedin.com/in/search?keywords=Responsable+Urbanisation+SI"},
+    {title: "Directeur Conformite", linkedin_hint: "linkedin.com/in/search?keywords=Directeur+Conformite"}
+  ],
+  "securite": [
+    {title: "Directeur Securite SI (RSSI)", linkedin_hint: "linkedin.com/in/search?keywords=RSSI"},
+    {title: "Directeur Operations IT", linkedin_hint: "linkedin.com/in/search?keywords=Directeur+Operations+IT"}
+  ],
+  "urgent": [
+    {title: "Chef Projet Transformation", linkedin_hint: "linkedin.com/in/search?keywords=Chef+Projet+Transformation"},
+    {title: "Directeur General", linkedin_hint: "linkedin.com/in/search?keywords=Directeur+General"}
+  ]
+};
+
+</script>
 <style>
 :root{
   --bg:#F0F4FF;--bg2:#FFFFFF;--bg3:#EEF2FF;--border:#D1D9F0;
@@ -253,6 +317,7 @@ tr:hover td{background:#F8FAFF}
 
 <script>
 var GITHUB_URL = "https://raw.githubusercontent.com/humanaihr/carrousel-agent/main/leads.json";
+var SIGNALS_URL = "https://raw.githubusercontent.com/humanaihr/carrousel-agent/main/signals.json";
 var allLeads = [], pipe = [], tab = "li", lastSync = null;
 var RAMP = ["#DBEAFE:#1D4ED8","#DCFCE7:#16A34A","#FEF3C7:#D97706","#EDE9FE:#7C3AED","#FEE2E2:#DC2626","#D1FAE5:#059669"];
 var CI = {legacy:"ti-clock-rewind",urgent:"ti-rocket",securite:"ti-shield-lock",souverainete:"ti-key",processus:"ti-sitemap"};
@@ -461,27 +526,51 @@ function renderLeads(arr){
 }
 
 // ── SIGNALS ────────────────────────────────────────────
-function loadSigs(){
-  var sigs = window._ghSigs || SIGS;
-  var TI = {recrutement:"ti-user-plus",appel_offres:"ti-file-description",annonce:"ti-speakerphone"};
-  var TB = {recrutement:"var(--green-dim)",appel_offres:"var(--amber-dim)",annonce:"var(--blue-dim)"};
-  var TF = {recrutement:"var(--green)",appel_offres:"var(--amber)",annonce:"var(--blue)"};
+function renderSigs(sigs) {
+  var TI = {recrutement:"ti-user-plus",appel_offres:"ti-file-description",annonce:"ti-speakerphone",publication:"ti-news"};
+  var TB = {recrutement:"var(--green-dim)",appel_offres:"var(--amber-dim)",annonce:"var(--blue-dim)",publication:"#F5F3FF"};
+  var TF = {recrutement:"var(--green)",appel_offres:"var(--amber)",annonce:"var(--blue)",publication:"#7C3AED"};
   var h = sigs.map(function(s){
     var t = s.signal_type||s.type||"annonce";
+    var score = s.score || s.relevance_score || 70;
+    var url = s.source_url ? "<a href='"+s.source_url+"' target='_blank' style='margin-left:auto;flex-shrink:0;font-size:11px;color:var(--blue)'>→ Voir</a>" : "";
     return "<div class='si'>" +
       "<div class='sico' style='background:"+(TB[t]||"var(--bg3)")+";color:"+(TF[t]||"var(--text2)")+"'>" +
       "<i class='ti "+(TI[t]||"ti-radar")+"' style='font-size:16px'></i></div>" +
       "<div style='flex:1'>" +
       "<div style='display:flex;align-items:center;gap:8px;flex-wrap:wrap'>" +
       "<span style='font-size:13px;font-weight:700'>"+s.company+"</span>" +
-      "<span class='sp' style='background:"+scB(s.score)+";color:"+sc(s.score)+";font-size:11px'>"+s.score+"</span>" +
-      "<span class='badge bb'>"+s.source+"</span></div>" +
-      "<div style='font-size:13px;font-weight:600;margin-top:3px'>"+(s.signal_title||s.title)+"</div>" +
-      "<div style='font-size:12px;color:var(--text2);line-height:1.5;margin-top:3px'>"+(s.signal_detail||s.detail)+"</div>" +
+      "<span class='sp' style='background:"+scB(score)+";color:"+sc(score)+";font-size:11px'>"+score+"</span>" +
+      "<span class='badge bb'>"+s.source+"</span>" + url + "</div>" +
+      "<div style='font-size:13px;font-weight:600;margin-top:3px'>"+(s.signal_title||s.title||"")+"</div>" +
+      "<div style='font-size:12px;color:var(--text2);line-height:1.5;margin-top:3px'>"+(s.signal_detail||s.detail||"")+"</div>" +
+      (s.keywords_matched && s.keywords_matched.length ? "<div style='margin-top:4px'>" + s.keywords_matched.slice(0,3).map(function(k){return "<span class='tag tb'>"+k+"</span>";}).join("") + "</div>" : "") +
       "<div style='font-size:11px;color:var(--text3);margin-top:3px'>"+(s.date||"")+"</div>" +
       "</div></div>";
   }).join("");
-  document.getElementById("sigout").innerHTML = h;
+  document.getElementById("sigout").innerHTML = h || "<div class='empty'><i class='ti ti-radar'></i><p>Aucun signal disponible</p></div>";
+}
+
+function loadSigs(){
+  var banner = document.getElementById("sync-banner");
+  var msg = document.getElementById("sync-msg");
+  if(banner){banner.style.display="flex";}
+  if(msg) msg.textContent = "Chargement signaux temps reel depuis GitHub...";
+  fetch(SIGNALS_URL + "?t=" + Date.now())
+    .then(function(r){ return r.ok ? r.json() : Promise.reject("no signals.json"); })
+    .then(function(data){
+      if(data.signals && data.signals.length){
+        window._ghSigs = data.signals;
+        if(msg) msg.textContent = "OK - " + data.signals.length + " signaux temps reel";
+        if(banner) setTimeout(function(){banner.style.display="none";}, 2500);
+        renderSigs(data.signals);
+      } else { throw new Error("empty"); }
+    })
+    .catch(function(e){
+      console.log("signals.json non disponible, utilisation signaux locaux:", e);
+      if(banner) setTimeout(function(){banner.style.display="none";}, 1000);
+      renderSigs(window._ghSigs || SIGS);
+    });
 }
 
 // ── PIPELINE ───────────────────────────────────────────
