@@ -1,13 +1,15 @@
 {
   "name": "carrousel-agent",
-  "version": "1.0.0",
-  "description": "Agent prospection B2B autonome Groupe Carrousel",
+  "version": "2.0.0",
+  "description": "Agent prospection B2B autonome Groupe Carrousel — signaux temps réel",
   "main": "agent.js",
   "scripts": {
     "start": "node agent.js",
-    "test": "MIN_SCORE=70 QUERY='test local' node agent.js"
+    "signals": "node agent-signals.js",
+    "all": "node agent.js && node agent-signals.js"
   },
   "dependencies": {
-    "nodemailer": "^6.9.7"
+    "nodemailer": "^6.9.7",
+    "xml2js": "^0.6.2"
   }
 }
