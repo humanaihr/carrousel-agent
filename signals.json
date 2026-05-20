@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-05-20T10:53:34.476Z",
-  "total": 1,
+  "generated_at": "2026-05-20T12:31:00.483Z",
+  "total": 2,
   "signals": [
+    {
+      "id": "rss_VGhhbGVzIGxhbmNl",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "Thales lance un S3NS allemand…toujours avec Google Cloud",
+      "signal_detail": "Thales ouvre en Allemagne une deuxième région de cloud souverain, calquée sur le modèle de sa filiale française S3NS.\nThe post Thales lance un S3NS allemand&#8230;toujours avec Google Cloud appeared f",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/cloud-1370/thales-lance-un-s3ns-allemand-toujours-avec-google-cloud-227258",
+      "date": "2026-05-20",
+      "relevance_score": 20,
+      "keywords_matched": [],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_RGVsbCBwcmVuZCBs",
       "company": "Silicon.fr",
