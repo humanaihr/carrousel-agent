@@ -143,6 +143,9 @@ tr:hover td{background:#F8FAFF}
     <span id="sync-msg">Synchronisation GitHub...</span>
   </div>
 
+  <div id="slib-info" style="display:none;background:#F5F3FF;border:1.5px solid #7C3AED;border-radius:8px;padding:10px 14px;margin-bottom:10px;font-size:12px;color:#4C1D95">
+    <strong>Filtre Clients SLIB :</strong> Affiche les entreprises qui utilisent les solutions SLIB (post-marche, compensation, vote electronique). Ces prospects ont des SI financiers complexes et specifiques — candidats ideaux pour une couche applicative sur mesure Groupe Carrousel.
+  </div>
   <div class="sec-title">Recherche &amp; qualification de leads</div>
   <div class="row">
     <input type="text" id="sq" style="flex:1" placeholder="DSI banque Paris, CTO assurance ETI, refonte SI...">
@@ -157,6 +160,7 @@ tr:hover td{background:#F8FAFF}
     <div class="chip" data-v="Legacy">Legacy</div>
     <div class="chip" data-v="Souverainete">Souveraineté</div>
     <div class="chip" data-v="Public">Public</div>
+    <div class="chip" data-v="SLIB" style="border-color:#7C3AED;color:#7C3AED">🏦 Clients SLIB</div>
   </div>
 
   <!-- ACTION BUTTONS (hidden until search) -->
@@ -266,7 +270,15 @@ var LOCAL = [
   {id:"r09",company:"Concentrix Payment Services",sector:"Paiement",size:"410 sal.",city:"Chambery",contact_name:"Myriam Boide",contact_title:"DSI",contact_email:"myriam.boide@concentrix.com",contact_linkedin:"https://www.linkedin.com/in/myriamboide",icp_score:76,pain_points:["conformite PCI-DSS","haute disponibilite requise"],buy_signal:"ETI paiement - contraintes PCI-DSS haute disponibilite",case_type:"securite",priority:"tiede",tags:["Banque","ETI"]},
   {id:"r10",company:"Denjean et Associes",sector:"Gestion actifs",size:"170 sal.",city:"Paris",contact_name:"Fabien Nantas",contact_title:"DSI",contact_email:"fabien.nantas@denjeansa.fr",contact_linkedin:"https://www.linkedin.com/in/fabien-nantas",icp_score:75,pain_points:["reporting investisseurs sous Excel","outils proprietaires inexistants"],buy_signal:"Societe de gestion - besoin outils souverains sur mesure",case_type:"souverainete",priority:"tiede",tags:["Banque","ETI"]},
   {id:"r11",company:"Macif",sector:"Assurance mutualiste",size:"1 600 sal.",city:"Niort",contact_name:"Direction Transformation",contact_title:"Directeur Transformation",contact_email:"direction@macif.fr",contact_linkedin:"https://www.linkedin.com/company/macif",icp_score:86,pain_points:["processus sinistres manuels","dependance editeur"],buy_signal:"AO refonte portail societaires",case_type:"processus",priority:"chaud",tags:["Assurance"]},
-  {id:"r12",company:"Caisse des Depots DSI",sector:"Finances publiques",size:"600 sal.",city:"Paris",contact_name:"Direction SI",contact_title:"Directrice Etudes SI",contact_email:"dsi@caissedesdepots.fr",contact_linkedin:"https://www.linkedin.com/company/caisse-des-depots",icp_score:87,pain_points:["legacy Cobol","souverainete reglementaire"],buy_signal:"AO refonte SI epargne reglementee",case_type:"souverainete",priority:"chaud",tags:["Public","Banque"]}
+  {id:"r12",company:"Caisse des Depots DSI",sector:"Finances publiques",size:"600 sal.",city:"Paris",contact_name:"Direction SI",contact_title:"Directrice Etudes SI",contact_email:"dsi@caissedesdepots.fr",contact_linkedin:"https://www.linkedin.com/company/caisse-des-depots",icp_score:87,pain_points:["legacy Cobol","souverainete reglementaire"],buy_signal:"AO refonte SI epargne reglementee",case_type:"souverainete",priority:"chaud",tags:["Public","Banque"]}  ,
+  // ── CLIENTS SLIB — Post-marche / Compensation / Vote electronique ─
+  {id:"slib01",company:"CACEIS",sector:"Banque / Gestion actifs",size:"5 000 sal.",city:"Paris",contact_name:"Direction SI",contact_title:"DSI / CTO",contact_email:"dsi@caceis.com",contact_linkedin:"https://www.linkedin.com/company/caceis",icp_score:88,pain_points:["processus post-marche complexes","conformite EMIR/MIFID2","integration SI multi-entites"],buy_signal:"Filiale Credit Agricole / Santander — SI post-marche SLIB a moderniser, pression reglementaire",case_type:"processus",priority:"chaud",tags:["Banque","SLIB","Legacy"]},
+  {id:"slib02",company:"ODDO BHF",sector:"Banque / Brokerage",size:"2 800 sal.",city:"Paris",contact_name:"Direction Transformation",contact_title:"Directeur Transformation Digitale",contact_email:"si@oddo-bhf.com",contact_linkedin:"https://www.linkedin.com/company/oddo-bhf",icp_score:85,pain_points:["SI brokerage heterogene","workflows ordres manuels","dette technique stack legacy"],buy_signal:"Groupe franco-allemand — refonte SI post-fusion, modernisation outils trading et post-marche",case_type:"legacy",priority:"chaud",tags:["Banque","SLIB","ETI"]},
+  {id:"slib03",company:"Bourse Direct",sector:"Brokerage en ligne",size:"280 sal.",city:"Paris",contact_name:"Direction SI",contact_title:"CTO / DSI",contact_email:"tech@boursedirect.fr",contact_linkedin:"https://www.linkedin.com/company/bourse-direct",icp_score:82,pain_points:["plateforme brokerage retail vieillissante","experience client a moderniser","dependance editeur SLIB"],buy_signal:"Filiale Societe Generale — plan modernisation plateforme client retail, recrutements tech actifs",case_type:"processus",priority:"chaud",tags:["Banque","SLIB","ETI"]},
+  {id:"slib04",company:"ProCapital",sector:"Brokerage / PSI",size:"180 sal.",city:"Paris",contact_name:"Direction Technique",contact_title:"CTO",contact_email:"tech@procapital.fr",contact_linkedin:"https://www.linkedin.com/company/procapital",icp_score:79,pain_points:["SI PSI specifique metier","processus compensation non automatises","conformite AMF"],buy_signal:"PSI independant — SI metier complexe, candidat ideal logiciel sur mesure souverain",case_type:"souverainete",priority:"tiede",tags:["Banque","SLIB","ETI"]},
+  {id:"slib05",company:"Uptevia",sector:"Agent de tenue de registre",size:"350 sal.",city:"Paris",contact_name:"Direction SI",contact_title:"DSI",contact_email:"si@uptevia.com",contact_linkedin:"https://www.linkedin.com/company/uptevia",icp_score:86,pain_points:["SI registre actionnaires vieillissant","numerisation AG incomplete","conformite SRD2"],buy_signal:"JV BNP Paribas / Credit Agricole — refonte SI tenue de registre, enjeux conformite SRD2",case_type:"legacy",priority:"chaud",tags:["Banque","SLIB","ETI"]},
+  {id:"slib06",company:"CIC Market Solutions",sector:"Banque / Marches",size:"420 sal.",city:"Paris",contact_name:"Direction Transformation SI",contact_title:"Directeur Transformation",contact_email:"dsi@cic.fr",contact_linkedin:"https://www.linkedin.com/company/cic-market-solutions",icp_score:83,pain_points:["SI marches multi-systemes","workflows post-trade manuels","pression EMIR refit"],buy_signal:"Filiale Credit Mutuel — modernisation SI marches, conformite EMIR Refit 2024",case_type:"urgent",priority:"chaud",tags:["Banque","SLIB","Legacy"]},
+  {id:"slib07",company:"Rothschild & Co Banque",sector:"Banque privee / M&A",size:"4 200 sal.",city:"Paris",contact_name:"Direction SI",contact_title:"DSI",contact_email:"si@rothschildandco.com",contact_linkedin:"https://www.linkedin.com/company/rothschild-co",icp_score:80,pain_points:["SI banque privee sur mesure","reporting client non unifie","processus KYC manuels"],buy_signal:"Groupe international — refonte SI banque privee, digitalisation parcours client UHNW",case_type:"processus",priority:"tiede",tags:["Banque","SLIB","Grand compte"]}
 ];
 
 var SIGS = [
@@ -277,7 +289,10 @@ var SIGS = [
   {company:"CAFPI",type:"recrutement",title:"Recrute architecte SI et dev Java",detail:"CAFPI modernise sa plateforme de courtage immobilier.",score:82,date:"il y a 4 jours",source:"Indeed"},
   {company:"CHU Grenoble Alpes",type:"appel_offres",title:"AO hebergement souverain HDS",detail:"Consultation migration donnees patients vers hebergeur HDS.",score:80,date:"il y a 5 jours",source:"BOAMP"},
   {company:"Covea MAAF MMA",type:"annonce",title:"Migration SI post-fusion Phase 2",detail:"Refonte outils gestion sinistres MAAF/MMA annoncee.",score:91,date:"il y a 1 jour",source:"Communique"},
-  {company:"Natixis IM",type:"appel_offres",title:"Refonte reporting MIFID2",detail:"Automatisation reporting actuellement sous Excel.",score:85,date:"il y a 3 jours",source:"Marches publics"}
+  {company:"Natixis IM",type:"appel_offres",title:"Refonte reporting MIFID2",detail:"Automatisation reporting actuellement sous Excel.",score:85,date:"il y a 3 jours",source:"Marches publics"},
+  {company:"CACEIS",type:"annonce",title:"Modernisation SI post-marche",detail:"CACEIS accelere sa transformation digitale post-integration — recrutements IT actifs.",score:88,date:"il y a 2 jours",source:"LinkedIn"},
+  {company:"Uptevia",type:"appel_offres",title:"Refonte SI tenue de registre SRD2",detail:"JV BNP/Credit Agricole lance projet modernisation plateforme registre actionnaires.",score:86,date:"il y a 4 jours",source:"BOAMP"},
+  {company:"ODDO BHF",type:"recrutement",title:"Recrute DSI Transformation Digitale",detail:"ODDO BHF publie offres pour moderniser son SI post-fusion franco-allemand.",score:85,date:"il y a 3 jours",source:"LinkedIn"}
 ];
 
 var MSGS = {
@@ -323,7 +338,12 @@ function nav(el,id){
   el.classList.add("active");
   if(id==="stats") updStats();
 }
-document.querySelectorAll(".chip").forEach(function(c){c.addEventListener("click",function(){c.classList.toggle("on");});});
+document.querySelectorAll(".chip").forEach(function(c){c.addEventListener("click",function(){
+  c.classList.toggle("on");
+  if(c.dataset.v === "SLIB") {
+    document.getElementById("slib-info").style.display = c.classList.contains("on") ? "block" : "none";
+  }
+});});
 
 // Close export menu on outside click
 document.addEventListener("click",function(e){
