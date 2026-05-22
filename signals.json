@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-22T12:28:01.479Z",
-  "total": 3,
+  "generated_at": "2026-05-22T16:31:56.522Z",
+  "total": 4,
   "signals": [
     {
       "id": "rss_wqsgTGEgRFNJIHJl",
@@ -47,6 +47,23 @@
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/data-ia-1372/dell-ia-locale-227219",
       "date": "2026-05-19",
+      "relevance_score": 20,
+      "keywords_matched": [],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_SW5mb05ld3MgMjAy",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "InfoNews 2026#21 : Google agentique, Dell IA, CNIL et Musk",
+      "signal_detail": "Google transforme Search en moteur agentique, Dell muscle le datacenter pour l’IA, Claranet pousse un cloud souverain sur OpenShift, SAP S/4HANA pèse sur les budgets IT, l’État lance son Observatoire ",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/infonews-202621-google-agentique-dell-ia-cnil-et-musk-111573",
+      "date": "2026-05-22",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
