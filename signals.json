@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-25T10:24:31.431Z",
-  "total": 4,
+  "generated_at": "2026-05-25T11:51:09.480Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_wqsgTGEgRFNJIHJl",
@@ -31,23 +31,6 @@
       "source_url": "https://www.informatiquenews.fr/processos-camunda-veut-reinventer-lorchestration-agentique-111557",
       "date": "2026-05-25",
       "relevance_score": 25,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_VGhhbGVzIGxhbmNl",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Thales lance un S3NS allemand…toujours avec Google Cloud",
-      "signal_detail": "Thales ouvre en Allemagne une deuxième région de cloud souverain, calquée sur le modèle de sa filiale française S3NS.\nThe post Thales lance un S3NS allemand&#8230;toujours avec Google Cloud appeared f",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/cloud-1370/thales-lance-un-s3ns-allemand-toujours-avec-google-cloud-227258",
-      "date": "2026-05-20",
-      "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
         "DSI",
