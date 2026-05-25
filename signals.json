@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T20:02:59.930Z",
+  "generated_at": "2026-05-25T10:24:31.431Z",
   "total": 4,
   "signals": [
     {
@@ -22,15 +22,15 @@
       ]
     },
     {
-      "id": "rss_VGhhbGVzIGxhbmNl",
-      "company": "Silicon.fr",
+      "id": "rss_UHJvY2Vzc09TIDog",
+      "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Thales lance un S3NS allemand…toujours avec Google Cloud",
-      "signal_detail": "Thales ouvre en Allemagne une deuxième région de cloud souverain, calquée sur le modèle de sa filiale française S3NS.\nThe post Thales lance un S3NS allemand&#8230;toujours avec Google Cloud appeared f",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/cloud-1370/thales-lance-un-s3ns-allemand-toujours-avec-google-cloud-227258",
-      "date": "2026-05-20",
-      "relevance_score": 20,
+      "signal_title": "ProcessOS : Camunda veut réinventer l’orchestration agentique",
+      "signal_detail": "Avec ProcessOS, Camunda veut faire passer l’orchestration agentique du pilotage des tâches à la refonte complète des processus métiers. L’enjeu n’est plus seulement d’ajouter de l’IA dans les workflow",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/processos-camunda-veut-reinventer-lorchestration-agentique-111557",
+      "date": "2026-05-25",
+      "relevance_score": 25,
       "keywords_matched": [],
       "icp_match": [
         "DSI",
@@ -39,14 +39,14 @@
       ]
     },
     {
-      "id": "rss_RGVsbCBwcmVuZCBs",
+      "id": "rss_VGhhbGVzIGxhbmNl",
       "company": "Silicon.fr",
       "signal_type": "publication",
-      "signal_title": "Dell prend l’IA locale sous l’angle de la maîtrise des coûts",
-      "signal_detail": "À la « souveraineté », Dell préfère l'argument des coûts pour promouvoir l'extension de son son AI Factory aux stations de travail.\nThe post Dell prend l&rsquo;IA locale sous l&rsquo;angle de la maîtr",
+      "signal_title": "Thales lance un S3NS allemand…toujours avec Google Cloud",
+      "signal_detail": "Thales ouvre en Allemagne une deuxième région de cloud souverain, calquée sur le modèle de sa filiale française S3NS.\nThe post Thales lance un S3NS allemand&#8230;toujours avec Google Cloud appeared f",
       "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/data-ia-1372/dell-ia-locale-227219",
-      "date": "2026-05-19",
+      "source_url": "https://www.silicon.fr/cloud-1370/thales-lance-un-s3ns-allemand-toujours-avec-google-cloud-227258",
+      "date": "2026-05-20",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
