@@ -1,40 +1,5 @@
 {
-  "generated_at": "2026-05-27T11:35:04.973Z",
-  "total": 2,
-  "signals": [
-    {
-      "id": "rss_UHJvY2Vzc09TIDog",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "ProcessOS : Camunda veut réinventer l’orchestration agentique",
-      "signal_detail": "Avec ProcessOS, Camunda veut faire passer l’orchestration agentique du pilotage des tâches à la refonte complète des processus métiers. L’enjeu n’est plus seulement d’ajouter de l’IA dans les workflow",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/processos-camunda-veut-reinventer-lorchestration-agentique-111557",
-      "date": "2026-05-25",
-      "relevance_score": 25,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_SW5mb05ld3MgMjAy",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "InfoNews 2026#21 : Google agentique, Dell IA, CNIL et Musk",
-      "signal_detail": "Google transforme Search en moteur agentique, Dell muscle le datacenter pour l’IA, Claranet pousse un cloud souverain sur OpenShift, SAP S/4HANA pèse sur les budgets IT, l’État lance son Observatoire ",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/infonews-202621-google-agentique-dell-ia-cnil-et-musk-111573",
-      "date": "2026-05-22",
-      "relevance_score": 20,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    }
-  ]
+  "generated_at": "2026-05-27T16:02:28.524Z",
+  "total": 0,
+  "signals": []
 }
