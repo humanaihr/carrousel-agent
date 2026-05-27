@@ -1,26 +1,7 @@
 {
-  "generated_at": "2026-05-26T18:34:21.066Z",
-  "total": 3,
+  "generated_at": "2026-05-27T10:10:13.339Z",
+  "total": 2,
   "signals": [
-    {
-      "id": "rss_wqsgTGEgRFNJIHJl",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "« La DSI revient à son rôle principal de chef d’orchestre dans l’entreprise » Th",
-      "signal_detail": "Les DSI européens sont entrés dans une séquence particulièrement inconfortable. Ils doivent moderniser des systèmes d’information devenus trop complexes, contenir l’inflation des coûts SaaS, réduire l",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/la-dsi-revient-a-son-role-principal-de-chef-dorchestre-dans-lentreprise-thomas-ciezar-zoho-111570",
-      "date": "2026-05-22",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
     {
       "id": "rss_UHJvY2Vzc09TIDog",
       "company": "Informatique News",
