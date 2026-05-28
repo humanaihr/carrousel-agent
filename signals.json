@@ -1,5 +1,23 @@
 {
-  "generated_at": "2026-05-28T10:19:05.640Z",
-  "total": 0,
-  "signals": []
+  "generated_at": "2026-05-28T11:35:47.714Z",
+  "total": 1,
+  "signals": [
+    {
+      "id": "rss_TGlnaHRPbiBkw6lj",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "LightOn décroche un contrat de Helpdesk avec Infocom’94",
+      "signal_detail": "Le syndicat mixte francilien, qui gère l'informatique de 26 collectivités, déploie un chatbot IA souverain pour traiter ses demandes d'assistance.\nThe post LightOn décroche un contrat de Helpdesk avec",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/business-1367/lighton-decroche-un-contrat-de-helpdesk-avec-infocom94-227401",
+      "date": "2026-05-28",
+      "relevance_score": 20,
+      "keywords_matched": [],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    }
+  ]
 }
