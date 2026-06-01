@@ -1,26 +1,7 @@
 {
-  "generated_at": "2026-06-01T13:33:18.944Z",
-  "total": 4,
+  "generated_at": "2026-06-01T17:56:23.241Z",
+  "total": 3,
   "signals": [
-    {
-      "id": "rss_RW50cmUgcGVyZm9y",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Entre performance et dépendance : le nouveau dilemme numérique des PME… Ludovic ",
-      "signal_detail": "La souveraineté numérique s’impose désormais comme un enjeu stratégique pour les PME françaises, confrontées à une dépendance croissante aux plateformes cloud, CRM, publicitaires et IA étrangères. Ent",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/entre-performance-et-souverainete-le-nouveau-dilemme-numerique-des-pme-ludovic-jaffres-linkeo-111667",
-      "date": "2026-05-29",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "souveraineté numérique"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
     {
       "id": "rss_TGlnaHRPbiBkw6lj",
       "company": "Silicon.fr",
