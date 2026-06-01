@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-29T20:34:58.828Z",
-  "total": 2,
+  "generated_at": "2026-06-01T11:50:27.734Z",
+  "total": 4,
   "signals": [
     {
       "id": "rss_RW50cmUgcGVyZm9y",
@@ -30,6 +30,40 @@
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/business-1367/lighton-decroche-un-contrat-de-helpdesk-avec-infocom94-227401",
       "date": "2026-05-28",
+      "relevance_score": 20,
+      "keywords_matched": [],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_SU1TIE5ldHdvcmtz",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "IMS Networks s’implante à Lyon",
+      "signal_detail": "IMS Networks étend son ancrage territorial avec une nouvelle agence à Lyon. Fort de son expertise et de ses références clients dans les secteurs santé, pharmaceutique et industriel, le groupe, présent",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/ims-networks-simplante-a-lyon-111620",
+      "date": "2026-06-01",
+      "relevance_score": 20,
+      "keywords_matched": [],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_U8OpY3VyaXTDqSBk",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Sécurité des établissements de santé : la technologie pour soigner l’hôpital ?… ",
+      "signal_detail": "À l’hôpital, les tensions ne s’arrêtent plus aux portes des services. Entre visiteurs mal identifiés, violences en hausse et caméras sous-exploitées, l’IA promet de donner aux équipes de sécurité les ",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/securite-des-etablissements-de-sante-la-technologie-ia-pour-soigner-hopital-111679",
+      "date": "2026-06-01",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
