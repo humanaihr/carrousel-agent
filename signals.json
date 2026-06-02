@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-02T12:01:42.763Z",
-  "total": 2,
+  "generated_at": "2026-06-02T16:48:04.054Z",
+  "total": 1,
   "signals": [
     {
       "id": "rss_TGlnaHRPbiBkw6lj",
@@ -11,23 +11,6 @@
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/business-1367/lighton-decroche-un-contrat-de-helpdesk-avec-infocom94-227401",
       "date": "2026-05-28",
-      "relevance_score": 20,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_SU1TIE5ldHdvcmtz",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "IMS Networks s’implante à Lyon",
-      "signal_detail": "IMS Networks étend son ancrage territorial avec une nouvelle agence à Lyon. Fort de son expertise et de ses références clients dans les secteurs santé, pharmaceutique et industriel, le groupe, présent",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/ims-networks-simplante-a-lyon-111620",
-      "date": "2026-06-01",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
