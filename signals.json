@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-06-02T21:18:45.740Z",
-  "total": 1,
+  "generated_at": "2026-06-03T11:17:13.300Z",
+  "total": 2,
   "signals": [
+    {
+      "id": "rss_TWljcm9zb2Z0IFNj",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Microsoft Scout : le premier « Autopilot » de Microsoft carbure à OpenClaw",
+      "signal_detail": "Microsoft ne se contente plus de « copiloter » : avec Scout, l’éditeur veut « autopiloter », autrement dit laisser un agent travailler en continu à votre place. Propulsé par OpenClaw et enfermé dans l",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/microsoft-scout-le-premier-autopilot-de-microsoft-carbure-a-openclaw-111736",
+      "date": "2026-06-03",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_TGlnaHRPbiBkw6lj",
       "company": "Silicon.fr",
