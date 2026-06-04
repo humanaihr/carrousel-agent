@@ -1,35 +1,16 @@
 {
-  "generated_at": "2026-06-03T21:24:16.255Z",
-  "total": 2,
+  "generated_at": "2026-06-04T10:08:07.268Z",
+  "total": 1,
   "signals": [
     {
-      "id": "rss_TWljcm9zb2Z0IFNj",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Microsoft Scout : le premier « Autopilot » de Microsoft carbure à OpenClaw",
-      "signal_detail": "Microsoft ne se contente plus de « copiloter » : avec Scout, l’éditeur veut « autopiloter », autrement dit laisser un agent travailler en continu à votre place. Propulsé par OpenClaw et enfermé dans l",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/microsoft-scout-le-premier-autopilot-de-microsoft-carbure-a-openclaw-111736",
-      "date": "2026-06-03",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_TGlnaHRPbiBkw6lj",
+      "id": "rss_U291dmVyYWluZXTD",
       "company": "Silicon.fr",
       "signal_type": "publication",
-      "signal_title": "LightOn décroche un contrat de Helpdesk avec Infocom’94",
-      "signal_detail": "Le syndicat mixte francilien, qui gère l'informatique de 26 collectivités, déploie un chatbot IA souverain pour traiter ses demandes d'assistance.\nThe post LightOn décroche un contrat de Helpdesk avec",
+      "signal_title": "Souveraineté  technologique : l’Europe joue son va-tout",
+      "signal_detail": "La Commission européenne a dévoilé son très attendu « paquet souveraineté technologique ». Chips, cloud, IA, open source... Bruxelles joue son va-tout pour desserrer l'étau technologique américain. \nT",
       "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/business-1367/lighton-decroche-un-contrat-de-helpdesk-avec-infocom94-227401",
-      "date": "2026-05-28",
+      "source_url": "https://www.silicon.fr/uncategorized/souverainete-technologique-leurope-joue-son-va-tout-227502",
+      "date": "2026-06-04",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
