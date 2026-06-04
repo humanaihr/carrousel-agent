@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-06-04T10:08:07.268Z",
-  "total": 1,
+  "generated_at": "2026-06-04T10:58:50.874Z",
+  "total": 2,
   "signals": [
+    {
+      "id": "rss_SUEgZW4gZW50cmVw",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "IA en entreprise : pourquoi les RSSI ne peuvent plus porter seuls le risque",
+      "signal_detail": "{ Tribune Expert } - La gouvernance de l’IA concerne autant les directions métiers que les fonctions juridiques, les ressources humaines, la conformité, la DSI ou encore les instances dirigeantes.\nThe",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/cybersecurite-1371/ia-en-entreprise-pourquoi-les-rssi-ne-peuvent-plus-porter-seuls-le-risque-227507",
+      "date": "2026-06-04",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_U291dmVyYWluZXTD",
       "company": "Silicon.fr",
