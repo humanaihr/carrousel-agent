@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-06-05T11:24:29.730Z",
-  "total": 2,
+  "generated_at": "2026-06-05T15:21:20.129Z",
+  "total": 3,
   "signals": [
+    {
+      "id": "rss_wqvCoFNvdXZlcmFp",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "« Souveraineté numérique ? On ne parle pas d’achat patriotique, on parle de rési",
+      "signal_detail": "Dans les DSI, le moment est assez clair : l’heure n’est plus seulement à tester l’IA, à déplacer quelques charges vers le cloud ou à empiler des outils de sécurité, mais à industrialiser sans perdre l",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/souverainete-numerique-on-ne-parle-pas-dachat-patriotique-on-parle-de-resilience-olivier-beaudet-claranet-111806",
+      "date": "2026-06-05",
+      "relevance_score": 70,
+      "keywords_matched": [
+        "souveraineté numérique",
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_SUEgZW4gZW50cmVw",
       "company": "Silicon.fr",
