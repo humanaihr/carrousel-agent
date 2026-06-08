@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-08T12:25:32.622Z",
-  "total": 4,
+  "generated_at": "2026-06-08T16:09:26.805Z",
+  "total": 5,
   "signals": [
     {
       "id": "rss_wqvCoFNvdXZlcmFp",
@@ -54,6 +54,23 @@
       "keywords_matched": [
         "DSI"
       ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_TWljcm9zb2Z0IHBy",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Microsoft préparerait une refonte de Teams pour juillet",
+      "signal_detail": "Après avoir longtemps empilé les conversations, les canaux, les réunions, les fichiers, les apps, les notifications et quelques boutons dont personne ne savait vraiment s’ils étaient utiles ou décorat",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/microsoft-preparerait-une-refonte-de-teams-pour-juillet-111853",
+      "date": "2026-06-08",
+      "relevance_score": 25,
+      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
