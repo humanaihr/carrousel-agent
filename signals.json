@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-05T18:02:28.749Z",
-  "total": 3,
+  "generated_at": "2026-06-08T11:11:36.211Z",
+  "total": 4,
   "signals": [
     {
       "id": "rss_wqvCoFNvdXZlcmFp",
@@ -31,6 +31,25 @@
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/cybersecurite-1371/ia-en-entreprise-pourquoi-les-rssi-ne-peuvent-plus-porter-seuls-le-risque-227507",
       "date": "2026-06-04",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_SkZUTCAyMDI2IDog",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "JFTL 2026 : tester l’IA devient le sujet que les DSI ne peuvent plus repousser",
+      "signal_detail": "La 18e Journée Française des Tests Logiciels, le 9 juin au Beffroi de Montrouge, acte un basculement : tester l'IA elle-même, pas seulement tester avec elle. Ce que les DSI doivent y voir.\nL’article J",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/jftl-2026-tester-ia-dsi-111818",
+      "date": "2026-06-05",
       "relevance_score": 35,
       "keywords_matched": [
         "DSI"
