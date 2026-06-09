@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-06-09T10:57:20.079Z",
-  "total": 4,
+  "generated_at": "2026-06-09T12:47:20.113Z",
+  "total": 5,
   "signals": [
+    {
+      "id": "rss_QXRvbCBub21tZSBT",
+      "company": "Atol nomme Stéphane Deschamps au poste de DSI Groupe",
+      "signal_type": "publication",
+      "signal_title": "Atol nomme Stéphane Deschamps au poste de DSI Groupe",
+      "signal_detail": "La coopérative Atol annonce la nomination de Stéphane Deschamps au poste de Directeur des Systèmes d'Information Groupe. Il intègre simultanément le Comité Exécutif d'Atol.\nThe post Atol nomme Stéphan",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/emploi-formation-1373/atol-nomme-stephane-deschamps-au-poste-de-dsi-groupe-227559",
+      "date": "2026-06-09",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_U291dmVyYWluZXTD",
       "company": "Silicon.fr",
