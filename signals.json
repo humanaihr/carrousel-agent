@@ -1,64 +1,7 @@
 {
-  "generated_at": "2026-06-09T12:47:20.113Z",
-  "total": 5,
+  "generated_at": "2026-06-09T16:34:43.927Z",
+  "total": 2,
   "signals": [
-    {
-      "id": "rss_QXRvbCBub21tZSBT",
-      "company": "Atol nomme Stéphane Deschamps au poste de DSI Groupe",
-      "signal_type": "publication",
-      "signal_title": "Atol nomme Stéphane Deschamps au poste de DSI Groupe",
-      "signal_detail": "La coopérative Atol annonce la nomination de Stéphane Deschamps au poste de Directeur des Systèmes d'Information Groupe. Il intègre simultanément le Comité Exécutif d'Atol.\nThe post Atol nomme Stéphan",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/emploi-formation-1373/atol-nomme-stephane-deschamps-au-poste-de-dsi-groupe-227559",
-      "date": "2026-06-09",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_U291dmVyYWluZXTD",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Souveraineté numérique : et si on recentrait le concept ?",
-      "signal_detail": "Constatant une importation littérale de la vision anglo-saxonne, le Cigref appelle à la « rigueur sémantique » quant à la notion de souveraineté numérique.\nThe post Souveraineté numérique : et si on r",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/business-1367/cigref-souverainete-numerique-227555",
-      "date": "2026-06-09",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "souveraineté numérique"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_SUEgZW4gZW50cmVw",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "IA en entreprise : pourquoi les RSSI ne peuvent plus porter seuls le risque",
-      "signal_detail": "{ Tribune Expert } - La gouvernance de l’IA concerne autant les directions métiers que les fonctions juridiques, les ressources humaines, la conformité, la DSI ou encore les instances dirigeantes.\nThe",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/cybersecurite-1371/ia-en-entreprise-pourquoi-les-rssi-ne-peuvent-plus-porter-seuls-le-risque-227507",
-      "date": "2026-06-04",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
     {
       "id": "rss_TWljcm9zb2Z0IHBy",
       "company": "Informatique News",
@@ -77,14 +20,14 @@
       ]
     },
     {
-      "id": "rss_U291dmVyYWluZXTD",
-      "company": "Silicon.fr",
+      "id": "rss_TGUgdnJhaSB2aXNh",
+      "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Souveraineté  technologique : l’Europe joue son va-tout",
-      "signal_detail": "La Commission européenne a dévoilé son très attendu « paquet souveraineté technologique ». Chips, cloud, IA, open source... Bruxelles joue son va-tout pour desserrer l'étau technologique américain. \nT",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/uncategorized/souverainete-technologique-leurope-joue-son-va-tout-227502",
-      "date": "2026-06-04",
+      "signal_title": "Le vrai visage du Cloud souverain Fabien Mollet, cegedim.cloud",
+      "signal_detail": "Le cloud souverain est devenu un terrain où se croisent stratégie IT, cybersécurité, conformité et confiance numérique. Face aux risques de verrouillage, d’extraterritorialité et de dépendance à des t",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/le-vrai-visage-du-cloud-souverain-fabien-mollet-cegedim-cloud-111871",
+      "date": "2026-06-09",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
