@@ -1,20 +1,19 @@
 {
-  "generated_at": "2026-06-08T20:27:31.860Z",
-  "total": 5,
+  "generated_at": "2026-06-09T09:58:20.268Z",
+  "total": 4,
   "signals": [
     {
-      "id": "rss_wqvCoFNvdXZlcmFp",
-      "company": "Informatique News",
+      "id": "rss_U291dmVyYWluZXTD",
+      "company": "Silicon.fr",
       "signal_type": "publication",
-      "signal_title": "« Souveraineté numérique ? On ne parle pas d’achat patriotique, on parle de rési",
-      "signal_detail": "Dans les DSI, le moment est assez clair : l’heure n’est plus seulement à tester l’IA, à déplacer quelques charges vers le cloud ou à empiler des outils de sécurité, mais à industrialiser sans perdre l",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/souverainete-numerique-on-ne-parle-pas-dachat-patriotique-on-parle-de-resilience-olivier-beaudet-claranet-111806",
-      "date": "2026-06-05",
-      "relevance_score": 70,
+      "signal_title": "Souveraineté numérique : et si on recentrait le concept ?",
+      "signal_detail": "Constatant une importation littérale de la vision anglo-saxonne, le Cigref appelle à la « rigueur sémantique » quant à la notion de souveraineté numérique.\nThe post Souveraineté numérique : et si on r",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/business-1367/cigref-souverainete-numerique-227555",
+      "date": "2026-06-09",
+      "relevance_score": 35,
       "keywords_matched": [
-        "souveraineté numérique",
-        "DSI"
+        "souveraineté numérique"
       ],
       "icp_match": [
         "DSI",
@@ -31,25 +30,6 @@
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/cybersecurite-1371/ia-en-entreprise-pourquoi-les-rssi-ne-peuvent-plus-porter-seuls-le-risque-227507",
       "date": "2026-06-04",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_SkZUTCAyMDI2IDog",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "JFTL 2026 : tester l’IA devient le sujet que les DSI ne peuvent plus repousser",
-      "signal_detail": "La 18e Journée Française des Tests Logiciels, le 9 juin au Beffroi de Montrouge, acte un basculement : tester l'IA elle-même, pas seulement tester avec elle. Ce que les DSI doivent y voir.\nL’article J",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/jftl-2026-tester-ia-dsi-111818",
-      "date": "2026-06-05",
       "relevance_score": 35,
       "keywords_matched": [
         "DSI"
