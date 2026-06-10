@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-10T11:36:02.653Z",
-  "total": 5,
+  "generated_at": "2026-06-10T15:56:05.736Z",
+  "total": 6,
   "signals": [
     {
       "id": "rss_QXRvbCBub21tZSBT",
@@ -52,6 +52,25 @@
       "relevance_score": 35,
       "keywords_matched": [
         "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_TGFuY2VtZW50IGTi",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Lancement d’Euro-Office : LibreOffice sort la règle en bois",
+      "signal_detail": "Présentée comme une alternative bureautique européenne à Microsoft 365 et Google Docs, Euro-Office n’a pas vraiment déclenché les applaudissements unanimes du monde open source. LibreOffice, par la vo",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/lancement-deuro-office-libreoffice-sort-la-regle-en-bois-111914",
+      "date": "2026-06-10",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "souveraineté numérique"
       ],
       "icp_match": [
         "DSI",
