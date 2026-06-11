@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-10T18:36:05.156Z",
-  "total": 6,
+  "generated_at": "2026-06-11T10:50:38.318Z",
+  "total": 4,
   "signals": [
     {
       "id": "rss_QXRvbCBub21tZSBT",
@@ -63,49 +63,15 @@
       "id": "rss_TGFuY2VtZW50IGTi",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Lancement d’Euro-Office : LibreOffice sort la règle en bois",
+      "signal_title": "Lancement d’Euro-Office : LibreOffice sort la règle en bois… et ça fait mal",
       "signal_detail": "Présentée comme une alternative bureautique européenne à Microsoft 365 et Google Docs, Euro-Office n’a pas vraiment déclenché les applaudissements unanimes du monde open source. LibreOffice, par la vo",
       "source": "Informatique News",
       "source_url": "https://www.informatiquenews.fr/lancement-deuro-office-libreoffice-sort-la-regle-en-bois-111914",
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "relevance_score": 35,
       "keywords_matched": [
         "souveraineté numérique"
       ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_U291dmVyYWluZXTD",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Souveraineté  technologique : l’Europe joue son va-tout",
-      "signal_detail": "La Commission européenne a dévoilé son très attendu « paquet souveraineté technologique ». Chips, cloud, IA, open source... Bruxelles joue son va-tout pour desserrer l'étau technologique américain. \nT",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/uncategorized/souverainete-technologique-leurope-joue-son-va-tout-227502",
-      "date": "2026-06-04",
-      "relevance_score": 20,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_TGUgdnJhaSB2aXNh",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Le vrai visage du Cloud souverain Fabien Mollet, cegedim.cloud",
-      "signal_detail": "Le cloud souverain est devenu un terrain où se croisent stratégie IT, cybersécurité, conformité et confiance numérique. Face aux risques de verrouillage, d’extraterritorialité et de dépendance à des t",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/le-vrai-visage-du-cloud-souverain-fabien-mollet-cegedim-cloud-111871",
-      "date": "2026-06-09",
-      "relevance_score": 20,
-      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
