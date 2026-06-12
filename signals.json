@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-06-12T11:41:19.082Z",
-  "total": 3,
+  "generated_at": "2026-06-12T15:32:01.656Z",
+  "total": 5,
   "signals": [
+    {
+      "id": "rss_SW5mb05ld3MgSGVi",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "InfoNews Hebdo 2026#23 : Teams, Copilot, Anthropic, SFR, agents IA, NIS2",
+      "signal_detail": "Au sommaire de ce nouvel InfoNews Hebdo : la refonte de Microsoft Teams attendue en juillet, le retour de l’installation forcée de Microsoft 365 Copilot, les nouveaux modèles Claude Fable 5 et Mythos ",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/infonews-hebdo-202623-teams-copilot-anthropic-sfr-agents-ia-nis2-111955",
+      "date": "2026-06-12",
+      "relevance_score": 60,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_QXRvbCBub21tZSBT",
       "company": "Atol nomme Stéphane Deschamps au poste de DSI Groupe",
@@ -33,6 +52,25 @@
       "relevance_score": 35,
       "keywords_matched": [
         "souveraineté numérique"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_wqsgQXZlYyBsZSBx",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "« Avec le quantique, on va ouvrir un monde de calculs qu’on ne sait pas faire au",
+      "signal_detail": "L’informatique quantique n’est plus seulement un sujet de laboratoire mais ce n’est pas encore un outil que les DSI peuvent déployer comme une infrastructure classique. Elle entre dans une zone interm",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/avec-le-quantique-on-va-ouvrir-un-monde-de-calculs-quon-ne-sait-pas-faire-aujourdhui-pierre-desjardins-c12-111959",
+      "date": "2026-06-12",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
       ],
       "icp_match": [
         "DSI",
