@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-12T18:13:12.746Z",
-  "total": 5,
+  "generated_at": "2026-06-15T12:34:12.649Z",
+  "total": 4,
   "signals": [
     {
       "id": "rss_SW5mb05ld3MgSGVi",
@@ -41,25 +41,6 @@
       ]
     },
     {
-      "id": "rss_U291dmVyYWluZXTD",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Souveraineté numérique : et si on recentrait le concept ?",
-      "signal_detail": "Constatant une importation littérale de la vision anglo-saxonne, le Cigref appelle à la « rigueur sémantique » quant à la notion de souveraineté numérique.\nThe post Souveraineté numérique : et si on r",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/business-1367/cigref-souverainete-numerique-227555",
-      "date": "2026-06-09",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "souveraineté numérique"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
       "id": "rss_wqsgQXZlYyBsZSBx",
       "company": "Informatique News",
       "signal_type": "publication",
@@ -79,18 +60,16 @@
       ]
     },
     {
-      "id": "rss_TGFuY2VtZW50IGTi",
+      "id": "rss_TlhPIHJlbmZvcmNl",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Lancement d’Euro-Office : LibreOffice sort la règle en bois… et ça fait mal",
-      "signal_detail": "Présentée comme une alternative bureautique européenne à Microsoft 365 et Google Docs, Euro-Office n’a pas vraiment déclenché les applaudissements unanimes du monde open source. LibreOffice, par la vo",
+      "signal_title": "NXO renforce sa pratique NetDevOps",
+      "signal_detail": "NXO, partenaire de proximité dans la conception et l’infogérance d’infrastructures sécurisées et de cloud souverain, fait évoluer sa pratique NetDevOps pour concilier des approches sur mesure et indus",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/lancement-deuro-office-libreoffice-sort-la-regle-en-bois-111914",
-      "date": "2026-06-11",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "souveraineté numérique"
-      ],
+      "source_url": "https://www.informatiquenews.fr/nxo-renforce-sa-pratique-netdevops-111968",
+      "date": "2026-06-15",
+      "relevance_score": 30,
+      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
