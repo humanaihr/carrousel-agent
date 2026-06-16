@@ -1,35 +1,16 @@
 {
-  "generated_at": "2026-06-15T19:52:41.598Z",
-  "total": 3,
+  "generated_at": "2026-06-16T11:26:48.821Z",
+  "total": 2,
   "signals": [
     {
-      "id": "rss_SW5mb05ld3MgSGVi",
+      "id": "rss_U2FsZXNmb3JjZSBz",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "InfoNews Hebdo 2026#23 : Teams, Copilot, Anthropic, SFR, agents IA, NIS2",
-      "signal_detail": "Au sommaire de ce nouvel InfoNews Hebdo : la refonte de Microsoft Teams attendue en juillet, le retour de l’installation forcée de Microsoft 365 Copilot, les nouveaux modèles Claude Fable 5 et Mythos ",
+      "signal_title": "Salesforce s’offre Fin : le service client devient le vrai terrain de jeu des ag",
+      "signal_detail": "Le service client est en train de devenir l’un des premiers grands champs de bataille de l’IA agentique en entreprise. Pour les DSI, le sujet dépasse largement le simple chatbot ou la réduction des co",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/infonews-hebdo-202623-teams-copilot-anthropic-sfr-agents-ia-nis2-111955",
-      "date": "2026-06-12",
-      "relevance_score": 60,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_wqsgQXZlYyBsZSBx",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "« Avec le quantique, on va ouvrir un monde de calculs qu’on ne sait pas faire au",
-      "signal_detail": "L’informatique quantique n’est plus seulement un sujet de laboratoire mais ce n’est pas encore un outil que les DSI peuvent déployer comme une infrastructure classique. Elle entre dans une zone interm",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/avec-le-quantique-on-va-ouvrir-un-monde-de-calculs-quon-ne-sait-pas-faire-aujourdhui-pierre-desjardins-c12-111959",
-      "date": "2026-06-12",
+      "source_url": "https://www.informatiquenews.fr/salesforce-soffre-fin-le-service-client-devient-le-vrai-terrain-de-jeu-des-agents-ia-111993",
+      "date": "2026-06-16",
       "relevance_score": 35,
       "keywords_matched": [
         "DSI"
