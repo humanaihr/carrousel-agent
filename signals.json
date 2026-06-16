@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-16T12:50:01.697Z",
-  "total": 2,
+  "generated_at": "2026-06-16T17:11:33.227Z",
+  "total": 1,
   "signals": [
     {
       "id": "rss_U2FsZXNmb3JjZSBz",
@@ -15,23 +15,6 @@
       "keywords_matched": [
         "DSI"
       ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_TlhPIHJlbmZvcmNl",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "NXO renforce sa pratique NetDevOps",
-      "signal_detail": "NXO, partenaire de proximité dans la conception et l’infogérance d’infrastructures sécurisées et de cloud souverain, fait évoluer sa pratique NetDevOps pour concilier des approches sur mesure et indus",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/nxo-renforce-sa-pratique-netdevops-111968",
-      "date": "2026-06-15",
-      "relevance_score": 30,
-      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
