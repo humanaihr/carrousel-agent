@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-06-17T12:13:37.602Z",
-  "total": 3,
+  "generated_at": "2026-06-17T15:54:45.802Z",
+  "total": 4,
   "signals": [
+    {
+      "id": "rss_Vml2YVRlY2ggZsOq",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "VivaTech fête ses dix ans : Paris a gagné sa place sur la carte mondiale de la t",
+      "signal_detail": "De 45 000 à 180 000 visiteurs en dix ans : à la veille de sa 10e édition, retour sur la décennie qui a fait de VivaTech le grand rendez-vous tech européen, désormais happé par l'IA et la souveraineté ",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/vivatech-10-ans-bilan-decennie-111996",
+      "date": "2026-06-17",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "souveraineté numérique"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_U2FsZXNmb3JjZSBz",
       "company": "Informatique News",
