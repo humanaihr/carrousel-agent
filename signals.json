@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-17T18:26:58.643Z",
-  "total": 4,
+  "generated_at": "2026-06-18T10:41:34.486Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_Vml2YVRlY2ggZsOq",
@@ -14,25 +14,6 @@
       "relevance_score": 35,
       "keywords_matched": [
         "souveraineté numérique"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_U2FsZXNmb3JjZSBz",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Salesforce s’offre Fin : le service client devient le vrai terrain de jeu des ag",
-      "signal_detail": "Le service client est en train de devenir l’un des premiers grands champs de bataille de l’IA agentique en entreprise. Pour les DSI, le sujet dépasse largement le simple chatbot ou la réduction des co",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/salesforce-soffre-fin-le-service-client-devient-le-vrai-terrain-de-jeu-des-agents-ia-111993",
-      "date": "2026-06-16",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
       ],
       "icp_match": [
         "DSI",
