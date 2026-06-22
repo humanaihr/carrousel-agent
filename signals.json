@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T13:32:00.980Z",
+  "generated_at": "2026-06-22T18:15:37.067Z",
   "total": 6,
   "signals": [
     {
@@ -23,13 +23,13 @@
       ]
     },
     {
-      "id": "rss_MzAwIDAwMCDigqwg",
+      "id": "rss_SUJNIEJvYiA6IHF1",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "300 000 € de l’heure : le vrai coût des zones d’ombre du SI",
-      "signal_detail": "Aucun DSI n'a besoin qu'on lui explique que la supervision classique s'essouffle : il le constate chaque jour, à chaque incident détecté trop tard. La vraie question n'est plus pourquoi en sortir, mai",
+      "signal_title": "IBM Bob : quand l’IA agentique entre dans la fabrique logicielle",
+      "signal_detail": "IBM Bob illustre l'arrivée de l'IA agentique dans la fabrique logicielle d'entreprise. Planification, tests, sécurité, déploiement : ce que cela change concrètement pour les DSI, CTO et développeurs.\n",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/livre-blanc-112078",
+      "source_url": "https://www.informatiquenews.fr/ibm-bob-ia-agentique-fabrique-logicielle-112059",
       "date": "2026-06-22",
       "relevance_score": 35,
       "keywords_matched": [
@@ -42,17 +42,17 @@
       ]
     },
     {
-      "id": "rss_Vml2YVRlY2ggZsOq",
+      "id": "rss_MzAwIDAwMCDigqwg",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "VivaTech fête ses dix ans : Paris a gagné sa place sur la carte mondiale de la t",
-      "signal_detail": "De 45 000 à 180 000 visiteurs en dix ans : à la veille de sa 10e édition, retour sur la décennie qui a fait de VivaTech le grand rendez-vous tech européen, désormais happé par l'IA et la souveraineté ",
+      "signal_title": "300 000 € de l’heure : le vrai coût des zones d’ombre du SI",
+      "signal_detail": "Aucun DSI n'a besoin qu'on lui explique que la supervision classique s'essouffle : il le constate chaque jour, à chaque incident détecté trop tard. La vraie question n'est plus pourquoi en sortir, mai",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/vivatech-10-ans-bilan-decennie-111996",
-      "date": "2026-06-17",
+      "source_url": "https://www.informatiquenews.fr/livre-blanc-112078",
+      "date": "2026-06-22",
       "relevance_score": 35,
       "keywords_matched": [
-        "souveraineté numérique"
+        "DSI"
       ],
       "icp_match": [
         "DSI",
