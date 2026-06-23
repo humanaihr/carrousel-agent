@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-23T09:57:36.898Z",
-  "total": 6,
+  "generated_at": "2026-06-23T10:59:05.938Z",
+  "total": 5,
   "signals": [
     {
       "id": "rss_wqsgTGEgZMOpcGVu",
@@ -86,23 +86,6 @@
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/cloud-1370/bleu-et-delos-cloud-activent-leur-partenariat-dans-le-cloud-souverain-227729",
       "date": "2026-06-17",
-      "relevance_score": 20,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_TGEgREdTSSByZW1w",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "La DGSI remplace Palantir par ChapsVision",
-      "signal_detail": "Un tweet, une annonce ministérielle, et dix ans de dépendance américaine vacillent. Avec le remplacement de Palantir par ChapsVision, la DGSI veut reprendre la main sur ses outils d’analyse de données",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/la-dgsi-remplace-palantir-par-chapsvision-112040",
-      "date": "2026-06-18",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
