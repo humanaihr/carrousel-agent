@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-23T18:05:40.473Z",
-  "total": 6,
+  "generated_at": "2026-06-24T09:44:51.823Z",
+  "total": 5,
   "signals": [
     {
       "id": "rss_wqsgTGEgZMOpcGVu",
@@ -87,23 +87,6 @@
       "signal_detail": "Avec la création d'une Direction de l’intelligence artificielle et du numérique, le ministère de l'Économie centralise sa stratégie en créant une direction dédiée à l'IA et à la souveraineté des donné",
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/data-ia-1372/bercy-cree-une-direction-de-lintelligence-artificielle-et-du-numerique-pour-accelerer-sa-transformation-227741",
-      "date": "2026-06-17",
-      "relevance_score": 20,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_QmxldSBldCBEZWxv",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Bleu et Delos Cloud activent leur partenariat dans le cloud souverain",
-      "signal_detail": "Bleu et Delos Cloud vont lancer un Centre de cyberdéfense commun et un programme d'infrastructure d'IA pour renforcer le cloud souverain franco-allemand.\nThe post Bleu et Delos Cloud activent leur par",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/cloud-1370/bleu-et-delos-cloud-activent-leur-partenariat-dans-le-cloud-souverain-227729",
       "date": "2026-06-17",
       "relevance_score": 20,
       "keywords_matched": [],
