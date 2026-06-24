@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-06-24T10:45:16.057Z",
+  "generated_at": "2026-06-24T12:23:38.902Z",
   "total": 4,
   "signals": [
+    {
+      "id": "rss_TGEgc291dmVyYWlu",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "La souveraineté et la récupération, les deux principaux piliers de la sécurité d",
+      "signal_detail": "À l’heure où la souveraineté numérique s’impose dans les choix IT européens, une question demeure décisive : les données seront-elles encore disponibles quand l’incident surviendra ? Entre contrôle, c",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/la-souverainete-et-la-recuperation-les-deux-principaux-piliers-de-la-securite-des-donnees-daniel-fried-object-first-112104",
+      "date": "2026-06-24",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "souveraineté numérique"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_QW5hbHl0aXF1ZSBl",
       "company": "Informatique News",
@@ -53,23 +72,6 @@
       "keywords_matched": [
         "DSI"
       ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_QmVyY3kgY3LDqWUg",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Bercy crée une Direction de l’intelligence artificielle et du numérique pour acc",
-      "signal_detail": "Avec la création d'une Direction de l’intelligence artificielle et du numérique, le ministère de l'Économie centralise sa stratégie en créant une direction dédiée à l'IA et à la souveraineté des donné",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/data-ia-1372/bercy-cree-une-direction-de-lintelligence-artificielle-et-du-numerique-pour-accelerer-sa-transformation-227741",
-      "date": "2026-06-17",
-      "relevance_score": 20,
-      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
