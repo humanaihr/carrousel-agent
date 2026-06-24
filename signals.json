@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-24T12:23:38.902Z",
-  "total": 4,
+  "generated_at": "2026-06-24T16:27:06.317Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_TGEgc291dmVyYWlu",
@@ -48,25 +48,6 @@
       "signal_detail": "IBM Bob illustre l'arrivée de l'IA agentique dans la fabrique logicielle d'entreprise. Planification, tests, sécurité, déploiement : ce que cela change concrètement pour les DSI, CTO et développeurs.\n",
       "source": "Informatique News",
       "source_url": "https://www.informatiquenews.fr/ibm-bob-ia-agentique-fabrique-logicielle-112059",
-      "date": "2026-06-22",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_MzAwIDAwMCDigqwg",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "300 000 € de l’heure : le vrai coût des zones d’ombre du SI",
-      "signal_detail": "Aucun DSI n'a besoin qu'on lui explique que la supervision classique s'essouffle : il le constate chaque jour, à chaque incident détecté trop tard. La vraie question n'est plus pourquoi en sortir, mai",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/livre-blanc-112078",
       "date": "2026-06-22",
       "relevance_score": 35,
       "keywords_matched": [
