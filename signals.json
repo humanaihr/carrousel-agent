@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-06-24T09:44:51.823Z",
-  "total": 5,
+  "generated_at": "2026-06-24T10:45:16.057Z",
+  "total": 4,
   "signals": [
-    {
-      "id": "rss_wqsgTGEgZMOpcGVu",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "« La dépendance à des technologies non maîtrisées est un vrai risque » Raphaël A",
-      "signal_detail": "Pour les DSI, la souveraineté numérique n’est plus un slogan politique. Elle est maintenant devenue une question de continuité d’activité, de maîtrise des risques, de confidentialité des échanges et d",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/la-dependance-a-des-technologies-non-maitrisees-est-un-vrai-risque-raphael-auphan-proton-112053",
-      "date": "2026-06-19",
-      "relevance_score": 70,
-      "keywords_matched": [
-        "souveraineté numérique",
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
     {
       "id": "rss_QW5hbHl0aXF1ZSBl",
       "company": "Informatique News",
