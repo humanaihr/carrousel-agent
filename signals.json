@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-24T18:01:54.449Z",
-  "total": 3,
+  "generated_at": "2026-06-25T09:35:56.760Z",
+  "total": 2,
   "signals": [
     {
       "id": "rss_TGEgc291dmVyYWlu",
@@ -30,25 +30,6 @@
       "source": "Informatique News",
       "source_url": "https://www.informatiquenews.fr/analytique-en-libre-service-comment-anthropic-confie-95-de-ses-requetes-a-claude-112085",
       "date": "2026-06-23",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_SUJNIEJvYiA6IHF1",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "IBM Bob : quand l’IA agentique entre dans la fabrique logicielle",
-      "signal_detail": "IBM Bob illustre l'arrivée de l'IA agentique dans la fabrique logicielle d'entreprise. Planification, tests, sécurité, déploiement : ce que cela change concrètement pour les DSI, CTO et développeurs.\n",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/ibm-bob-ia-agentique-fabrique-logicielle-112059",
-      "date": "2026-06-22",
       "relevance_score": 35,
       "keywords_matched": [
         "DSI"
