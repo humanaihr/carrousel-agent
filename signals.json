@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-06-25T09:35:56.760Z",
-  "total": 2,
+  "generated_at": "2026-06-25T10:39:13.287Z",
+  "total": 3,
   "signals": [
+    {
+      "id": "rss_UEhPTkVSIEJ1c2lu",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "PHONER Business veut simplifier la gestion des flottes mobiles des PME",
+      "signal_detail": "Entre smartphones à renouveler, forfaits à ajuster, coûts à contenir et empreinte carbone à mesurer, la flotte mobile est devenue un irritant très concret pour les DSI. PHONER Business veut en faire u",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/phoner-business-veut-simplifier-la-gestion-des-flottes-mobiles-des-pme-112116",
+      "date": "2026-06-25",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_TGEgc291dmVyYWlu",
       "company": "Informatique News",
