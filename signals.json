@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-25T12:27:41.748Z",
-  "total": 3,
+  "generated_at": "2026-06-25T16:30:29.439Z",
+  "total": 2,
   "signals": [
     {
       "id": "rss_UEhPTkVSIEJ1c2lu",
@@ -33,25 +33,6 @@
       "relevance_score": 35,
       "keywords_matched": [
         "souveraineté numérique"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_QW5hbHl0aXF1ZSBl",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Analytique en libre-service : comment Anthropic confie 95 % de ses requêtes à Cl",
-      "signal_detail": "Anthropic affirme automatiser 95 % de ses requêtes analytiques internes via Claude, avec une précision avoisinant les 95 %. La leçon la plus instructive pour les DSI ne tient pourtant pas à la puissan",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/analytique-en-libre-service-comment-anthropic-confie-95-de-ses-requetes-a-claude-112085",
-      "date": "2026-06-23",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
       ],
       "icp_match": [
         "DSI",
