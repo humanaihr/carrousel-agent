@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-26T12:18:00.565Z",
-  "total": 3,
+  "generated_at": "2026-06-26T16:23:04.346Z",
+  "total": 2,
   "signals": [
     {
       "id": "rss_UEhPTkVSIEJ1c2lu",
@@ -14,25 +14,6 @@
       "relevance_score": 35,
       "keywords_matched": [
         "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_TGEgc291dmVyYWlu",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "La souveraineté et la récupération, les deux principaux piliers de la sécurité d",
-      "signal_detail": "À l’heure où la souveraineté numérique s’impose dans les choix IT européens, une question demeure décisive : les données seront-elles encore disponibles quand l’incident surviendra ? Entre contrôle, c",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/la-souverainete-et-la-recuperation-les-deux-principaux-piliers-de-la-securite-des-donnees-daniel-fried-object-first-112104",
-      "date": "2026-06-24",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "souveraineté numérique"
       ],
       "icp_match": [
         "DSI",
