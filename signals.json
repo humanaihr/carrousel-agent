@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-26T10:47:25.841Z",
-  "total": 2,
+  "generated_at": "2026-06-26T12:18:00.565Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_UEhPTkVSIEJ1c2lu",
@@ -34,6 +34,23 @@
       "keywords_matched": [
         "souveraineté numérique"
       ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_wqsgSWwgbuKAmXkg",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "« Il n’y a pas assez de LightOn et de Mistral en Europe » Igor Carron, LightOn",
+      "signal_detail": "L’IA générative agentique est entrée dans une nouvelle phase. Après le temps des démonstrations et des chatbots, les entreprises doivent désormais industrialiser les usages, maîtriser leurs coûts, séc",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/il-ny-a-pas-assez-de-lighton-et-de-mistral-en-europe-igor-carron-lighton-112153",
+      "date": "2026-06-26",
+      "relevance_score": 20,
+      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
