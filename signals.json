@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-30T12:17:05.243Z",
-  "total": 3,
+  "generated_at": "2026-06-30T16:26:02.834Z",
+  "total": 4,
   "signals": [
     {
       "id": "rss_U291dmVyYWluZXTD",
@@ -14,6 +14,25 @@
       "relevance_score": 70,
       "keywords_matched": [
         "souveraineté numérique",
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_V1NMIENvbnRhaW5l",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "WSL Containers : Les containers Linux désormais « natifs » sous Windows 11",
+      "signal_detail": "Ce fût l’une des plus importantes annonces de la Build 2026. Microsoft tient sa promesse et lance la préversion publique de sa nouvelle technologie « WSL Containers » qui permet de créer, lancer et gé",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/wsl-containers-les-containers-linux-desormais-natifs-sous-windows-11-112207",
+      "date": "2026-06-30",
+      "relevance_score": 35,
+      "keywords_matched": [
         "DSI"
       ],
       "icp_match": [
