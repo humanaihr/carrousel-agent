@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-30T09:54:29.701Z",
-  "total": 2,
+  "generated_at": "2026-06-30T10:53:53.125Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_U291dmVyYWluZXTD",
@@ -15,6 +15,25 @@
       "keywords_matched": [
         "souveraineté numérique",
         "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_U291dmVyYWluZXTD",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Souveraineté numérique : oubliez le drapeau, posez les bonnes questions ! Franço",
+      "signal_detail": "Derrière la promesse de souveraineté numérique, il y a une réalité bien plus concrète que les discours marketing. Où sont stockées vos données, qui peut y accéder et qui vous répond en cas de crise ? ",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/souverainete-numerique-oubliez-le-drapeau-posez-les-bonnes-questions-francois-poulet-yoozer-112189",
+      "date": "2026-06-30",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "souveraineté numérique"
       ],
       "icp_match": [
         "DSI",
