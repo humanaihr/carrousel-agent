@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T20:11:54.665Z",
+  "generated_at": "2026-06-30T09:54:29.701Z",
   "total": 2,
   "signals": [
     {
@@ -23,16 +23,18 @@
       ]
     },
     {
-      "id": "rss_wqsgSWwgbuKAmXkg",
+      "id": "rss_U291dmVyYWluZXTD",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "« Il n’y a pas assez de LightOn et de Mistral en Europe » Igor Carron, LightOn",
-      "signal_detail": "L’IA générative agentique est entrée dans une nouvelle phase. Après le temps des démonstrations et des chatbots, les entreprises doivent désormais industrialiser les usages, maîtriser leurs coûts, séc",
+      "signal_title": "Souveraineté numérique : à quelles conditions l’Europe reste-t-elle compétitive ",
+      "signal_detail": "Dans une Europe prise entre impératifs de compétitivité, tensions géopolitiques et dépendances technologiques, la souveraineté numérique n’est plus un slogan : elle devient un test grandeur nature pou",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/il-ny-a-pas-assez-de-lighton-et-de-mistral-en-europe-igor-carron-lighton-112153",
-      "date": "2026-06-26",
-      "relevance_score": 20,
-      "keywords_matched": [],
+      "source_url": "https://www.informatiquenews.fr/souverainete-numerique-a-quelles-conditions-leurope-reste-t-elle-competitive-casper-klynge-zscaler-112185",
+      "date": "2026-06-30",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "souveraineté numérique"
+      ],
       "icp_match": [
         "DSI",
         "Transformation",
