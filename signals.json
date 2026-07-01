@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-01T11:20:27.971Z",
-  "total": 3,
+  "generated_at": "2026-07-01T14:51:32.734Z",
+  "total": 2,
   "signals": [
     {
       "id": "rss_V1NMIENvbnRhaW5l",
@@ -29,25 +29,6 @@
       "signal_detail": "Derrière la promesse de souveraineté numérique, il y a une réalité bien plus concrète que les discours marketing. Où sont stockées vos données, qui peut y accéder et qui vous répond en cas de crise ? ",
       "source": "Informatique News",
       "source_url": "https://www.informatiquenews.fr/souverainete-numerique-oubliez-le-drapeau-posez-les-bonnes-questions-francois-poulet-yoozer-112189",
-      "date": "2026-06-30",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "souveraineté numérique"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_U291dmVyYWluZXTD",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Souveraineté numérique : à quelles conditions l’Europe reste-t-elle compétitive ",
-      "signal_detail": "Dans une Europe prise entre impératifs de compétitivité, tensions géopolitiques et dépendances technologiques, la souveraineté numérique n’est plus un slogan : elle devient un test grandeur nature pou",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/souverainete-numerique-a-quelles-conditions-leurope-reste-t-elle-competitive-casper-klynge-zscaler-112185",
       "date": "2026-06-30",
       "relevance_score": 35,
       "keywords_matched": [
