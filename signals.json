@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-06-30T18:05:03.987Z",
-  "total": 4,
+  "generated_at": "2026-07-01T10:03:42.319Z",
+  "total": 3,
   "signals": [
-    {
-      "id": "rss_U291dmVyYWluZXTD",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Souveraineté numérique et cybersécurité : de la prise de conscience à l’action",
-      "signal_detail": "Et si la prochaine panne critique ne venait pas d’un bug, mais d’une décision politique ? La souveraineté numérique des DSI entre dans une nouvelle phase : celle où dépendre d’un fournisseur, d’un clo",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/souverainete-numerique-et-cybersecurite-de-la-prise-de-conscience-a-laction-112163",
-      "date": "2026-06-29",
-      "relevance_score": 70,
-      "keywords_matched": [
-        "souveraineté numérique",
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
     {
       "id": "rss_V1NMIENvbnRhaW5l",
       "company": "Informatique News",
