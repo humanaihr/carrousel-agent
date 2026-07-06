@@ -1,23 +1,5 @@
 {
-  "generated_at": "2026-07-06T12:00:41.515Z",
-  "total": 1,
-  "signals": [
-    {
-      "id": "rss_TGUgQ2xvdWQgRmly",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Le Cloud First devient plus sélectif ! Yassine El Fadili, Intelcia Tech",
-      "signal_detail": "Et si le « Cloud First » avait fait son temps ? Alors que près d&#8217;un quart des dépenses cloud partirait en pure perte et que la souveraineté grimpe au sommet des priorités, les entreprises redess",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/le-cloud-first-devient-plus-selectif-yassine-el-fadili-intelcia-tech-112242",
-      "date": "2026-07-02",
-      "relevance_score": 20,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    }
-  ]
+  "generated_at": "2026-07-06T15:49:46.628Z",
+  "total": 0,
+  "signals": []
 }
