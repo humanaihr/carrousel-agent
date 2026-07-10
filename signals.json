@@ -1,5 +1,25 @@
 {
-  "generated_at": "2026-07-10T10:49:06.651Z",
-  "total": 0,
-  "signals": []
+  "generated_at": "2026-07-10T12:29:58.709Z",
+  "total": 1,
+  "signals": [
+    {
+      "id": "rss_Tm8gY29kZSAvIExv",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "No code / Low code : développer plus vite ne suffit plus Fred Jean-Theodore, Ins",
+      "signal_detail": "Développer plus vite, tout le monde en rêve. Mais si la vitesse n&#8217;était que la partie émergée de l&#8217;iceberg ? Entre gouvernance, sécurité et IA agentique, le No code / Low code réécrit en s",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/no-code-low-code-developper-plus-vite-ne-suffit-plus-fred-jean-theodore-insight-112347",
+      "date": "2026-07-10",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    }
+  ]
 }
