@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T09:58:25.085Z",
-  "total": 3,
+  "generated_at": "2026-07-15T11:40:35.289Z",
+  "total": 4,
   "signals": [
     {
       "id": "rss_VmF0ZXMgdmV1dCBw",
@@ -49,6 +49,23 @@
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/cybersecurite-1371/ce-que-les-rssi-demandent-aux-candidats-a-la-presidentielle-228239",
       "date": "2026-07-10",
+      "relevance_score": 20,
+      "keywords_matched": [],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_RMOpcGFzc2VyIGzi",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Dépasser l’illusion technique : quand les systèmes fonctionnent, mais cachent le",
+      "signal_detail": "Tout semble fonctionner… jusqu’au jour où une migration, un audit ou un incident révèle qui contrôle vraiment vos flux de messagerie. Derrière la stabilité apparente se jouent des enjeux décisifs de s",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/depasser-lillusion-technique-quand-les-systemes-fonctionnent-mais-cachent-leurs-dependances-benoit-tremolet-retarus-france-112722",
+      "date": "2026-07-15",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
