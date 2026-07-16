@@ -1,26 +1,7 @@
 {
-  "generated_at": "2026-07-16T11:45:52.823Z",
-  "total": 5,
+  "generated_at": "2026-07-16T14:10:11.872Z",
+  "total": 3,
   "signals": [
-    {
-      "id": "rss_VmF0ZXMgdmV1dCBw",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Vates veut profiter du moment VMware pour remettre la virtualisation au cœur de ",
-      "signal_detail": "En pleine préparation d’une levée de fonds, l’éditeur français Vates veut accélérer en France et en Europe. Son pari : transformer la crise ouverte par Broadcom autour de VMware en opportunité industr",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/vates-veut-profiter-du-moment-vmware-pour-remettre-la-virtualisation-au-coeur-de-la-souverainete-numerique-112351",
-      "date": "2026-07-10",
-      "relevance_score": 45,
-      "keywords_matched": [
-        "souveraineté numérique"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
     {
       "id": "rss_T3BlbiBzb3VyY2Us",
       "company": "Silicon.fr",
@@ -33,25 +14,6 @@
       "relevance_score": 35,
       "keywords_matched": [
         "souveraineté numérique"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_Tm8gY29kZSAvIExv",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "No code / Low code : développer plus vite ne suffit plus Fred Jean-Theodore, Ins",
-      "signal_detail": "Développer plus vite, tout le monde en rêve. Mais si la vitesse n&#8217;était que la partie émergée de l&#8217;iceberg ? Entre gouvernance, sécurité et IA agentique, le No code / Low code réécrit en s",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/no-code-low-code-developper-plus-vite-ne-suffit-plus-fred-jean-theodore-insight-112347",
-      "date": "2026-07-10",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
       ],
       "icp_match": [
         "DSI",
