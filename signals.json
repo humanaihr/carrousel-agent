@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-16T10:04:34.508Z",
-  "total": 4,
+  "generated_at": "2026-07-16T11:45:52.823Z",
+  "total": 5,
   "signals": [
     {
       "id": "rss_VmF0ZXMgdmV1dCBw",
@@ -12,6 +12,25 @@
       "source_url": "https://www.informatiquenews.fr/vates-veut-profiter-du-moment-vmware-pour-remettre-la-virtualisation-au-coeur-de-la-souverainete-numerique-112351",
       "date": "2026-07-10",
       "relevance_score": 45,
+      "keywords_matched": [
+        "souveraineté numérique"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_T3BlbiBzb3VyY2Us",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "Open source, moratoire sur les data centers…29 propositions pour reconquérir la ",
+      "signal_detail": "En six mois d'auditions, la commission d’enquête parlementaire sur les vulnérabilités numériques de la France a chiffré l'ampleur de la dépendance aux technologies américaines et pose 29 propositions ",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/business-1367/open-source-moratoire-sur-les-data-centers-29-propositions-pour-reconquerir-la-souverainete-numerique-228300",
+      "date": "2026-07-16",
+      "relevance_score": 35,
       "keywords_matched": [
         "souveraineté numérique"
       ],
