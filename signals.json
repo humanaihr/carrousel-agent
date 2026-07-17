@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-07-17T11:25:36.084Z",
-  "total": 3,
+  "generated_at": "2026-07-17T13:54:11.842Z",
+  "total": 4,
   "signals": [
+    {
+      "id": "rss_U291dmVyYWluZXTD",
+      "company": "FISA",
+      "signal_type": "publication",
+      "signal_title": "Souveraineté numérique : les « paranoïaques » avaient donc raison",
+      "signal_detail": "Longtemps moquée comme une obsession de juristes anxieux, la souveraineté numérique est devenue un sujet d’architecture, de clauses et d’achats. À l’EPITA, une table ronde du XVDSI et de Libralis a mo",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/souverainete-numerique-les-paranoiaques-avaient-donc-raison-112731",
+      "date": "2026-07-17",
+      "relevance_score": 70,
+      "keywords_matched": [
+        "souveraineté numérique",
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_T3BlbiBzb3VyY2Us",
       "company": "Silicon.fr",
