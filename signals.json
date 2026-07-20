@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-20T12:21:54.100Z",
-  "total": 4,
+  "generated_at": "2026-07-20T15:56:12.806Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_U291dmVyYWluZXTD",
@@ -35,23 +35,6 @@
       "keywords_matched": [
         "souveraineté numérique"
       ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_Q2UgcXVlIGxlcyBS",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Ce que les RSSI demandent aux candidats à la présidentielle",
-      "signal_detail": "Dans une lettre ouverte, le CESIN, qui fédère plus de 1 300 responsables de la sécurité numérique, somme les prétendants à l'Élysée de sortir la souveraineté technologique de la case \"sujet technique\"",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/cybersecurite-1371/ce-que-les-rssi-demandent-aux-candidats-a-la-presidentielle-228239",
-      "date": "2026-07-10",
-      "relevance_score": 20,
-      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
