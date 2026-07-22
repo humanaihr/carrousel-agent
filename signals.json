@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T11:53:46.021Z",
-  "total": 2,
+  "generated_at": "2026-07-22T14:11:58.519Z",
+  "total": 1,
   "signals": [
     {
       "id": "rss_U291dmVyYWluZXTD",
@@ -15,25 +15,6 @@
       "keywords_matched": [
         "souveraineté numérique",
         "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_T3BlbiBzb3VyY2Us",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Open source, moratoire sur les data centers…29 propositions pour reconquérir la ",
-      "signal_detail": "En six mois d'auditions, la commission d’enquête parlementaire sur les vulnérabilités numériques de la France a chiffré l'ampleur de la dépendance aux technologies américaines et pose 29 propositions ",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/business-1367/open-source-moratoire-sur-les-data-centers-29-propositions-pour-reconquerir-la-souverainete-numerique-228300",
-      "date": "2026-07-16",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "souveraineté numérique"
       ],
       "icp_match": [
         "DSI",
