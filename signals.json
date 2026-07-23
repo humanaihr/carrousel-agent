@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T15:58:09.600Z",
-  "total": 1,
+  "generated_at": "2026-07-23T17:38:11.230Z",
+  "total": 2,
   "signals": [
     {
       "id": "rss_U291dmVyYWluZXTD",
@@ -15,6 +15,25 @@
       "keywords_matched": [
         "souveraineté numérique",
         "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_U291dmVyYWluZXTD",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Souveraineté numérique — épisode 1/6 : Un juge français privé de carte bancaire ",
+      "signal_detail": "Nicolas Guillou voulait acheter une place de concert à Paris. Le magistrat français placé sous sanctions américaines a découvert qu’une décision prise à Washington pouvait l’empêcher de payer avec une",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/dependance-numerique-1-juge-francais-carte-bancaire-112847",
+      "date": "2026-07-23",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "souveraineté numérique"
       ],
       "icp_match": [
         "DSI",
