@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T16:08:13.619Z",
-  "total": 2,
+  "generated_at": "2026-07-28T17:41:14.492Z",
+  "total": 1,
   "signals": [
     {
       "id": "rss_U291dmVyYWluZXTD",
@@ -15,23 +15,6 @@
       "keywords_matched": [
         "souveraineté numérique"
       ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_TOKAmUV1cm9wZSBu",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "L’Europe ne questionne plus sa dépendance à l’IA américaine, elle la subit…",
-      "signal_detail": "{ Tribune } - Une souveraineté technologique sans souveraineté des compétences équivaut à posséder une centrale nucléaire sans disposer d'ingénieurs pour la faire fonctionner.\nThe post L&rsquo;Europe ",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/data-ia-1372/leurope-ne-questionne-plus-sa-dependance-a-lia-americaine-elle-la-subit-228484",
-      "date": "2026-07-24",
-      "relevance_score": 20,
-      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
