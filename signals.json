@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-07-28T19:42:45.643Z",
+  "generated_at": "2026-07-29T08:50:48.528Z",
   "total": 2,
   "signals": [
     {
-      "id": "rss_U291dmVyYWluZXTD",
+      "id": "rss_Vm90cmUgQWN0aXZl",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Souveraineté numérique — épisode 1/6 : Un juge français privé de carte bancaire ",
-      "signal_detail": "Nicolas Guillou voulait acheter une place de concert à Paris. Le magistrat français placé sous sanctions américaines a découvert qu’une décision prise à Washington pouvait l’empêcher de payer avec une",
+      "signal_title": "Votre Active Directory tombe. Votre entreprise s’arrête. Avez-vous vraiment un p",
+      "signal_detail": "Quand l’Active Directory s’effondre, ce n’est pas seulement l’IT qui vacille : toute l’entreprise peut se retrouver à l’arrêt. Entre ransomwares, sauvegardes compromises et nouvelles exigences régleme",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/dependance-numerique-1-juge-francais-carte-bancaire-112847",
-      "date": "2026-07-23",
+      "source_url": "https://www.informatiquenews.fr/votre-active-directory-tombe-votre-entreprise-sarrete-avez-vous-vraiment-un-plan-de-secours-mehdi-demengeot-semperis-112944",
+      "date": "2026-07-29",
       "relevance_score": 35,
       "keywords_matched": [
-        "souveraineté numérique"
+        "DSI"
       ],
       "icp_match": [
         "DSI",
