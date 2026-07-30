@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-29T19:33:54.659Z",
-  "total": 3,
+  "generated_at": "2026-07-30T08:40:18.172Z",
+  "total": 4,
   "signals": [
     {
       "id": "rss_RG9jYXBvc3RlIHZl",
@@ -14,6 +14,25 @@
       "relevance_score": 45,
       "keywords_matched": [
         "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_TGVzIG11bHRpcGxl",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Les multiples visages de la souveraineté numérique… Kalliopi Spyridaki, SAS",
+      "signal_detail": "De la maîtrise des données aux nouvelles règles du cloud et de l’IA, la souveraineté numérique change de dimension. Un éclairage indispensable pour comprendre pourquoi ce sujet, longtemps technique, d",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/les-multiples-visages-de-la-souverainete-numerique-kalliopi-spyridaki-sas-112953",
+      "date": "2026-07-30",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "souveraineté numérique"
       ],
       "icp_match": [
         "DSI",
