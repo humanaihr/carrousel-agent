@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T10:20:49.382Z",
+  "generated_at": "2026-07-30T11:56:26.584Z",
   "total": 4,
   "signals": [
     {
@@ -60,14 +60,14 @@
       ]
     },
     {
-      "id": "rss_TOKAmUV1cm9wZSBu",
+      "id": "rss_TmV2ZXJoYWNrIGzD",
       "company": "Silicon.fr",
       "signal_type": "publication",
-      "signal_title": "L’Europe ne questionne plus sa dépendance à l’IA américaine, elle la subit…",
-      "signal_detail": "{ Tribune } - Une souveraineté technologique sans souveraineté des compétences équivaut à posséder une centrale nucléaire sans disposer d'ingénieurs pour la faire fonctionner.\nThe post L&rsquo;Europe ",
+      "signal_title": "Neverhack lève 11 millions € pour accélérer sur l’IA et la cyber souveraine",
+      "signal_detail": "Neverhack lève 11 millions € pour accélérer son développement en IA et cybersécurité souveraine, avec à la clé une évolution de sa gouvernance.\nThe post Neverhack lève 11 millions € pour accélérer sur",
       "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/data-ia-1372/leurope-ne-questionne-plus-sa-dependance-a-lia-americaine-elle-la-subit-228484",
-      "date": "2026-07-24",
+      "source_url": "https://www.silicon.fr/business-1367/neverhack-leve-11-millions-e-pour-accelerer-sur-lia-et-la-cyber-souveraine-228601",
+      "date": "2026-07-30",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
