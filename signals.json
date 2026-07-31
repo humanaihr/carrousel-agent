@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-30T19:43:09.364Z",
-  "total": 5,
+  "generated_at": "2026-07-31T09:11:38.389Z",
+  "total": 6,
   "signals": [
     {
       "id": "rss_RG9jYXBvc3RlIHZl",
@@ -87,6 +87,23 @@
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/business-1367/neverhack-leve-11-millions-e-pour-accelerer-sur-lia-et-la-cyber-souveraine-228601",
       "date": "2026-07-30",
+      "relevance_score": 20,
+      "keywords_matched": [],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_UXVhbmQgdG91dCBs",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Quand tout le monde devient builder, où se créera encore la valeur ? … Cyril Cuv",
+      "signal_detail": "Quand le code se produit à une vitesse inédite, la vraie différence ne se joue plus dans la capacité à construire, mais dans le choix de ce qui mérite de l’être. Entre IA agentique, confiance, souvera",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/quand-tout-le-monde-devient-builder-ou-se-creera-encore-la-valeur-cyril-cuvier-suse-112964",
+      "date": "2026-07-31",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
