@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T12:05:33.273Z",
-  "total": 6,
+  "generated_at": "2026-07-31T16:04:56.459Z",
+  "total": 7,
   "signals": [
     {
       "id": "rss_RG9jYXBvc3RlIHZl",
@@ -14,6 +14,25 @@
       "relevance_score": 45,
       "keywords_matched": [
         "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_UsOpY2FwIMOJdMOp",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Récap Été 2026 — Souveraineté numérique : reprendre la main sur les dépendances",
+      "signal_detail": "Durant tout l’été, InformatiqueNews vous propose de redécouvrir les principaux entretiens de « L’Invité de la semaine », l’émission hebdomadaire animée par Guy Hervier. Dirigeants d’entreprises techno",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/recap-invites-de-la-semaine-souverainete-numerique-112967-112967",
+      "date": "2026-07-31",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "souveraineté numérique"
       ],
       "icp_match": [
         "DSI",
