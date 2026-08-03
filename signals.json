@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-03T13:16:50.017Z",
-  "total": 7,
+  "generated_at": "2026-08-03T16:31:07.689Z",
+  "total": 6,
   "signals": [
     {
       "id": "rss_RG9jYXBvc3RlIHZl",
@@ -71,25 +71,6 @@
       "relevance_score": 35,
       "keywords_matched": [
         "souveraineté numérique"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_Vm90cmUgQWN0aXZl",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Votre Active Directory tombe. Votre entreprise s’arrête. Avez-vous vraiment un p",
-      "signal_detail": "Quand l’Active Directory s’effondre, ce n’est pas seulement l’IT qui vacille : toute l’entreprise peut se retrouver à l’arrêt. Entre ransomwares, sauvegardes compromises et nouvelles exigences régleme",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/votre-active-directory-tombe-votre-entreprise-sarrete-avez-vous-vraiment-un-plan-de-secours-mehdi-demengeot-semperis-112944",
-      "date": "2026-07-29",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
       ],
       "icp_match": [
         "DSI",
