@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-04T08:48:51.657Z",
-  "total": 5,
+  "generated_at": "2026-08-04T10:33:19.373Z",
+  "total": 6,
   "signals": [
     {
       "id": "rss_UsOpY2FwIMOJdMOp",
@@ -53,6 +53,23 @@
       "keywords_matched": [
         "souveraineté numérique"
       ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_Q29tbWVudCBHb29n",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "Comment Google finance les infrastructures d’Anthropic",
+      "signal_detail": "Selon le Financial Times, Google a mis en place un dispositif de près de 200 milliards $ pour financer les infrastructures d'IA d'Anthropi.  Un montage inédit qui mobilise banques, fonds et industriel",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/business-1367/comment-google-finance-les-infrastructures-anthropic-228657",
+      "date": "2026-08-04",
+      "relevance_score": 30,
+      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
