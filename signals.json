@@ -1,26 +1,7 @@
 {
-  "generated_at": "2026-08-03T19:49:12.660Z",
-  "total": 6,
+  "generated_at": "2026-08-04T08:48:51.657Z",
+  "total": 5,
   "signals": [
-    {
-      "id": "rss_RG9jYXBvc3RlIHZl",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Docaposte veut transformer la résilience numérique en outil de pilotage pour les",
-      "signal_detail": "Un PRA ne suffit plus à garantir la résilience numérique. Entre dépendances au cloud, contraintes réglementaires et risques géopolitiques, les DSI doivent désormais savoir précisément ce qui peut cass",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/docaposte-veut-transformer-la-resilience-numerique-en-outil-de-pilotage-pour-les-comex-112947",
-      "date": "2026-07-29",
-      "relevance_score": 45,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
     {
       "id": "rss_UsOpY2FwIMOJdMOp",
       "company": "Informatique News",
