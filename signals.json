@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-08-04T10:33:19.373Z",
-  "total": 6,
+  "generated_at": "2026-08-04T12:06:10.876Z",
+  "total": 7,
   "signals": [
+    {
+      "id": "rss_UGx1c2lldXJzIG1v",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "Plusieurs modèles Amazon Nova sont désormais du legacy",
+      "signal_detail": "Amazon met de côté plusieurs modèles Nova, possiblement à la faveur du développement d'un modèle frontière qui serait présenté fin 2026.\nThe post Plusieurs modèles Amazon Nova sont désormais du legacy",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/data-ia-1372/amazon-nova-228662",
+      "date": "2026-08-04",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "legacy"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_UsOpY2FwIMOJdMOp",
       "company": "Informatique News",
