@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-04T19:47:13.788Z",
-  "total": 7,
+  "generated_at": "2026-08-05T08:46:42.201Z",
+  "total": 6,
   "signals": [
     {
       "id": "rss_UGx1c2lldXJzIG1v",
@@ -60,30 +60,11 @@
       ]
     },
     {
-      "id": "rss_TGVzIG11bHRpcGxl",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Les multiples visages de la souveraineté numérique… Kalliopi Spyridaki, SAS",
-      "signal_detail": "De la maîtrise des données aux nouvelles règles du cloud et de l’IA, la souveraineté numérique change de dimension. Un éclairage indispensable pour comprendre pourquoi ce sujet, longtemps technique, d",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/les-multiples-visages-de-la-souverainete-numerique-kalliopi-spyridaki-sas-112953",
-      "date": "2026-07-30",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "souveraineté numérique"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
       "id": "rss_Q29tbWVudCBHb29n",
       "company": "Silicon.fr",
       "signal_type": "publication",
       "signal_title": "Comment Google finance les infrastructures d’Anthropic",
-      "signal_detail": "Selon le Financial Times, Google a mis en place un dispositif de près de 200 milliards $ pour financer les infrastructures d'IA d'Anthropi.  Un montage inédit qui mobilise banques, fonds et industriel",
+      "signal_detail": "Selon le Financial Times, Google a mis en place un dispositif de près de 200 milliards $ pour financer les infrastructures d'IA d'Anthropi.  Un montage in��dit qui mobilise banques, fonds et industrie",
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/business-1367/comment-google-finance-les-infrastructures-anthropic-228657",
       "date": "2026-08-04",
