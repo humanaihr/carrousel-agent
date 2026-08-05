@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-05T12:03:49.852Z",
-  "total": 6,
+  "generated_at": "2026-08-05T16:03:41.780Z",
+  "total": 5,
   "signals": [
     {
       "id": "rss_UGx1c2lldXJzIG1v",
@@ -30,25 +30,6 @@
       "source": "Informatique News",
       "source_url": "https://www.informatiquenews.fr/recap-invites-de-la-semaine-souverainete-numerique-112967-112967",
       "date": "2026-07-31",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "souveraineté numérique"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_U291dmVyYWluZXTD",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Souveraineté numérique — épisode 2/6 : Microsoft, VMware, Oracle : la facture nu",
-      "signal_detail": "Avant de signer un grand marché cloud, Henri Verdier avait proposé un test très simple : démontrer que l’administration pourrait quitter le fournisseur. Le contrat fut signé sans ce test.\nL’article So",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/dependance-numerique-2-facture-microsoft-vmware-oracle-112848",
-      "date": "2026-07-30",
       "relevance_score": 35,
       "keywords_matched": [
         "souveraineté numérique"
