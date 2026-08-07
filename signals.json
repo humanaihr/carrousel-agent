@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-08-06T12:06:46.569Z",
-  "total": 5,
+  "generated_at": "2026-08-07T00:08:42.662Z",
+  "total": 4,
   "signals": [
+    {
+      "id": "rss_U291dmVyYWluZXTD",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Souveraineté numérique — épisode 3/6 : Crédits cloud, licences étudiantes : comm",
+      "signal_detail": "Lors des débats sur SecNumCloud, plusieurs start-up de la santé avaient présenté AWS comme une infrastructure indispensable. Philippe Latombe affirme avoir alors vérifié : elles bénéficiaient toutes d",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/dependance-numerique-3-gratuite-credits-cloud-licences-112849",
+      "date": "2026-08-06",
+      "relevance_score": 55,
+      "keywords_matched": [
+        "souveraineté numérique"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_UGx1c2lldXJzIG1v",
       "company": "Silicon.fr",
@@ -41,25 +60,6 @@
       ]
     },
     {
-      "id": "rss_UsOpY2FwIMOJdMOp",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Récap Été 2026 — Souveraineté numérique : reprendre la main sur les dépendances",
-      "signal_detail": "Durant tout l’été, InformatiqueNews vous propose de redécouvrir les principaux entretiens de « L’Invité de la semaine », l’émission hebdomadaire animée par Guy Hervier. Dirigeants d’entreprises techno",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/recap-invites-de-la-semaine-souverainete-numerique-112967-112967",
-      "date": "2026-07-31",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "souveraineté numérique"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
       "id": "rss_Q29tbWVudCBHb29n",
       "company": "Silicon.fr",
       "signal_type": "publication",
@@ -69,23 +69,6 @@
       "source_url": "https://www.silicon.fr/business-1367/comment-google-finance-les-infrastructures-anthropic-228657",
       "date": "2026-08-04",
       "relevance_score": 30,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_TmV2ZXJoYWNrIGzD",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Neverhack lève 11 millions € pour accélérer sur l’IA et la cyber souveraine",
-      "signal_detail": "Neverhack lève 11 millions € pour accélérer son développement en IA et cybersécurité souveraine, avec à la clé une évolution de sa gouvernance.\nThe post Neverhack lève 11 millions € pour accélérer sur",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/business-1367/neverhack-leve-11-millions-e-pour-accelerer-sur-lia-et-la-cyber-souveraine-228601",
-      "date": "2026-07-30",
-      "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
         "DSI",
