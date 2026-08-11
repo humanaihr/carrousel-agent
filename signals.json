@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T10:56:09.493Z",
+  "generated_at": "2026-08-11T13:20:20.184Z",
   "total": 4,
   "signals": [
     {
@@ -41,10 +41,10 @@
       ]
     },
     {
-      "id": "rss_UXVhbmQgbGVzIGFn",
+      "id": "rss_S2ltaSBLMyBkw6ly",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Quand les agents IA commencent à tester eux-mêmes les limites qu’on leur impose",
+      "signal_title": "Kimi K3 dérape déjà ! Quand les agents IA commencent à tester eux-mêmes les limi",
       "signal_detail": "Les agents IA commencent à faire exactement ce qu’on leur demande… parfois d’une manière que personne n’avait prévue et pas forcément très éthique. Après plusieurs incidents spectaculaires cet été, Ki",
       "source": "Informatique News",
       "source_url": "https://www.informatiquenews.fr/quand-les-agents-ia-commencent-a-tester-eux-memes-les-limites-quon-leur-impose-113083",
