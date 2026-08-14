@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-14T11:02:12.618Z",
-  "total": 6,
+  "generated_at": "2026-08-14T13:21:22.008Z",
+  "total": 7,
   "signals": [
     {
       "id": "rss_RE9SQSBlbiBGcmFu",
@@ -33,6 +33,25 @@
       "relevance_score": 35,
       "keywords_matched": [
         "legacy"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_UsOpY2FwIDIwMjYg",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Récap 2026 — DSI, cloud et logiciels : remettre de la cohérence dans le SI",
+      "signal_detail": "Durant tout l’été, InformatiqueNews vous propose de redécouvrir les principaux entretiens de « L’Invité de la semaine », notre émission hebdomadaire animée par Guy Hervier. Dirigeants d’entreprises te",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/recap-2026-dsi-cloud-et-logiciels-remettre-de-la-coherence-dans-le-si-113105",
+      "date": "2026-08-14",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
       ],
       "icp_match": [
         "DSI",
