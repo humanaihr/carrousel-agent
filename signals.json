@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-08-18T14:40:21.752Z",
-  "total": 2,
+  "generated_at": "2026-08-18T16:38:23.657Z",
+  "total": 6,
   "signals": [
+    {
+      "id": "rss_RE9SQSBlbiBGcmFu",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "DORA en France : après la conformité, place au défi opérationnel… Rabeb Hammami,",
+      "signal_detail": "La conformité DORA n’est plus une ligne d’arrivée : c’est le point de départ d’une épreuve grandeur nature pour la finance française. Entre pression cyber, dépendance aux fournisseurs et exigences de ",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/dora-en-france-apres-la-conformite-place-au-defi-operationnel-rabeb-hammami-manageengine-113071",
+      "date": "2026-08-14",
+      "relevance_score": 40,
+      "keywords_matched": [
+        "conformité DORA"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_UGx1c2lldXJzIG1v",
       "company": "Silicon.fr",
@@ -22,6 +41,44 @@
       ]
     },
     {
+      "id": "rss_UsOpY2FwIDIwMjYg",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Récap 2026 — DSI, cloud et logiciels : remettre de la cohérence dans le SI",
+      "signal_detail": "Durant tout l’été, InformatiqueNews vous propose de redécouvrir les principaux entretiens de « L’Invité de la semaine », notre émission hebdomadaire animée par Guy Hervier. Dirigeants d’entreprises te",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/recap-2026-dsi-cloud-et-logiciels-remettre-de-la-coherence-dans-le-si-113105",
+      "date": "2026-08-14",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_U291dmVyYWluZXTD",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Souveraineté numérique — épisode 4/6 : Pourquoi la Gendarmerie a échappé à Micro",
+      "signal_detail": "Le général Marc Boget ne présente pas Linux comme une croyance. Il expose une règle de commandement : ne jamais déléguer le pilotage des outils et ressources numériques à un tiers.\nL’article Souverain",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/dependance-numerique-4-gendarmerie-linux-microsoft-112850",
+      "date": "2026-08-13",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "souveraineté numérique"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
       "id": "rss_Q29tbWVudCBHb29n",
       "company": "Silicon.fr",
       "signal_type": "publication",
@@ -31,6 +88,23 @@
       "source_url": "https://www.silicon.fr/business-1367/comment-google-finance-les-infrastructures-anthropic-228657",
       "date": "2026-08-04",
       "relevance_score": 30,
+      "keywords_matched": [],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_TGEgc291dmVyYWlu",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "La souveraineté des données commence au moment où elles circulent… Niki Hubaut, ",
+      "signal_detail": "0La souveraineté des données ne se joue plus seulement dans les centres de données. Elle se décide à chaque instant, dans la façon dont l’information circule, alimente les décisions et résiste aux sil",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/la-souverainete-des-donnees-commence-au-moment-ou-elles-circulent-niki-hubaut-confluent-113065",
+      "date": "2026-08-12",
+      "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
         "DSI",
