@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-20T13:01:34.936Z",
-  "total": 6,
+  "generated_at": "2026-08-20T14:43:05.267Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_RE9SQSBlbiBGcmFu",
@@ -22,25 +22,6 @@
       ]
     },
     {
-      "id": "rss_UGx1c2lldXJzIG1v",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Plusieurs modèles Amazon Nova sont désormais du legacy",
-      "signal_detail": "Amazon met de côté plusieurs modèles Nova, possiblement à la faveur du développement d'un modèle frontière qui serait présenté fin 2026.\nThe post Plusieurs modèles Amazon Nova sont désormais du legacy",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/data-ia-1372/amazon-nova-228662",
-      "date": "2026-08-04",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "legacy"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
       "id": "rss_UsOpY2FwIDIwMjYg",
       "company": "Informatique News",
       "signal_type": "publication",
@@ -53,42 +34,6 @@
       "keywords_matched": [
         "DSI"
       ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_U291dmVyYWluZXTD",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Souveraineté numérique — épisode 4/6 : Pourquoi la Gendarmerie a échappé à Micro",
-      "signal_detail": "Le général Marc Boget ne présente pas Linux comme une croyance. Il expose une règle de commandement : ne jamais déléguer le pilotage des outils et ressources numériques à un tiers.\nL’article Souverain",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/dependance-numerique-4-gendarmerie-linux-microsoft-112850",
-      "date": "2026-08-13",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "souveraineté numérique"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_Q29tbWVudCBHb29n",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Comment Google finance les infrastructures d’Anthropic",
-      "signal_detail": "Selon le Financial Times, Google a mis en place un dispositif de près de 200 milliards $ pour financer les infrastructures d'IA d'Anthropi.  Un montage inédit qui mobilise banques, fonds et industriel",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/business-1367/comment-google-finance-les-infrastructures-anthropic-228657",
-      "date": "2026-08-04",
-      "relevance_score": 30,
-      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
