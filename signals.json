@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T18:44:17.072Z",
-  "total": 5,
+  "generated_at": "2026-08-20T06:56:21.195Z",
+  "total": 4,
   "signals": [
     {
       "id": "rss_RE9SQSBlbiBGcmFu",
@@ -14,25 +14,6 @@
       "relevance_score": 40,
       "keywords_matched": [
         "conformité DORA"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_UGx1c2lldXJzIG1v",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Plusieurs modèles Amazon Nova sont désormais du legacy",
-      "signal_detail": "Amazon met de côté plusieurs modèles Nova, possiblement à la faveur du développement d'un modèle frontière qui serait présenté fin 2026.\nThe post Plusieurs modèles Amazon Nova sont désormais du legacy",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/data-ia-1372/amazon-nova-228662",
-      "date": "2026-08-04",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "legacy"
       ],
       "icp_match": [
         "DSI",
@@ -79,15 +60,15 @@
       ]
     },
     {
-      "id": "rss_Q29tbWVudCBHb29n",
-      "company": "Silicon.fr",
+      "id": "rss_TOKAmUV1cm9wZSBh",
+      "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Comment Google finance les infrastructures d’Anthropic",
-      "signal_detail": "Selon le Financial Times, Google a mis en place un dispositif de près de 200 milliards $ pour financer les infrastructures d'IA d'Anthropi.  Un montage inédit qui mobilise banques, fonds et industriel",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/business-1367/comment-google-finance-les-infrastructures-anthropic-228657",
-      "date": "2026-08-04",
-      "relevance_score": 30,
+      "signal_title": "L’Europe au pied du mur numérique : Entre urgence sécuritaire et quête de souver",
+      "signal_detail": "Face aux tensions géopolitiques, aux cybermenaces et à la dépendance technologique, l’Europe joue désormais sa capacité à garder le contrôle. Une plongée au cœur des choix d’architecture qui peuvent t",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/leurope-au-pied-du-mur-numerique-entre-urgence-securitaire-et-quete-de-souverainete-xavier-gregoire-fastly-113122",
+      "date": "2026-08-20",
+      "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
         "DSI",
