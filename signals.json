@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-20T06:56:21.195Z",
-  "total": 4,
+  "generated_at": "2026-08-20T13:01:34.936Z",
+  "total": 6,
   "signals": [
     {
       "id": "rss_RE9SQSBlbiBGcmFu",
@@ -14,6 +14,25 @@
       "relevance_score": 40,
       "keywords_matched": [
         "conformité DORA"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_UGx1c2lldXJzIG1v",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "Plusieurs modèles Amazon Nova sont désormais du legacy",
+      "signal_detail": "Amazon met de côté plusieurs modèles Nova, possiblement à la faveur du développement d'un modèle frontière qui serait présenté fin 2026.\nThe post Plusieurs modèles Amazon Nova sont désormais du legacy",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/data-ia-1372/amazon-nova-228662",
+      "date": "2026-08-04",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "legacy"
       ],
       "icp_match": [
         "DSI",
@@ -53,6 +72,23 @@
       "keywords_matched": [
         "souveraineté numérique"
       ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_Q29tbWVudCBHb29n",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "Comment Google finance les infrastructures d’Anthropic",
+      "signal_detail": "Selon le Financial Times, Google a mis en place un dispositif de près de 200 milliards $ pour financer les infrastructures d'IA d'Anthropi.  Un montage inédit qui mobilise banques, fonds et industriel",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/business-1367/comment-google-finance-les-infrastructures-anthropic-228657",
+      "date": "2026-08-04",
+      "relevance_score": 30,
+      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
