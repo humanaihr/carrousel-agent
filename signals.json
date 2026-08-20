@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-20T14:43:05.267Z",
+  "generated_at": "2026-08-20T16:41:30.688Z",
   "total": 3,
   "signals": [
     {
-      "id": "rss_RE9SQSBlbiBGcmFu",
+      "id": "rss_U291dmVyYWluZXTD",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "DORA en France : après la conformité, place au défi opérationnel… Rabeb Hammami,",
-      "signal_detail": "La conformité DORA n’est plus une ligne d’arrivée : c’est le point de départ d’une épreuve grandeur nature pour la finance française. Entre pression cyber, dépendance aux fournisseurs et exigences de ",
+      "signal_title": "Souveraineté numérique — épisode 5/6 : VMware, Pronote, Pi et Nubo : pourquoi l’",
+      "signal_detail": "Un CHU aurait reçu une proposition VMware augmentée de 800 % à besoins constants. L’Éducation nationale a abandonné son propre outil de communication. L’État sait financer les prototypes, pas les pass",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/dora-en-france-apres-la-conformite-place-au-defi-operationnel-rabeb-hammami-manageengine-113071",
-      "date": "2026-08-14",
-      "relevance_score": 40,
+      "source_url": "https://www.informatiquenews.fr/dependance-numerique-5-vmware-pronote-pi-nubo-alternatives-112851",
+      "date": "2026-08-20",
+      "relevance_score": 45,
       "keywords_matched": [
-        "conformité DORA"
+        "souveraineté numérique"
       ],
       "icp_match": [
         "DSI",
