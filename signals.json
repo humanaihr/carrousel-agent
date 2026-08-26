@@ -1,26 +1,7 @@
 {
-  "generated_at": "2026-08-25T18:48:37.879Z",
-  "total": 2,
+  "generated_at": "2026-08-26T06:59:22.497Z",
+  "total": 1,
   "signals": [
-    {
-      "id": "rss_U291dmVyYWluZXTD",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Souveraineté numérique — épisode 5/6 : VMware, Pronote, Pi et Nubo : pourquoi l’",
-      "signal_detail": "Un CHU aurait reçu une proposition VMware augmentée de 800 % à besoins constants. L’Éducation nationale a abandonné son propre outil de communication. L’État sait financer les prototypes, pas les pass",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/dependance-numerique-5-vmware-pronote-pi-nubo-alternatives-112851",
-      "date": "2026-08-20",
-      "relevance_score": 45,
-      "keywords_matched": [
-        "souveraineté numérique"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
     {
       "id": "rss_TWlzdHJhbCBldCBI",
       "company": "Silicon.fr",
