@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-08-26T08:37:25.953Z",
-  "total": 1,
+  "generated_at": "2026-08-26T10:40:50.078Z",
+  "total": 2,
   "signals": [
+    {
+      "id": "rss_U2hhZG93IEFJIGV0",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Shadow AI et agents IA : Avanoo veut sortir la DSI du brouillard avec sa v3",
+      "signal_detail": "La Shadow AI ne se limite déjà plus aux collaborateurs qui utilisent ChatGPT avec leur compte personnel. Avec les agents IA et les serveurs MCP, des logiciels autonomes commencent à accéder directemen",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/shadow-ai-et-agents-ia-avanoo-veut-sortir-la-dsi-du-brouillard-avec-sa-v3-113186",
+      "date": "2026-08-26",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_TWlzdHJhbCBldCBI",
       "company": "Silicon.fr",
