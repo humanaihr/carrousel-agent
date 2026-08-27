@@ -1,7 +1,45 @@
 {
-  "generated_at": "2026-08-26T16:52:19.362Z",
-  "total": 2,
+  "generated_at": "2026-08-27T17:33:03.097Z",
+  "total": 4,
   "signals": [
+    {
+      "id": "rss_U291dmVyYWluZXTD",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Souveraineté numérique — épisode 6/6 : La DINUM peut désormais dire non. Encore ",
+      "signal_detail": "« La DINUM propose et chaque ministère dispose » : la formule résumait l’ancien déséquilibre. Depuis mars 2026, son directeur peut rendre un avis conforme — et donc bloquer un projet numérique.\nL’arti",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/dependance-numerique-6-dinum-pouvoir-dire-non-112852",
+      "date": "2026-08-27",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "souveraineté numérique"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_UGlsb3RlciBzZXJl",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Piloter sereinement les infrastructures quand le marché IT devient imprévisible ",
+      "signal_detail": "Budgets en baisse, prix des serveurs multipliés par trois, délais de livraison franchissant la barre des dix mois : le pilotage des infrastructures IT est entré dans une zone de fortes turbulences. Po",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/piloter-sereinement-les-infrastructures-quand-le-marche-it-devient-imprevisible-francois-machacek-easyvirt-113225",
+      "date": "2026-08-27",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_U2hhZG93IEFJIGV0",
       "company": "Informatique News",
