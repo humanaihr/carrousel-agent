@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-08-31T13:23:56.103Z",
-  "total": 3,
+  "generated_at": "2026-08-31T15:47:20.745Z",
+  "total": 4,
   "signals": [
+    {
+      "id": "rss_SW5mb05ld3MgSGVi",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "InfoNews Hebdo – Spécial Été 2026 : Windows, IA, souveraineté, cyber et milliard",
+      "signal_detail": "Windows 10 refuse toujours de mourir, l’IA agentique menace de dynamiter le SaaS, la souveraineté numérique passe enfin des discours aux migrations concrètes, tandis que les incidents cyber s’enchaîne",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/infonews-hebdo-special-ete-2026-windows-ia-souverainete-cyber-et-milliards-113266",
+      "date": "2026-08-31",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "souveraineté numérique"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_U291dmVyYWluZXTD",
       "company": "Informatique News",
