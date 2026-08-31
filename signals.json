@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T23:30:22.299Z",
+  "generated_at": "2026-08-31T13:23:56.103Z",
   "total": 3,
   "signals": [
     {
@@ -22,18 +22,16 @@
       ]
     },
     {
-      "id": "rss_UGlsb3RlciBzZXJl",
-      "company": "Informatique News",
+      "id": "rss_SmFtZXNwb3QgcmFj",
+      "company": "Silicon.fr",
       "signal_type": "publication",
-      "signal_title": "Piloter sereinement les infrastructures quand le marché IT devient imprévisible ",
-      "signal_detail": "Budgets en baisse, prix des serveurs multipliés par trois, délais de livraison franchissant la barre des dix mois : le pilotage des infrastructures IT est entré dans une zone de fortes turbulences. Po",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/piloter-sereinement-les-infrastructures-quand-le-marche-it-devient-imprevisible-francois-machacek-easyvirt-113225",
-      "date": "2026-08-27",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
+      "signal_title": "Jamespot rachète Alinto et ajoute la messagerie à son offre collaborative",
+      "signal_detail": "Jamespot rachète Alinto, opérateur de messagerie professionnelle, pour compléter son offre collaborative souveraine avec le mail.\nThe post Jamespot rachète Alinto et ajoute la messagerie à son offre c",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/business-1367/jamespot-rachete-alinto-et-ajoute-la-messagerie-a-son-offre-collaborative-228866",
+      "date": "2026-08-31",
+      "relevance_score": 20,
+      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
