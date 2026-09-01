@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-09-01T13:00:44.703Z",
-  "total": 3,
+  "generated_at": "2026-09-01T16:27:18.335Z",
+  "total": 4,
   "signals": [
+    {
+      "id": "rss_U291dmVyYWluZXTD",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "Souveraineté numérique : le diagnostic fait consensus, pas le remède",
+      "signal_detail": "Selon une étude du cabinet Lecko, menée en partenariat avec Ipsos auprès de 500 salariés, les entreprises et administrations françaises restent massivement dépendantes de Microsoft, sans pour autant y",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/workspace-1376/souverainete-numerique-le-diagnostic-fait-consensus-pas-le-remede-228911",
+      "date": "2026-09-01",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "souveraineté numérique"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_SW5mb05ld3MgSGVi",
       "company": "Informatique News",
