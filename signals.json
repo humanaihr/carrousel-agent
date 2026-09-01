@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-31T21:24:30.211Z",
-  "total": 4,
+  "generated_at": "2026-09-01T11:29:57.212Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_SW5mb05ld3MgSGVi",
@@ -11,25 +11,6 @@
       "source": "Informatique News",
       "source_url": "https://www.informatiquenews.fr/infonews-hebdo-special-ete-2026-windows-ia-souverainete-cyber-et-milliards-113266",
       "date": "2026-08-31",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "souveraineté numérique"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_U291dmVyYWluZXTD",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Souveraineté numérique — épisode 6/6 : La DINUM peut désormais dire non. Encore ",
-      "signal_detail": "« La DINUM propose et chaque ministère dispose » : la formule résumait l’ancien déséquilibre. Depuis mars 2026, son directeur peut rendre un avis conforme — et donc bloquer un projet numérique.\nL’arti",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/dependance-numerique-6-dinum-pouvoir-dire-non-112852",
-      "date": "2026-08-27",
       "relevance_score": 35,
       "keywords_matched": [
         "souveraineté numérique"
