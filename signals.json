@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T20:55:12.437Z",
-  "total": 4,
+  "generated_at": "2026-09-02T11:04:46.232Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_U291dmVyYWluZXTD",
@@ -49,23 +49,6 @@
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/business-1367/jamespot-rachete-alinto-et-ajoute-la-messagerie-a-son-offre-collaborative-228866",
       "date": "2026-08-31",
-      "relevance_score": 20,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_TWlzdHJhbCBldCBI",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Mistral et HUMAIN misent sur des modèles IA arabophones",
-      "signal_detail": "Mistral AI et HUMAIN, la société d’IA soutenue par le fonds souverain saoudien, vont collaborer sur l’infrastructure, les modèles avancés et leur déploiement régional. \nThe post Mistral et HUMAIN mise",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/business-1367/mistral-et-humain-misent-sur-des-modeles-ia-arabophones-228811",
-      "date": "2026-08-25",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
