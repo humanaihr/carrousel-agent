@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-09-02T12:29:25.859Z",
-  "total": 3,
+  "generated_at": "2026-09-02T16:25:23.324Z",
+  "total": 4,
   "signals": [
+    {
+      "id": "rss_Q2xvdWQgZnJhbsOn",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Cloud français et données de santé : la souveraineté numérique ne peut plus être",
+      "signal_detail": "Les données de santé sont devenues un actif stratégique, au croisement de la souveraineté, de la cybersécurité et de l’innovation. Derrière chaque choix d’hébergement se joue désormais une part de not",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/cloud-francais-et-donnees-de-sante-la-souverainete-numerique-ne-peut-plus-etre-une-option-yoann-jousse-tenexa-113313",
+      "date": "2026-09-02",
+      "relevance_score": 45,
+      "keywords_matched": [
+        "souveraineté numérique"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_U291dmVyYWluZXTD",
       "company": "Silicon.fr",
@@ -22,17 +41,17 @@
       ]
     },
     {
-      "id": "rss_SW5mb05ld3MgSGVi",
+      "id": "rss_U2Fhc3dlZG8gZXQg",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "InfoNews Hebdo – Spécial Été 2026 : Windows, IA, souveraineté, cyber et milliard",
-      "signal_detail": "Windows 10 refuse toujours de mourir, l’IA agentique menace de dynamiter le SaaS, la souveraineté numérique passe enfin des discours aux migrations concrètes, tandis que les incidents cyber s’enchaîne",
+      "signal_title": "Saaswedo et Software Contract Solutions s’allient pour optimiser de bout en bout",
+      "signal_detail": "Télécoms, terminaux, licences et abonnements se sont accumulés au point de transformer les dépenses IT en millefeuille difficile à piloter. En rapprochant gestion télécom et optimisation SaaS, Saaswed",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/infonews-hebdo-special-ete-2026-windows-ia-souverainete-cyber-et-milliards-113266",
-      "date": "2026-08-31",
+      "source_url": "https://www.informatiquenews.fr/saaswedo-et-software-contract-solutions-sallient-pour-optimiser-de-bout-en-bout-des-depenses-it-des-entreprises-113309",
+      "date": "2026-09-02",
       "relevance_score": 35,
       "keywords_matched": [
-        "souveraineté numérique"
+        "DSI"
       ],
       "icp_match": [
         "DSI",
