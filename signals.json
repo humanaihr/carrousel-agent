@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T20:54:33.939Z",
+  "generated_at": "2026-09-03T11:02:16.644Z",
   "total": 4,
   "signals": [
     {
@@ -41,25 +41,6 @@
       ]
     },
     {
-      "id": "rss_U2Fhc3dlZG8gZXQg",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Saaswedo et Software Contract Solutions s’allient pour optimiser de bout en bout",
-      "signal_detail": "Télécoms, terminaux, licences et abonnements se sont accumulés au point de transformer les dépenses IT en millefeuille difficile à piloter. En rapprochant gestion télécom et optimisation SaaS, Saaswed",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/saaswedo-et-software-contract-solutions-sallient-pour-optimiser-de-bout-en-bout-des-depenses-it-des-entreprises-113309",
-      "date": "2026-09-02",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
       "id": "rss_SmFtZXNwb3QgcmFj",
       "company": "Silicon.fr",
       "signal_type": "publication",
@@ -68,6 +49,23 @@
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/business-1367/jamespot-rachete-alinto-et-ajoute-la-messagerie-a-son-offre-collaborative-228866",
       "date": "2026-08-31",
+      "relevance_score": 20,
+      "keywords_matched": [],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_RW50cmVwcmlzZSA6",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Entreprise : comment choisir son IA experte et souveraine ?",
+      "signal_detail": "Les gains de productivité sont acquis ; ils ne départagent plus les offres. Le choix d’une intelligence artificielle engage désormais trois sujets de gouvernance : la preuve, la souveraineté et la pro",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/entreprise-comment-choisir-son-ia-experte-et-souveraine-113356",
+      "date": "2026-09-03",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
