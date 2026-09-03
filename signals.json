@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-03T12:32:05.883Z",
+  "generated_at": "2026-09-03T16:15:37.567Z",
   "total": 4,
   "signals": [
     {
-      "id": "rss_Q2xvdWQgZnJhbsOn",
-      "company": "Informatique News",
+      "id": "rss_Qm91eWd1ZXMgVGVs",
+      "company": "Silicon.fr",
       "signal_type": "publication",
-      "signal_title": "Cloud français et données de santé : la souveraineté numérique ne peut plus être",
-      "signal_detail": "Les données de santé sont devenues un actif stratégique, au croisement de la souveraineté, de la cybersécurité et de l’innovation. Derrière chaque choix d’hébergement se joue désormais une part de not",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/cloud-francais-et-donnees-de-sante-la-souverainete-numerique-ne-peut-plus-etre-une-option-yoann-jousse-tenexa-113313",
-      "date": "2026-09-02",
-      "relevance_score": 45,
+      "signal_title": "Bouygues Telecom promeut sa DSI au Comité de Direction",
+      "signal_detail": "Georgina Lopez, Directrice des Systèmes d’Information de Bouygues Telecom depuis décembre 2025, rejoint le Comité de Direction Générale de l’opérateur.\nThe post Bouygues Telecom promeut sa DSI au Comi",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/emploi-formation-1373/bouygues-telecom-promeut-sa-dsi-au-comite-de-direction-228949",
+      "date": "2026-09-03",
+      "relevance_score": 35,
       "keywords_matched": [
-        "souveraineté numérique"
+        "DSI"
       ],
       "icp_match": [
         "DSI",
