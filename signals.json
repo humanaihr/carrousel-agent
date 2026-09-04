@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T16:11:13.105Z",
-  "total": 6,
+  "generated_at": "2026-09-04T17:32:13.849Z",
+  "total": 5,
   "signals": [
     {
       "id": "rss_wqsgw4p0cmUgZMOp",
@@ -68,23 +68,6 @@
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/cloud-1370/secnumcloud-3-2-paris-impose-le-cloud-souverain-par-la-voie-reglementaire-228968",
       "date": "2026-09-04",
-      "relevance_score": 20,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_SmFtZXNwb3QgcmFj",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Jamespot rachète Alinto et ajoute la messagerie à son offre collaborative",
-      "signal_detail": "Jamespot rachète Alinto, opérateur de messagerie professionnelle, pour compléter son offre collaborative souveraine avec le mail.\nThe post Jamespot rachète Alinto et ajoute la messagerie à son offre c",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/business-1367/jamespot-rachete-alinto-et-ajoute-la-messagerie-a-son-offre-collaborative-228866",
-      "date": "2026-08-31",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
