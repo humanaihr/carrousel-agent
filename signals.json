@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-09-04T12:27:26.348Z",
-  "total": 4,
+  "generated_at": "2026-09-04T16:11:13.105Z",
+  "total": 6,
   "signals": [
+    {
+      "id": "rss_wqsgw4p0cmUgZMOp",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "« Être dépendant de Microsoft, ce n’est pas le même risque que d’être dépendant ",
+      "signal_detail": "Indépendance numérique. Le mot est sur toutes les lèvres depuis que les DSI ont compris qu&#8217;un « kill switch » n&#8217;était plus une hypothèse d&#8217;école. Mais entre les discours et les bons ",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/etre-dependant-de-microsoft-ce-nest-pas-le-meme-risque-que-detre-dependant-de-scaleway-damien-lucas-scaleway-113378",
+      "date": "2026-09-04",
+      "relevance_score": 45,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_Qm91eWd1ZXMgVGVs",
       "company": "Silicon.fr",
@@ -34,6 +53,23 @@
       "keywords_matched": [
         "souveraineté numérique"
       ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_U2VjTnVtQ2xvdWQg",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "SecNumCloud 3.2 : Paris impose le cloud souverain par la voie réglementaire",
+      "signal_detail": "Publié en plein été, un arrêté transforme le référentiel cloud de l'ANSSI en obligation légale pour une large part de l'État ; mais laisse hôpitaux et collectivités hors champ.\nThe post SecNumCloud 3.",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/cloud-1370/secnumcloud-3-2-paris-impose-le-cloud-souverain-par-la-voie-reglementaire-228968",
+      "date": "2026-09-04",
+      "relevance_score": 20,
+      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
