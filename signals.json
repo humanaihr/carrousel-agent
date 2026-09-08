@@ -1,26 +1,7 @@
 {
-  "generated_at": "2026-09-08T12:34:56.384Z",
-  "total": 5,
+  "generated_at": "2026-09-08T16:28:31.919Z",
+  "total": 4,
   "signals": [
-    {
-      "id": "rss_wqsgw4p0cmUgZMOp",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "« Être dépendant de Microsoft, ce n’est pas le même risque que d’être dépendant ",
-      "signal_detail": "Indépendance numérique. Le mot est sur toutes les lèvres depuis que les DSI ont compris qu&#8217;un « kill switch » n&#8217;était plus une hypothèse d&#8217;école. Mais entre les discours et les bons ",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/etre-dependant-de-microsoft-ce-nest-pas-le-meme-risque-que-detre-dependant-de-scaleway-damien-lucas-scaleway-113378",
-      "date": "2026-09-04",
-      "relevance_score": 45,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
     {
       "id": "rss_Qm91eWd1ZXMgVGVs",
       "company": "Silicon.fr",
