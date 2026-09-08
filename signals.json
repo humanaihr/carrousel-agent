@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-07T19:48:08.223Z",
-  "total": 4,
+  "generated_at": "2026-09-08T11:02:38.784Z",
+  "total": 5,
   "signals": [
     {
       "id": "rss_wqsgw4p0cmUgZMOp",
@@ -41,18 +41,35 @@
       ]
     },
     {
-      "id": "rss_U291dmVyYWluZXTD",
-      "company": "Silicon.fr",
+      "id": "rss_QXZlYyBPcm9Nb21l",
+      "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Souveraineté numérique : le diagnostic fait consensus, pas le remède",
-      "signal_detail": "Selon une étude du cabinet Lecko, menée en partenariat avec Ipsos auprès de 500 salariés, les entreprises et administrations françaises restent massivement dépendantes de Microsoft, sans pour autant y",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/workspace-1376/souverainete-numerique-le-diagnostic-fait-consensus-pas-le-remede-228911",
-      "date": "2026-09-01",
+      "signal_title": "Avec OroMomentum, OroCommerce envoie les agents IA faire le sale boulot des mise",
+      "signal_detail": "Avec OroMomentum, OroCommerce veut faire de l’IA un accélérateur de maintenance autant que de développement. Objectif : réduire le poids des personnalisations, raccourcir les montées de version et att",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/avec-oromomentum-orocommerce-envoie-les-agents-ia-faire-le-sale-boulot-des-mises-a-niveau-113391",
+      "date": "2026-09-08",
       "relevance_score": 35,
       "keywords_matched": [
-        "souveraineté numérique"
+        "DSI"
       ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_TWlzdHJhbCBBSSBs",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "Mistral AI lève 3 milliards € pour armer sa stratégie de souveraineté",
+      "signal_detail": "Avec une levée record de 3 milliards €, Mistral AI se donne les moyens d'accélérer sur le calcul et de poursuivre sa chasse aux clients industriels en quête d'une IA souveraine pour leurs données\nThe ",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/business-1367/mistral-ai-leve-3-milliards-e-pour-armer-sa-strategie-de-souverainete-229007",
+      "date": "2026-09-08",
+      "relevance_score": 30,
+      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
