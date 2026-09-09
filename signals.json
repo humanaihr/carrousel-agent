@@ -1,26 +1,7 @@
 {
-  "generated_at": "2026-09-09T12:40:59.171Z",
-  "total": 3,
+  "generated_at": "2026-09-09T16:25:14.126Z",
+  "total": 2,
   "signals": [
-    {
-      "id": "rss_Qm91eWd1ZXMgVGVs",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Bouygues Telecom promeut sa DSI au Comité de Direction",
-      "signal_detail": "Georgina Lopez, Directrice des Systèmes d’Information de Bouygues Telecom depuis décembre 2025, rejoint le Comité de Direction Générale de l’opérateur.\nThe post Bouygues Telecom promeut sa DSI au Comi",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/emploi-formation-1373/bouygues-telecom-promeut-sa-dsi-au-comite-de-direction-228949",
-      "date": "2026-09-03",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
     {
       "id": "rss_TWlzdHJhbCBBSSBs",
       "company": "Silicon.fr",
