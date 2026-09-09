@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08T21:00:51.430Z",
-  "total": 4,
+  "generated_at": "2026-09-09T11:08:02.362Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_Qm91eWd1ZXMgVGVs",
@@ -11,25 +11,6 @@
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/emploi-formation-1373/bouygues-telecom-promeut-sa-dsi-au-comite-de-direction-228949",
       "date": "2026-09-03",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_QXZlYyBPcm9Nb21l",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Avec OroMomentum, OroCommerce envoie les agents IA faire le sale boulot des mise",
-      "signal_detail": "Avec OroMomentum, OroCommerce veut faire de l’IA un accélérateur de maintenance autant que de développement. Objectif : réduire le poids des personnalisations, raccourcir les montées de version et att",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/avec-oromomentum-orocommerce-envoie-les-agents-ia-faire-le-sale-boulot-des-mises-a-niveau-113391",
-      "date": "2026-09-08",
       "relevance_score": 35,
       "keywords_matched": [
         "DSI"
