@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T12:39:34.462Z",
+  "generated_at": "2026-09-10T16:14:25.450Z",
   "total": 2,
   "signals": [
     {
@@ -20,14 +20,14 @@
       ]
     },
     {
-      "id": "rss_U2VjTnVtQ2xvdWQg",
+      "id": "rss_TWlzdHJhbCBldCBD",
       "company": "Silicon.fr",
       "signal_type": "publication",
-      "signal_title": "SecNumCloud 3.2 : Paris impose le cloud souverain par la voie réglementaire",
-      "signal_detail": "Publié en plein été, un arrêté transforme le référentiel cloud de l'ANSSI en obligation légale pour une large part de l'État ; mais laisse hôpitaux et collectivités hors champ.\nThe post SecNumCloud 3.",
+      "signal_title": "Mistral et Cloudera scellent un partenariat pour une IA « souveraine »",
+      "signal_detail": "Mistral AI et Cloudera s’associent pour déployer des modèles de langage dans les environnements de données souverains des grandes entreprises, \nThe post Mistral et Cloudera scellent un partenariat pou",
       "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/cloud-1370/secnumcloud-3-2-paris-impose-le-cloud-souverain-par-la-voie-reglementaire-228968",
-      "date": "2026-09-04",
+      "source_url": "https://www.silicon.fr/data-ia-1372/mistral-et-cloudera-scellent-un-partenariat-pour-une-ia-souveraine-229071",
+      "date": "2026-09-10",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
