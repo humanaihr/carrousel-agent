@@ -1,26 +1,7 @@
 {
-  "generated_at": "2026-09-11T16:18:33.528Z",
-  "total": 5,
+  "generated_at": "2026-09-11T17:41:52.719Z",
+  "total": 4,
   "signals": [
-    {
-      "id": "rss_TOKAmUlBIGFnZW50",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "L’IA agentique impose de repenser toute la pile de calcul",
-      "signal_detail": "Pour les DSI, le patrimoine applicatif doit donc être considéré comme une composante de l’architecture de l’IA, et non comme un système périphérique destiné à disparaître.\nThe post L’IA agentique impo",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/data-ia-1372/ia-agentique-impose-de-repenser-toute-la-pile-de-calcul-229079",
-      "date": "2026-09-11",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
     {
       "id": "rss_TOKAmUlUU00gbuKA",
       "company": "Informatique News",
