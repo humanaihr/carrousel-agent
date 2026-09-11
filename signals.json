@@ -1,7 +1,45 @@
 {
-  "generated_at": "2026-09-10T20:44:22.665Z",
-  "total": 2,
+  "generated_at": "2026-09-11T11:02:42.279Z",
+  "total": 5,
   "signals": [
+    {
+      "id": "rss_TOKAmUlBIGFnZW50",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "L’IA agentique impose de repenser toute la pile de calcul",
+      "signal_detail": "Pour les DSI, le patrimoine applicatif doit donc être considéré comme une composante de l’architecture de l’IA, et non comme un système périphérique destiné à disparaître.\nThe post L’IA agentique impo",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/data-ia-1372/ia-agentique-impose-de-repenser-toute-la-pile-de-calcul-229079",
+      "date": "2026-09-11",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_TOKAmUlUU00gbuKA",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "L’ITSM n’a pas besoin d’une nouvelle expérience. Il doit devenir un système d’ac",
+      "signal_detail": "L’ITSM est à un tournant décisif : après avoir enregistré les incidents et mesuré l’expérience, il doit désormais agir. Découvrez pourquoi l’autonomie opérationnelle, encadrée par une gouvernance soli",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/litsm-na-pas-besoin-dune-nouvelle-experience-il-doit-devenir-un-systeme-daction-gouverne-loic-besnard-easyvista-113486",
+      "date": "2026-09-11",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_TWlzdHJhbCBBSSBs",
       "company": "Silicon.fr",
@@ -20,11 +58,28 @@
       ]
     },
     {
+      "id": "rss_RVUgU2NvcmUgZXQg",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "EU Score et EU Tech 300 : que sont ces initiatives origine France ?",
+      "signal_detail": "Cité dans le rapport du CIANum sur la souveraineté, l'EU Score a trouvé une continuité dans l'EU Tech 300. Que sont ces dispositifs et qui en est à l'origine ?\nThe post EU Score et EU Tech 300 : que s",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/business-1367/eu-score-eu-tech-300-229086",
+      "date": "2026-09-11",
+      "relevance_score": 20,
+      "keywords_matched": [],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
       "id": "rss_TWlzdHJhbCBldCBD",
       "company": "Silicon.fr",
       "signal_type": "publication",
       "signal_title": "Mistral et Cloudera scellent un partenariat pour une IA « souveraine »",
-      "signal_detail": "Mistral AI et Cloudera s’associent pour déployer des modèles de langage dans les environnements de donn��es souverains des grandes entreprises, \nThe post Mistral et Cloudera scellent un partenariat po",
+      "signal_detail": "Mistral AI et Cloudera s’associent pour déployer des modèles de langage dans les environnements de données souverains des grandes entreprises, \nThe post Mistral et Cloudera scellent un partenariat pou",
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/data-ia-1372/mistral-et-cloudera-scellent-un-partenariat-pour-une-ia-souveraine-229071",
       "date": "2026-09-10",
