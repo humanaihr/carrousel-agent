@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-11T20:50:12.468Z",
-  "total": 4,
+  "generated_at": "2026-09-14T12:28:37.670Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_TOKAmUlUU00gbuKA",
@@ -15,23 +15,6 @@
       "keywords_matched": [
         "DSI"
       ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_TWlzdHJhbCBBSSBs",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Mistral AI lève 3 milliards € pour armer sa stratégie de souveraineté",
-      "signal_detail": "Avec une levée record de 3 milliards €, Mistral AI se donne les moyens d'accélérer sur le calcul et de poursuivre sa chasse aux clients industriels en quête d'une IA souveraine pour leurs données\nThe ",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/business-1367/mistral-ai-leve-3-milliards-e-pour-armer-sa-strategie-de-souverainete-229007",
-      "date": "2026-09-08",
-      "relevance_score": 30,
-      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
