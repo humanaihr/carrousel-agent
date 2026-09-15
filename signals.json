@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-15T11:32:19.847Z",
-  "total": 4,
+  "generated_at": "2026-09-15T13:05:25.516Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_VGhvbWFzIEp1bGll",
@@ -11,25 +11,6 @@
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/emploi-formation-1373/thomas-julien-nouveau-dsi-de-france-galop-229134",
       "date": "2026-09-14",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_TOKAmUlUU00gbuKA",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "L’ITSM n’a pas besoin d’une nouvelle expérience. Il doit devenir un système d’ac",
-      "signal_detail": "L’ITSM est à un tournant décisif : après avoir enregistré les incidents et mesuré l’expérience, il doit désormais agir. Découvrez pourquoi l’autonomie opérationnelle, encadrée par une gouvernance soli",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/litsm-na-pas-besoin-dune-nouvelle-experience-il-doit-devenir-un-systeme-daction-gouverne-loic-besnard-easyvista-113486",
-      "date": "2026-09-11",
       "relevance_score": 35,
       "keywords_matched": [
         "DSI"
