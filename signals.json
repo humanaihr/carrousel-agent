@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-17T11:26:58.945Z",
-  "total": 4,
+  "generated_at": "2026-09-17T12:59:57.501Z",
+  "total": 5,
   "signals": [
     {
       "id": "rss_VGhvbWFzIEp1bGll",
@@ -47,6 +47,23 @@
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/data-ia-1372/mistral-et-cloudera-scellent-un-partenariat-pour-une-ia-souveraine-229071",
       "date": "2026-09-10",
+      "relevance_score": 20,
+      "keywords_matched": [],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_U291dmVyYWluZXTD",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Souveraineté, sécurité et performance : les piliers d’un hébergement moderne Peg",
+      "signal_detail": "Souveraineté, sécurité, performance : derrière le choix d’un hébergeur se joue désormais une partie essentielle de la résilience et de la compétitivité du SI. Et l’arrivée de l’IA ne fait que relever ",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/souverainete-securite-et-performance-les-piliers-dun-hebergement-moderne-peggy-demaison-alphalink-113576",
+      "date": "2026-09-17",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
