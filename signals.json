@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-18T12:39:16.142Z",
-  "total": 5,
+  "generated_at": "2026-09-18T16:14:31.972Z",
+  "total": 6,
   "signals": [
     {
       "id": "rss_VGhvbWFzIEp1bGll",
@@ -22,14 +22,33 @@
       ]
     },
     {
-      "id": "rss_RVUgU2NvcmUgZXQg",
-      "company": "Silicon.fr",
+      "id": "rss_wqsgSW50ZXJuZXQg",
+      "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "EU Score et EU Tech 300 : que sont ces initiatives origine France ?",
-      "signal_detail": "Cité dans le rapport du CIANum sur la souveraineté, l'EU Score a trouvé une continuité dans l'EU Tech 300. Que sont ces dispositifs et qui en est à l'origine ?\nThe post EU Score et EU Tech 300 : que s",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/business-1367/eu-score-eu-tech-300-229086",
-      "date": "2026-09-11",
+      "signal_title": "« Internet est aussi mis en danger par des agents IA qui se comportent différemm",
+      "signal_detail": "Avec l’IA agentique, les DSI vont devoir appliquer aux machines ce qu’ils commencent tout juste à maîtriser pour les humains : identité, droits d’accès, Zero Trust, contrôle des usages et surveillance",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/internet-est-aussi-mis-en-danger-par-des-agents-ia-qui-se-comportent-differemment-remi-duranf-gausselin-cloudflare-113617",
+      "date": "2026-09-18",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_SW5mb05ld3MgSGVi",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "InfoNews Hebdo 2026#27 : Google efface Gemini, Splunk surveille les agents, Mist",
+      "signal_detail": "Google veut rendre Gemini presque invisible mais omniprésent dans Workspace, Splunk place les agents IA sous surveillance, Salesforce rêve d’un CRM sans interface, Numspot embarque Mistral dans son cl",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/infonews-hebdo-202627-google-efface-gemini-splunk-surveille-les-agents-mistral-se-souverainise-et-vmware-verrouille-113614",
+      "date": "2026-09-18",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
