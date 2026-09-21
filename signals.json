@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T20:46:12.195Z",
+  "generated_at": "2026-09-21T12:35:05.370Z",
   "total": 6,
   "signals": [
     {
@@ -28,7 +28,7 @@
       "signal_title": "« Internet est aussi mis en danger par des agents IA qui se comportent différemm",
       "signal_detail": "Avec l’IA agentique, les DSI vont devoir appliquer aux machines ce qu’ils commencent tout juste à maîtriser pour les humains : identité, droits d’accès, Zero Trust, contrôle des usages et surveillance",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/internet-est-aussi-mis-en-danger-par-des-agents-ia-qui-se-comportent-differemment-remi-duranf-gausselin-cloudflare-113617",
+      "source_url": "https://www.informatiquenews.fr/internet-est-aussi-mis-en-danger-par-des-agents-ia-qui-se-comportent-differemment-remi-durand-gasselin-cloudflare-113617",
       "date": "2026-09-18",
       "relevance_score": 35,
       "keywords_matched": [
