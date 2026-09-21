@@ -1,26 +1,7 @@
 {
-  "generated_at": "2026-09-21T12:35:05.370Z",
-  "total": 6,
+  "generated_at": "2026-09-21T14:47:57.602Z",
+  "total": 5,
   "signals": [
-    {
-      "id": "rss_VGhvbWFzIEp1bGll",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Thomas Julien, nouveau DSI de France Galop",
-      "signal_detail": "Précédemment en charge des études IT, Thomas Julien est nommé Directeur des Systèmes d’Information et de la Transformation Numérique de France Galop.\nThe post Thomas Julien, nouveau DSI de France Galo",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/emploi-formation-1373/thomas-julien-nouveau-dsi-de-france-galop-229134",
-      "date": "2026-09-14",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
     {
       "id": "rss_wqsgSW50ZXJuZXQg",
       "company": "Informatique News",
