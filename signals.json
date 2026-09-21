@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-21T14:47:57.602Z",
-  "total": 5,
+  "generated_at": "2026-09-21T19:14:54.839Z",
+  "total": 4,
   "signals": [
     {
       "id": "rss_wqsgSW50ZXJuZXQg",
@@ -63,23 +63,6 @@
       "signal_detail": "Souveraineté, sécurité, performance : derrière le choix d’un hébergeur se joue désormais une partie essentielle de la résilience et de la compétitivité du SI. Et l’arrivée de l’IA ne fait que relever ",
       "source": "Informatique News",
       "source_url": "https://www.informatiquenews.fr/souverainete-securite-et-performance-les-piliers-dun-hebergement-moderne-peggy-demaison-alphalink-113576",
-      "date": "2026-09-17",
-      "relevance_score": 20,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_U21hcnQgR2xvYmFs",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Smart Global Governance fait évoluer son identité de marque",
-      "signal_detail": "Smart Global Governance annonce une évolution majeure de son identité de marque afin de mieux refléter l&#8217;élargissement de ses activités et sa vision stratégique. Désormais, le groupe s&#8217;org",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/smart-global-governance-fait-evoluer-son-identite-de-marque-113534",
       "date": "2026-09-17",
       "relevance_score": 20,
       "keywords_matched": [],
