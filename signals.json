@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-21T20:21:56.595Z",
-  "total": 4,
+  "generated_at": "2026-09-22T11:22:31.036Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_wqsgSW50ZXJuZXQg",
@@ -22,6 +22,23 @@
       ]
     },
     {
+      "id": "rss_SUEgc291dmVyYWlu",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "IA souveraine : Atos se dote d’un comité scientifique",
+      "signal_detail": "Atos crée en France un comité scientifique pour accompagner sa stratégie d'IA open source et souveraine.\nThe post IA souveraine : Atos se dote d&rsquo;un comité scientifique appeared first on Silicon.",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/data-ia-1372/ia-souveraine-atos-se-dote-dun-comite-scientifique-229247",
+      "date": "2026-09-22",
+      "relevance_score": 20,
+      "keywords_matched": [],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
       "id": "rss_SW5mb05ld3MgSGVi",
       "company": "Informatique News",
       "signal_type": "publication",
@@ -30,40 +47,6 @@
       "source": "Informatique News",
       "source_url": "https://www.informatiquenews.fr/infonews-hebdo-202627-google-efface-gemini-splunk-surveille-les-agents-mistral-se-souverainise-et-vmware-verrouille-113614",
       "date": "2026-09-18",
-      "relevance_score": 20,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_TnVtU3BvdCBldCBN",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "NumSpot et Mistral AI resserrent les rangs autour de l’IA souveraine",
-      "signal_detail": "NumSpot et Mistral AI renforcent leur partenariat autour d’une offre d’IA managée, hébergée en France et pensée pour les environnements sensibles. Une alliance qui tombe à point nommé : les deux acteu",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/numspot-et-mistral-ai-resserrent-les-rangs-autour-de-lia-souveraine-113595",
-      "date": "2026-09-17",
-      "relevance_score": 20,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_U291dmVyYWluZXTD",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Souveraineté, sécurité et performance : les piliers d’un hébergement moderne Peg",
-      "signal_detail": "Souveraineté, sécurité, performance : derrière le choix d’un hébergeur se joue désormais une partie essentielle de la résilience et de la compétitivité du SI. Et l’arrivée de l’IA ne fait que relever ",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/souverainete-securite-et-performance-les-piliers-dun-hebergement-moderne-peggy-demaison-alphalink-113576",
-      "date": "2026-09-17",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
