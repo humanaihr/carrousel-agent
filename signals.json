@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-22T16:44:32.605Z",
+  "generated_at": "2026-09-22T18:01:22.214Z",
   "total": 5,
   "signals": [
     {
-      "id": "rss_wqsgSW50ZXJuZXQg",
+      "id": "rss_Q2zDqXMgQVBJLCB0",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "« Internet est aussi mis en danger par des agents IA qui se comportent différemm",
-      "signal_detail": "Avec l’IA agentique, les DSI vont devoir appliquer aux machines ce qu’ils commencent tout juste à maîtriser pour les humains : identité, droits d’accès, Zero Trust, contrôle des usages et surveillance",
+      "signal_title": "Clés API, tokens, mots de passe : le coût caché des secrets qui s’égarent",
+      "signal_detail": "Copiés dans un script de test, poussés dans un dépôt GitHub, partagés dans un ticket Jira ou un fil Slack : les identifiants techniques se dispersent partout où les équipes travaillent. Un e-book Hash",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/internet-est-aussi-mis-en-danger-par-des-agents-ia-qui-se-comportent-differemment-remi-durand-gasselin-cloudflare-113617",
-      "date": "2026-09-18",
+      "source_url": "https://www.informatiquenews.fr/cles-api-tokens-mots-de-passe-le-cout-cache-des-secrets-qui-segarent-113669",
+      "date": "2026-09-22",
       "relevance_score": 35,
       "keywords_matched": [
         "DSI"
