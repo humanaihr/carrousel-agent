@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-22T21:09:39.072Z",
-  "total": 5,
+  "generated_at": "2026-09-23T11:18:19.383Z",
+  "total": 4,
   "signals": [
     {
       "id": "rss_Q2zDqXMgQVBJLCB0",
       "company": "Informatique News",
       "signal_type": "publication",
       "signal_title": "Clés API, tokens, mots de passe : le coût caché des secrets qui s’égarent",
-      "signal_detail": "Copiés dans un script de test, poussés dans un dépôt GitHub, partagés dans un ticket Jira ou un fil Slack : les identifiants techniques se dispersent partout où les équipes travaillent. Un e-book Hash",
+      "signal_detail": "Copiés dans un script de test, poussés dans un dépôt GitHub, partagés dans un ticket Jira ou un fil Slack : les identifiants techniques se dispersent partout où les équipes travaillent. Un e-book prop",
       "source": "Informatique News",
       "source_url": "https://www.informatiquenews.fr/cles-api-tokens-mots-de-passe-le-cout-cache-des-secrets-qui-segarent-113669",
       "date": "2026-09-22",
@@ -64,23 +64,6 @@
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/data-ia-1372/ia-souveraine-atos-se-dote-dun-comite-scientifique-229247",
       "date": "2026-09-22",
-      "relevance_score": 20,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_SW5mb05ld3MgSGVi",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "InfoNews Hebdo 2026#27 : Google efface Gemini, Splunk surveille les agents, Mist",
-      "signal_detail": "Google veut rendre Gemini presque invisible mais omniprésent dans Workspace, Splunk place les agents IA sous surveillance, Salesforce rêve d’un CRM sans interface, Numspot embarque Mistral dans son cl",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/infonews-hebdo-202627-google-efface-gemini-splunk-surveille-les-agents-mistral-se-souverainise-et-vmware-verrouille-113614",
-      "date": "2026-09-18",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
