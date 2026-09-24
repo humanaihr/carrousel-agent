@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-24T11:31:38.899Z",
-  "total": 4,
+  "generated_at": "2026-09-24T13:07:18.887Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_Q2zDqXMgQVBJLCB0",
@@ -15,23 +15,6 @@
       "keywords_matched": [
         "DSI"
       ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_Q2xhdWRlIENvZGUg",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Claude Code orchestre désormais plusieurs agents en parallèle",
-      "signal_detail": "Claude Code change de dimension. Entre refonte des Projects, orchestration de plusieurs agents, adoption d’AGENTS.md et garde-fous renforcés, Anthropic transforme progressivement son assistant de déve",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/claude-code-orchestre-desormais-plusieurs-agents-en-parallele-113646",
-      "date": "2026-09-22",
-      "relevance_score": 25,
-      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
