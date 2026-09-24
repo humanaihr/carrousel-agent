@@ -1,26 +1,7 @@
 {
-  "generated_at": "2026-09-24T13:07:18.887Z",
-  "total": 3,
+  "generated_at": "2026-09-24T16:58:17.507Z",
+  "total": 2,
   "signals": [
-    {
-      "id": "rss_Q2zDqXMgQVBJLCB0",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Clés API, tokens, mots de passe : le coût caché des secrets qui s’égarent",
-      "signal_detail": "Copiés dans un script de test, poussés dans un dépôt GitHub, partagés dans un ticket Jira ou un fil Slack : les identifiants techniques se dispersent partout où les équipes travaillent. Un e-book prop",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/cles-api-tokens-mots-de-passe-le-cout-cache-des-secrets-qui-segarent-113669",
-      "date": "2026-09-22",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
     {
       "id": "rss_RGFzc2F1bHQgQXZp",
       "company": "Silicon.fr",
