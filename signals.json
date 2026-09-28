@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-25T21:25:01.078Z",
+  "generated_at": "2026-09-28T13:35:03.397Z",
   "total": 3,
   "signals": [
     {
       "id": "rss_U2VjTnVtQ2xvdWQg",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "SecNumCloud : comprendre les enjeux pour prendre les bonnes décision… Geoffroy d",
+      "signal_title": "SecNumCloud : comprendre les enjeux pour prendre les bonnes décisions… Geoffroy ",
       "signal_detail": "Tout mettre en SecNumCloud n’aurait aucun sens. Ne rien y mettre non plus. Le vrai sujet pour les DSI consiste désormais à distinguer les données critiques, les usages sensibles et les environnements ",
       "source": "Informatique News",
       "source_url": "https://www.informatiquenews.fr/secnumcloud-comprendre-les-enjeux-pour-prendre-les-bonnes-decision-geoffroy-de-lavenne-its-integra-113693",
@@ -39,14 +39,14 @@
       ]
     },
     {
-      "id": "rss_RGFzc2F1bHQgQXZp",
-      "company": "Silicon.fr",
+      "id": "rss_QzJBIGNvbmZpZSDD",
+      "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Dassault Aviation teste deux algorithmes d’IA souveraine sur le Rafale",
-      "signal_detail": "Dassault Aviation a fait voler pour la première fois deux briques d'IA. L'une développée en interne, l'autre avec Thales. \nThe post Dassault Aviation teste deux algorithmes d&rsquo;IA souveraine sur l",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/business-1367/dassault-aviation-teste-deux-algorithmes-dia-souveraine-sur-le-rafale-229289",
-      "date": "2026-09-22",
+      "signal_title": "C2A confie à Tenexa la migration et l’infogérance de ses infrastructures pour ac",
+      "signal_detail": "C2A, fintech spécialisée dans les solutions de paiement pour les entreprises et les professionnels du transport, a choisi l’ESN Tenexa pour assurer la migration de ses infrastructures vers un cloud so",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/c2a-confie-a-tenexa-la-migration-et-linfogerance-de-ses-infrastructures-pour-accompagner-sa-croissance-113755",
+      "date": "2026-09-28",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
