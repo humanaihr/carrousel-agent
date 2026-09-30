@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-09-30T14:32:32.580Z",
-  "total": 1,
+  "generated_at": "2026-09-30T19:03:28.502Z",
+  "total": 2,
   "signals": [
+    {
+      "id": "rss_V2luZG93cyAxMSAy",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Windows 11 26H2 est là… mais ce nouveau numéro n’est qu’une illusion…",
+      "signal_detail": "Microsoft vient d’officialiser Windows 11 26H2, alias « Windows 11 2026 Update ». Une nouvelle version ? Oui. Une révolution ? Certainement pas. Derrière le nouveau numéro se cache surtout un interrup",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/windows-11-26h2-est-la-mais-ce-nouveau-numero-nest-quune-illusion-113820",
+      "date": "2026-09-30",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_Q3LDqWRpdCwgdHJh",
       "company": "Silicon.fr",
