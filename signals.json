@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T12:21:16.267Z",
-  "total": 2,
+  "generated_at": "2026-09-30T14:32:32.580Z",
+  "total": 1,
   "signals": [
     {
       "id": "rss_Q3LDqWRpdCwgdHJh",
@@ -12,23 +12,6 @@
       "source_url": "https://www.silicon.fr/data-ia-1372/credit-trading-recherche-bnp-paribas-mise-sur-gemini-pour-automatiser-ses-metiers-cib-229374",
       "date": "2026-09-25",
       "relevance_score": 30,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_QzJBIGNvbmZpZSDD",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "C2A confie à Tenexa la migration et l’infogérance de ses infrastructures pour ac",
-      "signal_detail": "C2A, fintech spécialisée dans les solutions de paiement pour les entreprises et les professionnels du transport, a choisi l’ESN Tenexa pour assurer la migration de ses infrastructures vers un cloud so",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/c2a-confie-a-tenexa-la-migration-et-linfogerance-de-ses-infrastructures-pour-accompagner-sa-croissance-113755",
-      "date": "2026-09-28",
-      "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
         "DSI",
