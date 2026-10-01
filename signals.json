@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-10-01T12:56:28.198Z",
-  "total": 2,
+  "generated_at": "2026-10-01T15:02:18.754Z",
+  "total": 3,
   "signals": [
+    {
+      "id": "rss_TOKAmWlkZW50aXTD",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "L’identité machine, nouvel angle mort de la cybersécurité à l’ère de l’IA… Soule",
+      "signal_detail": "Les « machines »&#8230; Elles détiennent les clés du SI, multiplient les accès et échappent trop souvent aux radars. Avec les agents IA, l’identité machine devient un angle mort critique de la cybersé",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/identite-machine-cybersecurite-agents-ia-113803",
+      "date": "2026-10-01",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_V2luZG93cyAxMSAy",
       "company": "Informatique News",
