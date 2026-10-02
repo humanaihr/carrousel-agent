@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-02T12:18:50.627Z",
-  "total": 3,
+  "generated_at": "2026-10-02T14:24:32.297Z",
+  "total": 5,
   "signals": [
     {
       "id": "rss_TOKAmWlkZW50aXTD",
@@ -50,6 +50,40 @@
       "source_url": "https://www.silicon.fr/data-ia-1372/credit-trading-recherche-bnp-paribas-mise-sur-gemini-pour-automatiser-ses-metiers-cib-229374",
       "date": "2026-09-25",
       "relevance_score": 30,
+      "keywords_matched": [],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_SW5mb05ld3MgSGVi",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "InfoNews Hebdo 2026#29 : Copilot, ChatGPT Dots, VMware, AWS souverain, AMD + Wor",
+      "signal_detail": "Microsoft et OpenAI veulent transformer leurs assistants IA en véritables plateformes de travail, VMware voit Microsoft, Nutanix et Red Hat revenir dans son rétroviseur, AWS va débrancher son cloud so",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/infonews-hebdo-202629-copilot-chatgpt-dots-vmware-aws-souverain-amd-world-labs-113862",
+      "date": "2026-10-02",
+      "relevance_score": 20,
+      "keywords_matched": [],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_wqsgQXZlYyBWTXdh",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "« Avec VMware, on est à la limite du kidnapping »Thomas Di Giacomo, SUSE",
+      "signal_detail": "Thomas Di Giacomo est un témoin privilégié de trente ans de révolution open source et l’un des hommes qui tentent aujourd’hui d’en écrire le prochain chapitre. Aujourd&#8217;hui Chief Technology and P",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/avec-vmware-on-est-a-la-limite-du-kidnapping-thomas-di-giacomo-suse-113864",
+      "date": "2026-10-02",
+      "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
         "DSI",
