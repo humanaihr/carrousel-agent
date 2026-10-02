@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-02T14:24:32.297Z",
-  "total": 5,
+  "generated_at": "2026-10-02T19:08:10.036Z",
+  "total": 4,
   "signals": [
     {
       "id": "rss_TOKAmWlkZW50aXTD",
@@ -34,23 +34,6 @@
       "keywords_matched": [
         "DSI"
       ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_Q3LDqWRpdCwgdHJh",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Crédit, trading, recherche : BNP Paribas mise sur Gemini pour automatiser ses mé",
-      "signal_detail": "BNP Paribas choisit Google Cloud pour déployer des agents IA dans sa banque de financement et d'investissement.\nThe post Crédit, trading, recherche : BNP Paribas mise sur Gemini pour automatiser ses m",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/data-ia-1372/credit-trading-recherche-bnp-paribas-mise-sur-gemini-pour-automatiser-ses-metiers-cib-229374",
-      "date": "2026-09-25",
-      "relevance_score": 30,
-      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
