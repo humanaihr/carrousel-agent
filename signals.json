@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-10-02T20:35:24.519Z",
+  "generated_at": "2026-10-05T14:19:03.110Z",
   "total": 4,
   "signals": [
+    {
+      "id": "rss_U291dmVyYWluZXTD",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Souveraineté numérique : arrêtons de la subir, organisons-la Hubert Poncelet, ef",
+      "signal_detail": "Un fournisseur change ses règles du jeu et toute l’entreprise vacille ? La souveraineté numérique ne se joue pas seulement dans les centres de données : elle commence là où se prennent les décisions. ",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/souverainete-numerique-arretons-de-la-subir-organisons-la-hubert-poncelet-efficy-113870",
+      "date": "2026-10-05",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "souveraineté numérique"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_TOKAmWlkZW50aXTD",
       "company": "Informatique News",
@@ -11,25 +30,6 @@
       "source": "Informatique News",
       "source_url": "https://www.informatiquenews.fr/identite-machine-cybersecurite-agents-ia-113803",
       "date": "2026-10-01",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_V2luZG93cyAxMSAy",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Windows 11 26H2 est là… mais ce nouveau numéro n’est qu’une illusion…",
-      "signal_detail": "Microsoft vient d’officialiser Windows 11 26H2, alias « Windows 11 2026 Update ». Une nouvelle version ? Oui. Une révolution ? Certainement pas. Derrière le nouveau numéro se cache surtout un interrup",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/windows-11-26h2-est-la-mais-ce-nouveau-numero-nest-quune-illusion-113820",
-      "date": "2026-09-30",
       "relevance_score": 35,
       "keywords_matched": [
         "DSI"
