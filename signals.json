@@ -1,13 +1,32 @@
 {
-  "generated_at": "2026-10-05T22:28:35.320Z",
-  "total": 4,
+  "generated_at": "2026-10-06T13:10:27.842Z",
+  "total": 2,
   "signals": [
+    {
+      "id": "rss_TGVnYWN54oCvOiBj",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Legacy : ce qu’il faut avoir le courage de ne pas moderniser",
+      "signal_detail": "Tout moderniser n’est ni possible ni nécessaire. Encore faut-il savoir quoi conserver.\nL’article Legacy : ce qu’il faut avoir le courage de ne pas moderniser est apparu en premier sur InformatiqueNews",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/legacy-ne-pas-moderniser-250487",
+      "date": "2026-10-06",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "legacy"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_U291dmVyYWluZXTD",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Souveraineté numérique : arrêtons de la subir, organisons-la Hubert Poncelet, ef",
-      "signal_detail": "Un fournisseur change ses règles du jeu et toute l’entreprise vacille ? La souveraineté numérique ne se joue pas seulement dans les centres de données : elle commence là où se prennent les décisions. ",
+      "signal_title": "Souveraineté numérique : arrêtons de la subir, organisons-la",
+      "signal_detail": "Un fournisseur change ses règles du jeu et toute l’entreprise vacille ? La souveraineté numérique ne se joue pas seulement dans les centres de données : elle commence là où se prennent les décisions. ",
       "source": "Informatique News",
       "source_url": "https://www.informatiquenews.fr/souverainete-numerique-arretons-de-la-subir-organisons-la-hubert-poncelet-efficy-113870",
       "date": "2026-10-05",
@@ -15,59 +34,6 @@
       "keywords_matched": [
         "souveraineté numérique"
       ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_TOKAmWlkZW50aXTD",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "L’identité machine, nouvel angle mort de la cybersécurité à l’ère de l’IA… Soule",
-      "signal_detail": "Les « machines »&#8230; Elles détiennent les clés du SI, multiplient les accès et échappent trop souvent aux radars. Avec les agents IA, l’identité machine devient un angle mort critique de la cybersé",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/identite-machine-cybersecurite-agents-ia-113803",
-      "date": "2026-10-01",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_SW5mb05ld3MgSGVi",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "InfoNews Hebdo 2026#29 : Copilot, ChatGPT Dots, VMware, AWS souverain, AMD + Wor",
-      "signal_detail": "Microsoft et OpenAI veulent transformer leurs assistants IA en véritables plateformes de travail, VMware voit Microsoft, Nutanix et Red Hat revenir dans son rétroviseur, AWS va débrancher son cloud so",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/infonews-hebdo-202629-copilot-chatgpt-dots-vmware-aws-souverain-amd-world-labs-113862",
-      "date": "2026-10-02",
-      "relevance_score": 20,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_wqsgQXZlYyBWTXdh",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "« Avec VMware, on est à la limite du kidnapping »Thomas Di Giacomo, SUSE",
-      "signal_detail": "Thomas Di Giacomo est un témoin privilégié de trente ans de révolution open source et l’un des hommes qui tentent aujourd’hui d’en écrire le prochain chapitre. Aujourd&#8217;hui Chief Technology and P",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/avec-vmware-on-est-a-la-limite-du-kidnapping-thomas-di-giacomo-suse-113864",
-      "date": "2026-10-02",
-      "relevance_score": 20,
-      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
