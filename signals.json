@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06T14:41:35.339Z",
-  "total": 2,
+  "generated_at": "2026-10-06T19:24:18.197Z",
+  "total": 1,
   "signals": [
     {
       "id": "rss_TGVnYWN54oCvOiBj",
@@ -14,25 +14,6 @@
       "relevance_score": 35,
       "keywords_matched": [
         "legacy"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_U291dmVyYWluZXTD",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Souveraineté numérique : arrêtons de la subir, organisons-la",
-      "signal_detail": "Un fournisseur change ses règles du jeu et toute l’entreprise vacille ? La souveraineté numérique ne se joue pas seulement dans les centres de données : elle commence là où se prennent les décisions. ",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/souverainete-numerique-arretons-de-la-subir-organisons-la-hubert-poncelet-efficy-113870",
-      "date": "2026-10-05",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "souveraineté numérique"
       ],
       "icp_match": [
         "DSI",
