@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-10-06T20:53:04.236Z",
-  "total": 1,
+  "generated_at": "2026-10-07T13:06:50.048Z",
+  "total": 3,
   "signals": [
+    {
+      "id": "rss_SnVsaWUgUG96emkg",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Julie Pozzi (Air France-KLM) : « L’IA ne résoudra pas les inefficacités d’une or",
+      "signal_detail": "La formule de Julie Pozzi, SVP IT Development d’Air France-KLM, pourrait servir d’avertissement aux DSI. Car derrière les promesses de productivité, l’IA commence surtout à modifier leur propre métier",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/julie-pozzi-air-france-klm-ia-ne-resoudra-pas-250474",
+      "date": "2026-10-07",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_TGVnYWN54oCvOiBj",
       "company": "Informatique News",
@@ -15,6 +34,23 @@
       "keywords_matched": [
         "legacy"
       ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_TWlzdHJhbCBMYXJn",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "Mistral Large 4 mise sur la souveraineté plutôt que sur la course aux records",
+      "signal_detail": "Mistral AI lance Mistral Large 4, un modèle multimodal de 1,05 trillion de paramètres. Sans prétendre dépasser Claude ou GPT sur tous les benchmarks, ML4 alias Le Chonk mise sur le codage, la cyberséc",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/data-ia-1372/mistral-large-4-mise-sur-la-souverainete-plutot-que-sur-la-course-aux-records-229551",
+      "date": "2026-10-07",
+      "relevance_score": 20,
+      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
