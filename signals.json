@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-07T21:10:40.553Z",
-  "total": 3,
+  "generated_at": "2026-10-08T13:14:00.488Z",
+  "total": 2,
   "signals": [
     {
       "id": "rss_SnVsaWUgUG96emkg",
@@ -14,25 +14,6 @@
       "relevance_score": 35,
       "keywords_matched": [
         "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_TGVnYWN54oCvOiBj",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Legacy : ce qu’il faut avoir le courage de ne pas moderniser",
-      "signal_detail": "Tout moderniser n’est ni possible ni nécessaire. Encore faut-il savoir quoi conserver.\nL’article Legacy : ce qu’il faut avoir le courage de ne pas moderniser est apparu en premier sur InformatiqueNews",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/legacy-ne-pas-moderniser-250487",
-      "date": "2026-10-06",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "legacy"
       ],
       "icp_match": [
         "DSI",
