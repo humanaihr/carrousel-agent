@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-10-09T13:00:36.624Z",
-  "total": 2,
+  "generated_at": "2026-10-09T14:55:20.873Z",
+  "total": 3,
   "signals": [
+    {
+      "id": "rss_U3VyZmFjZSBVbHRy",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Surface Ultra, ProLiant Gen13, Fusion Claw, Mistral Large 4, PTC, VMware et ANSS",
+      "signal_detail": "Microsoft défie Apple avec son Surface Laptop Ultra dopé à la RTX Spark de Nvidia, HPE invente des serveurs qui s&#8217;administrent presque seuls, Oracle lâche ses agents Fusion Claw et Mistral revie",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/infonews-hebdo-202641-surface-ultra-proliant-gen13-mistral-vmware-anssi-250635",
+      "date": "2026-10-09",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_T2xpdmllciBMYW1i",
       "company": "Informatique News",
