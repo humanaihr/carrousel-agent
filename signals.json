@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-08T21:13:41.059Z",
+  "generated_at": "2026-10-09T13:00:36.624Z",
   "total": 2,
   "signals": [
     {
-      "id": "rss_SnVsaWUgUG96emkg",
+      "id": "rss_T2xpdmllciBMYW1i",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Julie Pozzi (Air France-KLM) : « L’IA ne résoudra pas les inefficacités d’une or",
-      "signal_detail": "La formule de Julie Pozzi, SVP IT Development d’Air France-KLM, pourrait servir d’avertissement aux DSI. Car derrière les promesses de productivité, l’IA commence surtout à modifier leur propre métier",
+      "signal_title": "Olivier Lambert (Vates) « Le marché, à mon avis, a changé à tout jamais »",
+      "signal_detail": "Selon Gartner, 55 % des entreprises devraient avoir engagé d’ici 2029 des expérimentations pour remplacer leurs infrastructures VMware. Un chiffre mondial qui pourrait être encore plus élevé en Europe",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/julie-pozzi-air-france-klm-ia-ne-resoudra-pas-250474",
-      "date": "2026-10-07",
+      "source_url": "https://www.informatiquenews.fr/olivier-lambert-vates-le-marche-a-change-a-tout-jamais-250633",
+      "date": "2026-10-09",
       "relevance_score": 35,
       "keywords_matched": [
-        "DSI"
+        "souveraineté numérique"
       ],
       "icp_match": [
         "DSI",
