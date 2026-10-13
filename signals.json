@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-10-12T22:50:42.728Z",
-  "total": 3,
+  "generated_at": "2026-10-13T13:59:44.146Z",
+  "total": 4,
   "signals": [
+    {
+      "id": "rss_U3VwZXJtYXJjaMOp",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Supermarchés : l’attaque des frigos Danfoss expose l’angle mort de l’OT télémain",
+      "signal_detail": "Des pirates ont déréglé à distance les installations de froid de plusieurs centaines de supermarchés français, au moyen de gestionnaires Danfoss dont les failles étaient publiées depuis des mois. L'at",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/magasins-systeme-intermarche-leclerc-et-monoprix-touches-par-cyberattaque-250707",
+      "date": "2026-10-13",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_U3VyZmFjZSBVbHRy",
       "company": "Informatique News",
