@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-10-13T21:07:56.963Z",
-  "total": 4,
+  "generated_at": "2026-10-14T11:36:37.898Z",
+  "total": 5,
   "signals": [
+    {
+      "id": "rss_T05MWU9GRklDRSAx",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "ONLYOFFICE 10.0 muscle son jeu face à Microsoft 365",
+      "signal_detail": "ONLYOFFICE enrichit sa bureautique en open source d’assistants IA, d’applications modulaires et de nombreux perfectionnements. Une version 10.0 qui ne se contente pas de moderniser les éditeurs, même ",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/onlyoffice-10-0-muscle-son-jeu-face-a-microsoft-365-250686",
+      "date": "2026-10-14",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "souveraineté numérique"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_U3VwZXJtYXJjaMOp",
       "company": "Informatique News",
