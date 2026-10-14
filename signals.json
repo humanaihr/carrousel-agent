@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-10-14T13:16:52.037Z",
-  "total": 5,
+  "generated_at": "2026-10-14T16:58:53.425Z",
+  "total": 3,
   "signals": [
+    {
+      "id": "rss_R29vZ2xlIEFudGln",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Google Antigravity SDK : les agents IA redescendent du cloud pour coder en local",
+      "signal_detail": "Google ouvre son SDK Antigravity aux modèles IA exécutés directement sur les postes des développeurs. Objectif : réduire les coûts d&#8217;inférence, préserver la confidentialité du code et combiner l",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/google-antigravity-sdk-agents-ia-locaux-250778",
+      "date": "2026-10-14",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_T05MWU9GRklDRSAx",
       "company": "Informatique News",
@@ -34,61 +53,6 @@
       "keywords_matched": [
         "DSI"
       ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_U3VyZmFjZSBVbHRy",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Surface Ultra, ProLiant Gen13, Fusion Claw, Mistral Large 4, PTC, VMware et ANSS",
-      "signal_detail": "Microsoft défie Apple avec son Surface Laptop Ultra dopé à la RTX Spark de Nvidia, HPE invente des serveurs qui s&#8217;administrent presque seuls, Oracle lâche ses agents Fusion Claw et Mistral revie",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/infonews-hebdo-202641-surface-ultra-proliant-gen13-mistral-vmware-anssi-250635",
-      "date": "2026-10-09",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_T2xpdmllciBMYW1i",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Olivier Lambert (Vates) « Le marché, à mon avis, a changé à tout jamais »",
-      "signal_detail": "Selon Gartner, 55 % des entreprises devraient avoir engagé d’ici 2029 des expérimentations pour remplacer leurs infrastructures VMware. Un chiffre mondial qui pourrait être encore plus élevé en Europe",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/olivier-lambert-vates-le-marche-a-change-a-tout-jamais-250633",
-      "date": "2026-10-09",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "souveraineté numérique"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_TWlzdHJhbCBMYXJn",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Mistral Large 4 mise sur la souveraineté plutôt que sur la course aux records",
-      "signal_detail": "Mistral AI lance Mistral Large 4, un modèle multimodal de 1,05 trillion de paramètres. Sans prétendre dépasser Claude ou GPT sur tous les benchmarks, ML4 alias Le Chonk mise sur le codage, la cyberséc",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/data-ia-1372/mistral-large-4-mise-sur-la-souverainete-plutot-que-sur-la-course-aux-records-229551",
-      "date": "2026-10-07",
-      "relevance_score": 20,
-      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
