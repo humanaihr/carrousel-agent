@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T13:02:03.656Z",
-  "total": 2,
+  "generated_at": "2026-10-15T16:46:07.517Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_R29vZ2xlIEFudGln",
@@ -34,6 +34,23 @@
       "keywords_matched": [
         "souveraineté numérique"
       ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_Q29tbWVudCBsZSBD",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "Comment le Crédit Agricole amorce sa mue post-quantique",
+      "signal_detail": "Le Crédit Agricole a des échéances à 2030 et 2035 pour la mise en œuvre du chiffrement post-quantique. Pour commencer, il l'a expérimenté sur son activité assurances.\nThe post Comment le Crédit Agrico",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/cybersecurite-1371/credit-agricole-post-quantique-229675",
+      "date": "2026-10-15",
+      "relevance_score": 20,
+      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
