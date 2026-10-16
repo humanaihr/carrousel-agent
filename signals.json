@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-10-15T21:12:43.412Z",
-  "total": 3,
+  "generated_at": "2026-10-16T11:09:37.027Z",
+  "total": 4,
   "signals": [
+    {
+      "id": "rss_THVjIEp1bGlhIMOg",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Luc Julia à l’USF : l’esprit critique face à l’IA, mais aussi face aux experts",
+      "signal_detail": "À la Convention USF 2026, Luc Julia a dénoncé les illusions entretenues autour de l’intelligence artificielle, plaidant pour des outils spécialisés et une meilleure formation des utilisateurs. Mais ce",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/luc-julia-usf-esprit-critique-face-ia-mais-aussi-250824",
+      "date": "2026-10-16",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "souveraineté numérique"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_R29vZ2xlIEFudGln",
       "company": "Informatique News",
@@ -22,25 +41,6 @@
       ]
     },
     {
-      "id": "rss_T05MWU9GRklDRSAx",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "ONLYOFFICE 10.0 muscle son jeu face à Microsoft 365",
-      "signal_detail": "ONLYOFFICE enrichit sa bureautique en open source d’assistants IA, d’applications modulaires et de nombreux perfectionnements. Une version 10.0 qui ne se contente pas de moderniser les éditeurs, même ",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/onlyoffice-10-0-muscle-son-jeu-face-a-microsoft-365-250686",
-      "date": "2026-10-14",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "souveraineté numérique"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
       "id": "rss_Q29tbWVudCBsZSBD",
       "company": "Silicon.fr",
       "signal_type": "publication",
@@ -49,6 +49,23 @@
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/cybersecurite-1371/credit-agricole-post-quantique-229675",
       "date": "2026-10-15",
+      "relevance_score": 20,
+      "keywords_matched": [],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_UGx1cyBzb3V2ZXJh",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Plus souveraine que rentable : l’IA européenne passée au crible par Digital Real",
+      "signal_detail": "Digital Realty dévoile le volet européen de son étude « Global Data Insights Survey ». Les entreprises européennes y affichent un bel appétit pour l’IA souveraine, mais peinent encore à transformer l’",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/plus-souveraine-que-rentable-lia-europeenne-passee-au-crible-par-digital-realty-250793",
+      "date": "2026-10-16",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
