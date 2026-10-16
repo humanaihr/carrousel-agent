@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16T11:09:37.027Z",
-  "total": 4,
+  "generated_at": "2026-10-16T12:59:05.830Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_THVjIEp1bGlhIMOg",
@@ -14,25 +14,6 @@
       "relevance_score": 35,
       "keywords_matched": [
         "souveraineté numérique"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_R29vZ2xlIEFudGln",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Google Antigravity SDK : les agents IA redescendent du cloud pour coder en local",
-      "signal_detail": "Google ouvre son SDK Antigravity aux modèles IA exécutés directement sur les postes des développeurs. Objectif : réduire les coûts d&#8217;inférence, préserver la confidentialité du code et combiner l",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/google-antigravity-sdk-agents-ia-locaux-250778",
-      "date": "2026-10-14",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
       ],
       "icp_match": [
         "DSI",
