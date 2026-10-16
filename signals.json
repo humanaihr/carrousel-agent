@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-10-16T12:59:05.830Z",
-  "total": 3,
+  "generated_at": "2026-10-16T16:28:27.675Z",
+  "total": 4,
   "signals": [
+    {
+      "id": "rss_RmlyZWZveCBFbnRl",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Firefox Enterprise, OnlyOffice 10, Scaleway, Nvidia, Cigref 2040 et flambée du S",
+      "signal_detail": "Cette semaine dans InfoNews Hebdo, la souveraineté numérique passe à l&#8217;offensive avec Firefox Enterprise, ONLYOFFICE 10.0, Scaleway et Cloud Temple. Pendant que NVIDIA étend son emprise sur l&#8",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/infonews-hebdo-202631-firefox-enterprise-onlyoffice-scaleway-nvidia-cigref-saas-250836",
+      "date": "2026-10-16",
+      "relevance_score": 70,
+      "keywords_matched": [
+        "souveraineté numérique",
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_THVjIEp1bGlhIMOg",
       "company": "Informatique News",
