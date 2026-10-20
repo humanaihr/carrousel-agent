@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T13:15:48.421Z",
-  "total": 4,
+  "generated_at": "2026-10-20T16:43:59.268Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_RmlyZWZveCBFbnRl",
@@ -15,25 +15,6 @@
       "keywords_matched": [
         "souveraineté numérique",
         "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_THVjIEp1bGlhIMOg",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Luc Julia à l’USF : l’esprit critique face à l’IA, mais aussi face aux experts",
-      "signal_detail": "À la Convention USF 2026, Luc Julia a dénoncé les illusions entretenues autour de l’intelligence artificielle, plaidant pour des outils spécialisés et une meilleure formation des utilisateurs. Mais ce",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/luc-julia-usf-esprit-critique-face-ia-mais-aussi-250824",
-      "date": "2026-10-16",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "souveraineté numérique"
       ],
       "icp_match": [
         "DSI",
