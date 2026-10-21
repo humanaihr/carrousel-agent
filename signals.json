@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T13:22:43.177Z",
+  "generated_at": "2026-10-21T17:01:10.119Z",
   "total": 3,
   "signals": [
     {
@@ -23,6 +23,25 @@
       ]
     },
     {
+      "id": "rss_RG90bmV0dXDigK86",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Dotnetup : Microsoft s’attaque enfin au casse-tête des versions .NET",
+      "signal_detail": "Installer, maintenir et faire cohabiter plusieurs versions de .NET relève encore trop souvent du bricolage. Avec Dotnetup, Microsoft veut simplifier radicalement la gestion des SDK et des runtimes, fa",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/dotnetup-gestionnaire-versions-net-microsoft-250930",
+      "date": "2026-10-21",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
       "id": "rss_TOKAmWltcMOpcmF0",
       "company": "Informatique News",
       "signal_type": "publication",
@@ -35,23 +54,6 @@
       "keywords_matched": [
         "souveraineté numérique"
       ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_Q29tbWVudCBsZSBD",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Comment le Crédit Agricole amorce sa mue post-quantique",
-      "signal_detail": "Le Crédit Agricole a des échéances à 2030 et 2035 pour la mise en œuvre du chiffrement post-quantique. Pour commencer, il l'a expérimenté sur son activité assurances.\nThe post Comment le Crédit Agrico",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/cybersecurite-1371/credit-agricole-post-quantique-229675",
-      "date": "2026-10-15",
-      "relevance_score": 20,
-      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
