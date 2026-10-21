@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T21:28:26.655Z",
-  "total": 3,
+  "generated_at": "2026-10-21T11:35:08.052Z",
+  "total": 4,
   "signals": [
     {
       "id": "rss_RmlyZWZveCBFbnRl",
@@ -15,6 +15,25 @@
       "keywords_matched": [
         "souveraineté numérique",
         "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_TOKAmWltcMOpcmF0",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "L’impératif de la souveraineté numérique : pourquoi le contrôle des données sens",
+      "signal_detail": "Cloud souverain, labels, clauses d’hébergement rassurantes… les promesses se multiplient, mais confier ses données à un tiers n’a jamais dédouané personne. Et la faille la plus béante se niche souvent",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/souverainete-numerique-angle-mort-donnees-secondaires-250938",
+      "date": "2026-10-21",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "souveraineté numérique"
       ],
       "icp_match": [
         "DSI",
