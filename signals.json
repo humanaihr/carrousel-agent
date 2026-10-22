@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-10-21T21:30:11.694Z",
+  "generated_at": "2026-10-22T11:34:44.089Z",
   "total": 3,
   "signals": [
-    {
-      "id": "rss_RmlyZWZveCBFbnRl",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Firefox Enterprise, OnlyOffice 10, Scaleway, Nvidia, Cigref 2040 et flambée du S",
-      "signal_detail": "Cette semaine dans InfoNews Hebdo, la souveraineté numérique passe à l&#8217;offensive avec Firefox Enterprise, ONLYOFFICE 10.0, Scaleway et Cloud Temple. Pendant que NVIDIA étend son emprise sur l&#8",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/infonews-hebdo-202631-firefox-enterprise-onlyoffice-scaleway-nvidia-cigref-saas-250836",
-      "date": "2026-10-16",
-      "relevance_score": 70,
-      "keywords_matched": [
-        "souveraineté numérique",
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
     {
       "id": "rss_RG90bmV0dXDigK86",
       "company": "Informatique News",
@@ -54,6 +34,23 @@
       "keywords_matched": [
         "souveraineté numérique"
       ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_TGEgc3VpdGUgYnVy",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "La suite bureautique cesse d’être une commodité pour devenir un choix de souvera",
+      "signal_detail": "Avec son rapport sur les outils bureautiques et collaboratifs de l’État, la Cour des comptes transforme un poste de dépense jugé mineur en question de dépendance et de gouvernance. Sa recommandation d",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/la-bureautique-de-etat-devient-un-enjeu-de-souverainete-250953",
+      "date": "2026-10-22",
+      "relevance_score": 20,
+      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
