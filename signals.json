@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-10-22T21:25:17.036Z",
+  "generated_at": "2026-10-23T11:23:58.811Z",
   "total": 4,
   "signals": [
+    {
+      "id": "rss_RmluIGRlIGxhIDJH",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Fin de la 2G : les réseaux s’éteignent, pas la dette technique qui va avec",
+      "signal_detail": "Orange vient de tourner la page de la 2G, bientôt suivi par SFR et Bouygues Telecom. Derrière cette modernisation des réseaux mobiles se cache un chantier moins visible pour les DSI : retrouver les éq",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/la-fin-de-la-2g-libere-le-reseau-usages-250958",
+      "date": "2026-10-23",
+      "relevance_score": 50,
+      "keywords_matched": [
+        "dette technique",
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_RG90bmV0dXDigK86",
       "company": "Informatique News",
@@ -14,25 +34,6 @@
       "relevance_score": 35,
       "keywords_matched": [
         "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_TOKAmWltcMOpcmF0",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "L’impératif de la souveraineté numérique : pourquoi le contrôle des données sens",
-      "signal_detail": "Cloud souverain, labels, clauses d’hébergement rassurantes… les promesses se multiplient, mais confier ses données à un tiers n’a jamais dédouané personne. Et la faille la plus béante se niche souvent",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/souverainete-numerique-angle-mort-donnees-secondaires-250938",
-      "date": "2026-10-21",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "souveraineté numérique"
       ],
       "icp_match": [
         "DSI",
