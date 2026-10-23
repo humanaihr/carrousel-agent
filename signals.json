@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T11:23:58.811Z",
+  "generated_at": "2026-10-23T13:01:58.261Z",
   "total": 4,
   "signals": [
     {
@@ -23,18 +23,16 @@
       ]
     },
     {
-      "id": "rss_RG90bmV0dXDigK86",
+      "id": "rss_QsOpYXRyaWNlIEtv",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Dotnetup : Microsoft s’attaque enfin au casse-tête des versions .NET",
-      "signal_detail": "Installer, maintenir et faire cohabiter plusieurs versions de .NET relève encore trop souvent du bricolage. Avec Dotnetup, Microsoft veut simplifier radicalement la gestion des SDK et des runtimes, fa",
+      "signal_title": "Béatrice Kosowski (IBM) : « Le quantique ? On entre dans la phase industrielle »",
+      "signal_detail": "Des mainframes z17 aux serveurs Power11, d&#8217;OpenShift à l&#8217;assistant Bob, IBM veut rapprocher l’innovation des applications critiques. Mais le conseil manque d’élan et la souveraineté compli",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/dotnetup-gestionnaire-versions-net-microsoft-250930",
-      "date": "2026-10-21",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
+      "source_url": "https://www.informatiquenews.fr/beatrice-kosowski-ibm-le-quantique-on-entre-dans-la-phase-industrielle-250988",
+      "date": "2026-10-23",
+      "relevance_score": 30,
+      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
