@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T21:16:53.371Z",
-  "total": 4,
+  "generated_at": "2026-10-26T12:42:34.054Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_RmluIGRlIGxhIDJH",
@@ -47,23 +47,6 @@
       "signal_detail": "Saisie après une démarche citoyenne, la Cour des comptes a examiné les outils bureautiques de 11 ministères : 100 millions € dépensés en 2025, en hausse de 50 % depuis 2021. Elle recommande une migrat",
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/workspace-1376/bureautique-etat-la-cour-des-comptes-plaide-pour-le-logiciel-libre-229860",
-      "date": "2026-10-22",
-      "relevance_score": 20,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_TGEgc3VpdGUgYnVy",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "La suite bureautique cesse d’être une commodité pour devenir un choix de souvera",
-      "signal_detail": "Avec son rapport sur les outils bureautiques et collaboratifs de l’État, la Cour des comptes transforme un poste de dépense jugé mineur en question de dépendance et de gouvernance. Sa recommandation d",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/la-bureautique-de-etat-devient-un-enjeu-de-souverainete-250953",
       "date": "2026-10-22",
       "relevance_score": 20,
       "keywords_matched": [],
