@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-10-26T20:58:08.046Z",
-  "total": 3,
+  "generated_at": "2026-10-27T11:57:09.429Z",
+  "total": 2,
   "signals": [
-    {
-      "id": "rss_RmluIGRlIGxhIDJH",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Fin de la 2G : les réseaux s’éteignent, pas la dette technique qui va avec",
-      "signal_detail": "Orange vient de tourner la page de la 2G, bientôt suivi par SFR et Bouygues Telecom. Derrière cette modernisation des réseaux mobiles se cache un chantier moins visible pour les DSI : retrouver les éq",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/la-fin-de-la-2g-libere-le-reseau-usages-250958",
-      "date": "2026-10-23",
-      "relevance_score": 50,
-      "keywords_matched": [
-        "dette technique",
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
     {
       "id": "rss_QsOpYXRyaWNlIEtv",
       "company": "Informatique News",
