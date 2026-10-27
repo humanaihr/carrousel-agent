@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T13:53:22.439Z",
-  "total": 3,
+  "generated_at": "2026-10-27T17:53:19.984Z",
+  "total": 2,
   "signals": [
     {
       "id": "rss_UXVhbmQgbGUgbW9k",
@@ -15,23 +15,6 @@
       "keywords_matched": [
         "DSI"
       ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_QsOpYXRyaWNlIEtv",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Béatrice Kosowski (IBM) : « Le quantique ? On entre dans la phase industrielle »",
-      "signal_detail": "Des mainframes z17 aux serveurs Power11, d&#8217;OpenShift à l&#8217;assistant Bob, IBM veut rapprocher l’innovation des applications critiques. Mais le conseil manque d’élan et la souveraineté compli",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/beatrice-kosowski-ibm-le-quantique-on-entre-dans-la-phase-industrielle-250988",
-      "date": "2026-10-23",
-      "relevance_score": 30,
-      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
