@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T19:19:16.482Z",
-  "total": 2,
+  "generated_at": "2026-10-27T22:04:19.880Z",
+  "total": 1,
   "signals": [
     {
       "id": "rss_UXVhbmQgbGUgbW9k",
@@ -15,23 +15,6 @@
       "keywords_matched": [
         "DSI"
       ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_QnVyZWF1dGlxdWUg",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Bureautique de l’État : la Cour des comptes plaide pour le logiciel libre",
-      "signal_detail": "Saisie après une démarche citoyenne, la Cour des comptes a examiné les outils bureautiques de 11 ministères : 100 millions € dépensés en 2025, en hausse de 50 % depuis 2021. Elle recommande une migrat",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/workspace-1376/bureautique-etat-la-cour-des-comptes-plaide-pour-le-logiciel-libre-229860",
-      "date": "2026-10-22",
-      "relevance_score": 20,
-      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
