@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T14:54:20.520Z",
-  "total": 1,
+  "generated_at": "2026-10-29T19:29:30.430Z",
+  "total": 2,
   "signals": [
     {
       "id": "rss_TOKAmWltcMOpcmF0",
@@ -14,6 +14,25 @@
       "relevance_score": 70,
       "keywords_matched": [
         "souveraineté numérique",
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_U2FsZXNmb3JjZSBy",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Salesforce rachète Braze : 5,66 milliards pour boucler la chaîne de l’IA agentiq",
+      "signal_detail": "En mettant 5,66 milliards de dollars sur la table pour acquérir Braze, Salesforce cherche à relier ses agents IA à une capacité d'action marketing en temps réel. Après Informatica, Fin et Contentful, ",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/salesforce-acquiert-braze-aiguiser-marketing-cloud-251108",
+      "date": "2026-10-29",
+      "relevance_score": 45,
+      "keywords_matched": [
         "DSI"
       ],
       "icp_match": [
