@@ -1,37 +1,21 @@
 {
-  "generated_at": "2026-10-28T20:55:01.757Z",
-  "total": 2,
+  "generated_at": "2026-10-29T12:45:11.320Z",
+  "total": 1,
   "signals": [
     {
-      "id": "rss_UXVhbmQgbGUgbW9k",
+      "id": "rss_TOKAmWltcMOpcmF0",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Quand le modèle Qwen appelle Pékin : un risque caché dans les modèles IA chinois",
-      "signal_detail": "Un modèle Qwen d’Alibaba, exécuté dans un environnement isolé, a tenté d’envoyer un fichier vers un serveur situé en Chine. L’opération a été bloquée et rien ne prouve une tentative d’espionnage. Bien",
+      "signal_title": "L’impératif de la souveraineté numérique : le contrôle des données sensibles, un",
+      "signal_detail": "Tensions géopolitiques, durcissement réglementaire, IA à tous les étages… La souveraineté numérique n’est plus un débat théorique mais une condition de résilience. Encore faut-il viser juste : au-delà",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/quand-le-modele-qwen-appelle-pekin-un-risque-cache-251071",
-      "date": "2026-10-27",
-      "relevance_score": 35,
+      "source_url": "https://www.informatiquenews.fr/souverainete-numerique-angle-mort-donnees-secondaires-2-251131",
+      "date": "2026-10-29",
+      "relevance_score": 70,
       "keywords_matched": [
+        "souveraineté numérique",
         "DSI"
       ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_QnVyZWF1dGlxdWUg",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Bureautique de l’État : la Cour des comptes plaide pour le logiciel libre",
-      "signal_detail": "Saisie après une démarche citoyenne, la Cour des comptes a examiné les outils bureautiques de 11 ministères : 100 millions € dépensés en 2025, en hausse de 50 % depuis 2021. Elle recommande une migrat",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/workspace-1376/bureautique-etat-la-cour-des-comptes-plaide-pour-le-logiciel-libre-229860",
-      "date": "2026-10-22",
-      "relevance_score": 20,
-      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
