@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-10-29T20:59:06.298Z",
-  "total": 2,
+  "generated_at": "2026-10-30T12:36:48.576Z",
+  "total": 1,
   "signals": [
-    {
-      "id": "rss_TOKAmWltcMOpcmF0",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "L’impératif de la souveraineté numérique : le contrôle des données sensibles, un",
-      "signal_detail": "Tensions géopolitiques, durcissement réglementaire, IA à tous les étages… La souveraineté numérique n’est plus un débat théorique mais une condition de résilience. Encore faut-il viser juste : au-delà",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/souverainete-numerique-angle-mort-donnees-secondaires-2-251131",
-      "date": "2026-10-29",
-      "relevance_score": 70,
-      "keywords_matched": [
-        "souveraineté numérique",
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
     {
       "id": "rss_U2FsZXNmb3JjZSBy",
       "company": "Informatique News",
