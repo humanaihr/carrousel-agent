@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-30T20:37:45.838Z",
-  "total": 1,
+  "generated_at": "2026-11-02T15:27:55.807Z",
+  "total": 2,
   "signals": [
     {
       "id": "rss_U2FsZXNmb3JjZSBy",
@@ -12,6 +12,25 @@
       "source_url": "https://www.informatiquenews.fr/salesforce-acquiert-braze-aiguiser-marketing-cloud-251108",
       "date": "2026-10-29",
       "relevance_score": 45,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_SUEgZW4gZW50cmVw",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "IA en entreprise : le fossé générationnel menace-t-il la transmission des savoir",
+      "signal_detail": "Selon ADP Research, seuls 9 % des salariés français de 55 à 64 ans se sentent pleinement armés pour faire évoluer leur carrière, contre 25 % des 18-26 ans. Un décrochage qui interroge les DSI : commen",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/ia-en-entreprise-fosse-generationnel-251445",
+      "date": "2026-11-02",
+      "relevance_score": 35,
       "keywords_matched": [
         "DSI"
       ],
