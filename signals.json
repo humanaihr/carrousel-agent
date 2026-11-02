@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T15:27:55.807Z",
-  "total": 2,
+  "generated_at": "2026-11-02T17:44:44.326Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_U2FsZXNmb3JjZSBy",
@@ -34,6 +34,23 @@
       "keywords_matched": [
         "DSI"
       ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_R2lhbm1hcmlhIFBl",
+      "company": "Avec SA",
+      "signal_type": "publication",
+      "signal_title": "Gianmaria Perancin : « Avec SAP, je ne lâche pas, mais je cherche des solutions ",
+      "signal_detail": "Dans un univers où les éditeurs cultivent leurs communautés d’utilisateurs sans toujours accepter leur pouvoir de contestation, l’USF revendique une indépendance qui lui permet de peser sur SAP. De la",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/gianmaria-perancin-sap-usf-251457",
+      "date": "2026-11-02",
+      "relevance_score": 20,
+      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
