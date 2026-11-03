@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T13:58:21.551Z",
-  "total": 2,
+  "generated_at": "2026-11-03T15:46:29.809Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_SUEgZW4gZW50cmVw",
@@ -15,6 +15,23 @@
       "keywords_matched": [
         "DSI"
       ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_QnVsbCBldCBTY2h3",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "Bull et Schwarz Digits se rapprochent sur un cloud IA souverain",
+      "signal_detail": "Bull et Schwarz Digits signent un accord préliminaire pour bâtir, avec STACKIT, une infrastructure d’IA et de cloud souveraine destinée aux entreprises et administrations européennes.\nThe post Bull et",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/cloud-1370/bull-et-schwarz-digits-se-rapprochent-sur-un-cloud-ia-souverain-230089",
+      "date": "2026-11-03",
+      "relevance_score": 20,
+      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
