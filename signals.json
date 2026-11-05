@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-11-04T21:47:03.830Z",
-  "total": 2,
+  "generated_at": "2026-11-05T14:27:48.961Z",
+  "total": 3,
   "signals": [
+    {
+      "id": "rss_RmFpcmUgbGUgY2hv",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Faire le choix de l’« hybride par défaut » pour en finir avec les frais de sorti",
+      "signal_detail": "Le 12 janvier 2027, l’EU Data Act met fin aux frais facturés pour changer de fournisseur cloud. la « taxe de sortie » disparaît donc. Pourtant, la facture, elle, ne disparaîtra pas pour autant… Et si ",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/tribune-cloudera-251548",
+      "date": "2026-11-05",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_U0FQIGV0IE9yYWNs",
       "company": "Oracle fut la première base de données de SA",
