@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T21:52:42.891Z",
-  "total": 3,
+  "generated_at": "2026-11-06T14:03:53.954Z",
+  "total": 2,
   "signals": [
     {
       "id": "rss_RmFpcmUgbGUgY2hv",
@@ -11,25 +11,6 @@
       "source": "Informatique News",
       "source_url": "https://www.informatiquenews.fr/tribune-cloudera-251548",
       "date": "2026-11-05",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_U0FQIGV0IE9yYWNs",
-      "company": "Oracle fut la première base de données de SA",
-      "signal_type": "publication",
-      "signal_title": "SAP et Oracle : trente ans de mariage, un procès et un divorce technologique",
-      "signal_detail": "Oracle fut la première base de données de SAP R/3, avant de devenir son grand rival sur le marché des ERP. Après des décennies de coopération, une bataille judiciaire retentissante et l’arrivée de HAN",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/sap-et-oracle-trente-ans-de-mariage-un-divorce-251488",
-      "date": "2026-11-04",
       "relevance_score": 35,
       "keywords_matched": [
         "DSI"
