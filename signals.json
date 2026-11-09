@@ -1,42 +1,5 @@
 {
-  "generated_at": "2026-11-06T21:24:53.548Z",
-  "total": 2,
-  "signals": [
-    {
-      "id": "rss_RmFpcmUgbGUgY2hv",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Faire le choix de l’« hybride par défaut » pour en finir avec les frais de sorti",
-      "signal_detail": "Le 12 janvier 2027, l’EU Data Act met fin aux frais facturés pour changer de fournisseur cloud. la « taxe de sortie » disparaît donc. Pourtant, la facture, elle, ne disparaîtra pas pour autant… Et si ",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/tribune-cloudera-251548",
-      "date": "2026-11-05",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_QnVsbCBldCBTY2h3",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Bull et Schwarz Digits se rapprochent sur un cloud IA souverain",
-      "signal_detail": "Bull et Schwarz Digits signent un accord préliminaire pour bâtir, avec STACKIT, une infrastructure d’IA et de cloud souveraine destinée aux entreprises et administrations européennes.\nThe post Bull et",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/cloud-1370/bull-et-schwarz-digits-se-rapprochent-sur-un-cloud-ia-souverain-230089",
-      "date": "2026-11-03",
-      "relevance_score": 20,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    }
-  ]
+  "generated_at": "2026-11-09T15:54:15.103Z",
+  "total": 0,
+  "signals": []
 }
