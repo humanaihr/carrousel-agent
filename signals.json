@@ -1,5 +1,25 @@
 {
-  "generated_at": "2026-11-09T15:54:15.103Z",
-  "total": 0,
-  "signals": []
+  "generated_at": "2026-11-09T18:12:19.905Z",
+  "total": 1,
+  "signals": [
+    {
+      "id": "rss_TklTIDLigK86IGNl",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "NIS 2 : ce que le projet de loi Résilience va vraiment changer pour les entrepri",
+      "signal_detail": "Après deux ans de retard, la France engage enfin la transposition de NIS 2. Examiné à partir de ce lundi 9 novembre à l'Assemblée nationale, le projet de loi Résilience promet d'étendre les obligation",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/nis2-loi-resilience-obligations-entreprises-251585",
+      "date": "2026-11-09",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    }
+  ]
 }
