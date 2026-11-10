@@ -1,7 +1,45 @@
 {
-  "generated_at": "2026-11-10T00:04:33.609Z",
-  "total": 1,
+  "generated_at": "2026-11-10T14:42:15.745Z",
+  "total": 3,
   "signals": [
+    {
+      "id": "rss_UMOpbnVyaWUgZGUg",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Pénurie de mémoire : la nouvelle équation économique de l’IA d’entreprise",
+      "signal_detail": "L’IA d’entreprise a un nouveau goulet d’étranglement : la mémoire. Entre prix qui flambent et composants introuvables, les DSI découvrent que le vrai défi n’est plus seulement de faire tourner les mod",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/penurie-de-memoire-la-equation-economique-de-ia-entreprise-251614",
+      "date": "2026-11-10",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_Q2xhdWRlIEZhYmxl",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Claude Fable 5.2 : Anthropic baisse les prix, mais garde vos données 30 jours",
+      "signal_detail": "Deux mois après avoir appelé à ralentir l'IA, Dario Amodei dévoile Fable 5.2 et Mythos 5.2, deux modèles plus puissants et 20 % moins chers que leurs prédécesseurs. Mais derrière cette baisse, les DSI",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/claude-anthropic-fable-5-2-prix-baisse-251622",
+      "date": "2026-11-10",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_TklTIDLigK86IGNl",
       "company": "Informatique News",
