@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-11-10T21:44:24.517Z",
-  "total": 3,
+  "generated_at": "2026-11-11T13:57:36.057Z",
+  "total": 4,
   "signals": [
+    {
+      "id": "rss_TExNSmFja2luZ+KA",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "LLMJacking : les pirates consomment l’IA, les entreprises paient la facture",
+      "signal_detail": "Avec le LLMJacking, les pirates ne se contentent plus de voler des données : ils détournent des identifiants cloud pour utiliser des modèles d'IA aux frais des entreprises. Google documente des factur",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/llmjacking-acces-modeles-ia-facture-cloud-251629",
+      "date": "2026-11-11",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_UMOpbnVyaWUgZGUg",
       "company": "Informatique News",
