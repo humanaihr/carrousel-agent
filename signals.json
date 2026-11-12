@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-11-11T22:35:03.522Z",
-  "total": 4,
+  "generated_at": "2026-11-12T14:58:34.129Z",
+  "total": 3,
   "signals": [
+    {
+      "id": "rss_QW50aHJvcGljIMOg",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Anthropic à 1 400 milliards : confieriez-vous les clés de votre entreprise à Cla",
+      "signal_detail": "Anthropic pourrait atteindre 1 400 milliards de dollars de valorisation lors de son entrée en Bourse. Mais derrière la croissance fulgurante de Claude, l'entreprise s'est engagée à dépenser plus de 90",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/claude-anthropic-bourse-risques-dsi-251658",
+      "date": "2026-11-12",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_TExNSmFja2luZ+KA",
       "company": "Informatique News",
@@ -22,56 +41,16 @@
       ]
     },
     {
-      "id": "rss_UMOpbnVyaWUgZGUg",
+      "id": "rss_R3VpbGxhdW1lIGRl",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Pénurie de mémoire : la nouvelle équation économique de l’IA d’entreprise",
-      "signal_detail": "L’IA d’entreprise a un nouveau goulet d’étranglement : la mémoire. Entre prix qui flambent et composants introuvables, les DSI découvrent que le vrai défi n’est plus seulement de faire tourner les mod",
+      "signal_title": "Guillaume de Landtsheer (Dell Technologies) : « Vous ne pouvez maîtriser les don",
+      "signal_detail": "Longtemps synonyme de cloud, l'IA d'entreprise revient vers le data center, portée par l'explosion du coût des tokens et les exigences de souveraineté. Comment industrialiser sans perdre la maîtrise d",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/penurie-de-memoire-la-equation-economique-de-ia-entreprise-251614",
-      "date": "2026-11-10",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_Q2xhdWRlIEZhYmxl",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Claude Fable 5.2 : Anthropic baisse les prix, mais garde vos données 30 jours",
-      "signal_detail": "Deux mois après avoir appelé à ralentir l'IA, Dario Amodei dévoile Fable 5.2 et Mythos 5.2, deux modèles plus puissants et 20 % moins chers que leurs prédécesseurs. Mais derrière cette baisse, les DSI",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/claude-anthropic-fable-5-2-prix-baisse-251622",
-      "date": "2026-11-10",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_TklTIDLigK86IGNl",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "NIS 2 : ce que le projet de loi Résilience va vraiment changer pour les entrepri",
-      "signal_detail": "Après deux ans de retard, la France engage enfin la transposition de NIS 2. Examiné à partir de ce lundi 9 novembre à l'Assemblée nationale, le projet de loi Résilience promet d'étendre les obligation",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/nis2-loi-resilience-obligations-entreprises-251585",
-      "date": "2026-11-09",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
+      "source_url": "https://www.informatiquenews.fr/data-center-retour-ia-dell-technologies-251646",
+      "date": "2026-11-12",
+      "relevance_score": 20,
+      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
