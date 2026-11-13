@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-12T22:09:44.878Z",
+  "generated_at": "2026-11-13T14:24:01.320Z",
   "total": 3,
   "signals": [
     {
-      "id": "rss_QW50aHJvcGljIMOg",
+      "id": "rss_TklTIDLigK86IGxh",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Anthropic à 1 400 milliards : confieriez-vous les clés de votre entreprise à Cla",
-      "signal_detail": "Anthropic pourrait atteindre 1 400 milliards de dollars de valorisation lors de son entrée en Bourse. Mais derrière la croissance fulgurante de Claude, l'entreprise s'est engagée à dépenser plus de 90",
+      "signal_title": "NIS 2 : la conformité passera par les contrats avant de passer par la loi",
+      "signal_detail": "L’Assemblée nationale a achevé mardi 10 novembre l’examen en première lecture du texte qui transpose NIS 2. Le principal verrou a sauté : les députés ont supprimé l’article 16 bis, ajouté par le Sénat",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/claude-anthropic-bourse-risques-dsi-251658",
-      "date": "2026-11-12",
+      "source_url": "https://www.informatiquenews.fr/tribune-acronis-251689",
+      "date": "2026-11-13",
       "relevance_score": 35,
       "keywords_matched": [
         "DSI"
@@ -22,18 +22,16 @@
       ]
     },
     {
-      "id": "rss_TExNSmFja2luZ+KA",
-      "company": "Informatique News",
+      "id": "rss_Q3LDqWRpdCBNdXR1",
+      "company": "Silicon.fr",
       "signal_type": "publication",
-      "signal_title": "LLMJacking : les pirates consomment l’IA, les entreprises paient la facture",
-      "signal_detail": "Avec le LLMJacking, les pirates ne se contentent plus de voler des données : ils détournent des identifiants cloud pour utiliser des modèles d'IA aux frais des entreprises. Google documente des factur",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/llmjacking-acces-modeles-ia-facture-cloud-251629",
-      "date": "2026-11-11",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
+      "signal_title": "Crédit Mutuel Arkéa : le président décrit une cyberattaque inédite",
+      "signal_detail": "Faux IBAN, virements instantanés, cryptos...Julien Carmona, président d’Arkéa, détaille la cyberattaque qui a coûté environ 100 millions € à la banque.\nThe post Crédit Mutuel Arkéa : le président décr",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/cybersecurite-1371/credit-mutuel-arkea-le-president-decrit-une-cyberattaque-inedite-230275",
+      "date": "2026-11-13",
+      "relevance_score": 20,
+      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
