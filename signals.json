@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T14:24:01.320Z",
-  "total": 3,
+  "generated_at": "2026-11-13T15:52:45.150Z",
+  "total": 2,
   "signals": [
     {
       "id": "rss_TklTIDLigK86IGxh",
@@ -30,23 +30,6 @@
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/cybersecurite-1371/credit-mutuel-arkea-le-president-decrit-une-cyberattaque-inedite-230275",
       "date": "2026-11-13",
-      "relevance_score": 20,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_R3VpbGxhdW1lIGRl",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Guillaume de Landtsheer (Dell Technologies) : « Vous ne pouvez maîtriser les don",
-      "signal_detail": "Longtemps synonyme de cloud, l'IA d'entreprise revient vers le data center, portée par l'explosion du coût des tokens et les exigences de souveraineté. Comment industrialiser sans perdre la maîtrise d",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/data-center-retour-ia-dell-technologies-251646",
-      "date": "2026-11-12",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
