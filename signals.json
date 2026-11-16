@@ -1,7 +1,45 @@
 {
-  "generated_at": "2026-11-13T21:52:56.331Z",
-  "total": 2,
+  "generated_at": "2026-11-16T15:29:22.895Z",
+  "total": 5,
   "signals": [
+    {
+      "id": "rss_QXByw6hzIGxlIMKr",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Après le « tout-cloud », le temps des architectures hybrides",
+      "signal_detail": "Coûts, cybermenaces, souveraineté, IA… en confrontant leurs ambitions numériques à la réalité du terrain, les entreprises découvrent les limites du « tout-cloud ». Et bien des DSI regardent d’un autre",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/tribune-kyndryl-251731",
+      "date": "2026-11-16",
+      "relevance_score": 55,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_VW4gcm91dGV1ciwg",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Un routeur, 17 centres touchés : la panne du contrôle aérien américain était-ell",
+      "signal_detail": "Le 13 novembre, une opération de maintenance menée par un sous-traitant de la FAA a suffi à désorganiser le trafic aérien américain. L'enquête technique n'est pas terminée, mais plusieurs précédents e",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/panne-faa-controle-aerien-routeur-reseau-251724",
+      "date": "2026-11-16",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_TklTIDLigK86IGxh",
       "company": "Informatique News",
@@ -15,6 +53,23 @@
       "keywords_matched": [
         "DSI"
       ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_RW4gRnJhbmNlIGF1",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "En France aussi, l’aviation civile peine à moderniser ses systèmes",
+      "signal_detail": "À l’heure où les États-Unis admettent l’obsolescence de leur système de contrôle du trafic aérien, la situation apparaît aussi délicate en France.\nThe post En France aussi, l&rsquo;aviation civile pei",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/business-1367/aviation-civile-francaise-obsolescence-systemes-230351",
+      "date": "2026-11-16",
+      "relevance_score": 20,
+      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
