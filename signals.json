@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T00:07:02.348Z",
-  "total": 5,
+  "generated_at": "2026-11-17T15:49:37.995Z",
+  "total": 6,
   "signals": [
     {
       "id": "rss_QXByw6hzIGxlIMKr",
@@ -22,15 +22,15 @@
       ]
     },
     {
-      "id": "rss_VW4gcm91dGV1ciwg",
+      "id": "rss_SW50ZWxsaWdlbmNl",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Un routeur, 17 centres touchés : la panne du contrôle aérien américain était-ell",
-      "signal_detail": "Le 13 novembre, une opération de maintenance menée par un sous-traitant de la FAA a suffi à désorganiser le trafic aérien américain. L'enquête technique n'est pas terminée, mais plusieurs précédents e",
+      "signal_title": "Intelligence ambiante : vers une usine pensante dotée d’un véritable système ner",
+      "signal_detail": "L’IA industrielle quitte le cloud pour se rapprocher des machines et des équipes terrain. Pour les DSI, l’enjeu dépasse l’automatisation : il faut bâtir une infrastructure capable de comprendre ce qui",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/panne-faa-controle-aerien-routeur-reseau-251724",
-      "date": "2026-11-16",
-      "relevance_score": 35,
+      "source_url": "https://www.informatiquenews.fr/tribune-zebra-251765",
+      "date": "2026-11-17",
+      "relevance_score": 45,
       "keywords_matched": [
         "DSI"
       ],
@@ -41,14 +41,14 @@
       ]
     },
     {
-      "id": "rss_TklTIDLigK86IGxh",
+      "id": "rss_VW4gcm91dGV1ciwg",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "NIS 2 : la conformité passera par les contrats avant de passer par la loi",
-      "signal_detail": "L’Assemblée nationale a achevé mardi 10 novembre l’examen en première lecture du texte qui transpose NIS 2. Le principal verrou a sauté : les députés ont supprimé l’article 16 bis, ajouté par le Sénat",
+      "signal_title": "Un routeur, 17 centres touchés : la panne du contrôle aérien américain était-ell",
+      "signal_detail": "Le 13 novembre, une opération de maintenance menée par un sous-traitant de la FAA a suffi à désorganiser le trafic aérien américain. L'enquête technique n'est pas terminée, mais plusieurs précédents e",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/tribune-acronis-251689",
-      "date": "2026-11-13",
+      "source_url": "https://www.informatiquenews.fr/panne-faa-controle-aerien-routeur-reseau-251724",
+      "date": "2026-11-16",
       "relevance_score": 35,
       "keywords_matched": [
         "DSI"
@@ -85,6 +85,23 @@
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/cybersecurite-1371/credit-mutuel-arkea-le-president-decrit-une-cyberattaque-inedite-230275",
       "date": "2026-11-13",
+      "relevance_score": 20,
+      "keywords_matched": [],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_Q3liZXJhdHRhcXVl",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Cyberattaques, inondations, pannes : qui organise vraiment la résilience des col",
+      "signal_detail": "Face aux cyberattaques et aux catastrophes naturelles, la France multiplie les obligations de sécurité sans toujours donner aux collectivités les moyens de les appliquer. Samuel Le Port, fondateur de ",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/gestion-crise-collectivites-cyberattaques-treebal-251751",
+      "date": "2026-11-17",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
