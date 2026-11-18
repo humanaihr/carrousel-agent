@@ -1,26 +1,7 @@
 {
-  "generated_at": "2026-11-17T23:26:08.787Z",
-  "total": 7,
+  "generated_at": "2026-11-18T15:28:46.217Z",
+  "total": 6,
   "signals": [
-    {
-      "id": "rss_QXByw6hzIGxlIMKr",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Après le « tout-cloud », le temps des architectures hybrides",
-      "signal_detail": "Coûts, cybermenaces, souveraineté, IA… en confrontant leurs ambitions numériques à la réalité du terrain, les entreprises découvrent les limites du « tout-cloud ». Et bien des DSI regardent d’un autre",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/tribune-kyndryl-251731",
-      "date": "2026-11-16",
-      "relevance_score": 55,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
     {
       "id": "rss_SW50ZWxsaWdlbmNl",
       "company": "Informatique News",
@@ -31,6 +12,25 @@
       "source_url": "https://www.informatiquenews.fr/tribune-zebra-251765",
       "date": "2026-11-17",
       "relevance_score": 45,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_TGEgQ2FsaWZvcm5p",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "La Californie poursuit OpenAI après des piratages menés par ses agents d’IA",
+      "signal_detail": "Le 16 novembre 2026, la Californie a poursuivi OpenAI pour avoir insuffisamment sécurisé ses agents autonomes. Le procureur Rob Bonta invoque notamment la notion de « nuisance publique » et affirme qu",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/openai-ses-californie-poursuit-agents-ia-251771",
+      "date": "2026-11-18",
+      "relevance_score": 35,
       "keywords_matched": [
         "DSI"
       ],
@@ -85,23 +85,6 @@
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/business-1367/aviation-civile-francaise-obsolescence-systemes-230351",
       "date": "2026-11-16",
-      "relevance_score": 20,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_Q3LDqWRpdCBNdXR1",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "Crédit Mutuel Arkéa : le président décrit une cyberattaque inédite",
-      "signal_detail": "Faux IBAN, virements instantanés, cryptos...Julien Carmona, président d’Arkéa, détaille la cyberattaque qui a coûté environ 100 millions € à la banque.\nThe post Crédit Mutuel Arkéa : le président décr",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/cybersecurite-1371/credit-mutuel-arkea-le-president-decrit-une-cyberattaque-inedite-230275",
-      "date": "2026-11-13",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
