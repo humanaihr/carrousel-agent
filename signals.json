@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T15:28:46.217Z",
+  "generated_at": "2026-11-18T16:54:19.828Z",
   "total": 6,
   "signals": [
     {
@@ -41,25 +41,6 @@
       ]
     },
     {
-      "id": "rss_VW4gcm91dGV1ciwg",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Un routeur, 17 centres touchés : la panne du contrôle aérien américain était-ell",
-      "signal_detail": "Le 13 novembre, une opération de maintenance menée par un sous-traitant de la FAA a suffi à désorganiser le trafic aérien américain. L'enquête technique n'est pas terminée, mais plusieurs précédents e",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/panne-faa-controle-aerien-routeur-reseau-251724",
-      "date": "2026-11-16",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
       "id": "rss_Q2hpcHMgQWN0IDIu",
       "company": "Informatique News",
       "signal_type": "publication",
@@ -85,6 +66,23 @@
       "source": "Silicon.fr",
       "source_url": "https://www.silicon.fr/business-1367/aviation-civile-francaise-obsolescence-systemes-230351",
       "date": "2026-11-16",
+      "relevance_score": 20,
+      "keywords_matched": [],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_T3JhbmdlIHZldXQg",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Orange veut transformer ses réseaux avec l’IA, mais refuse de jouer au casino de",
+      "signal_detail": "À Orange OpenTech 2026, le groupe imagine des réseaux capables d'orchestrer des intelligences artificielles et des agents autonomes. Mais derrière cette ambition, ses dirigeants défendent une approche",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/orange-opentech-251795",
+      "date": "2026-11-18",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
