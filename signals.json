@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-11-19T17:00:24.478Z",
-  "total": 6,
+  "generated_at": "2026-11-19T22:03:16.961Z",
+  "total": 7,
   "signals": [
+    {
+      "id": "rss_UHLDqXNpZGVudGll",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "Présidentielle 2027 : Numeum met cinq propositions sur la table",
+      "signal_detail": "À quelques mois de l&#8217;élection présidentielle de 2027, Numeum avance ses propositions. Dans un secteur où l&#8217;IA redistribue les cartes, notamment sur le développement des logiciels et la fac",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/business-1367/presidentielle-2027-numeum-met-cinq-propositions-sur-la-table-230545",
+      "date": "2026-11-19",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "souveraineté numérique"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_TlNBTmV0IGVuIHBh",
       "company": "Informatique News",
