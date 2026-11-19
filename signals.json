@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T22:03:16.961Z",
-  "total": 7,
+  "generated_at": "2026-11-19T22:58:59.199Z",
+  "total": 6,
   "signals": [
     {
       "id": "rss_UHLDqXNpZGVudGll",
@@ -72,23 +72,6 @@
       "keywords_matched": [
         "DSI"
       ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_Q2hpcHMgQWN0IDIu",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Chips Act 2.0 : face à Washington et Pékin, l’Europe cherche les moyens de son a",
-      "signal_detail": "Alors que Washington transforme les puces Nvidia en instrument de sa rivalité avec Pékin, l'Europe découvre combien son avenir technologique dépend de décisions prises ailleurs. Avec le Chips Act 2.0,",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/chips-act-2-europe-nvidia-chine-souverainete-semi-conducteurs-251759",
-      "date": "2026-11-17",
-      "relevance_score": 30,
-      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
