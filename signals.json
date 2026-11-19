@@ -1,17 +1,36 @@
 {
-  "generated_at": "2026-11-18T22:54:05.332Z",
+  "generated_at": "2026-11-19T15:35:49.371Z",
   "total": 6,
   "signals": [
     {
-      "id": "rss_SW50ZWxsaWdlbmNl",
+      "id": "rss_TlNBTmV0IGVuIHBh",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Intelligence ambiante : vers une usine pensante dotée d’un véritable système ner",
-      "signal_detail": "L’IA industrielle quitte le cloud pour se rapprocher des machines et des équipes terrain. Pour les DSI, l’enjeu dépasse l’automatisation : il faut bâtir une infrastructure capable de comprendre ce qui",
+      "signal_title": "NSANet en panne : la NSA victime des correctifs qu’elle recommandait au monde en",
+      "signal_detail": "Le 21 octobre, la NSA exhortait les entreprises et les administrations à corriger immédiatement les failles PHP2Shell. Moins d'un mois plus tard, CNN révèle que nsanet, son propre réseau classifié tom",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/tribune-zebra-251765",
-      "date": "2026-11-17",
-      "relevance_score": 45,
+      "source_url": "https://www.informatiquenews.fr/nsa-cnn-panne-nsanet-correctifs-php-251800",
+      "date": "2026-11-19",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_R1RBIFZJ4oCvOiBk",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "GTA VI : derrière les RTT, le vrai test de charge du cloud",
+      "signal_detail": "Ce jeudi, GTA VI débarque et certains salariés envisagent déjà de prendre leur journée. Chez Logitech, le congé est même offert. Mais derrière l'événement se dessine une expérience autrement intéressa",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/gta-6-xbox-one-cloud-gaming-microsoft-251743",
+      "date": "2026-11-19",
+      "relevance_score": 35,
       "keywords_matched": [
         "DSI"
       ],
@@ -83,23 +102,6 @@
       "source": "Informatique News",
       "source_url": "https://www.informatiquenews.fr/orange-opentech-251795",
       "date": "2026-11-18",
-      "relevance_score": 20,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_Q3liZXJhdHRhcXVl",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Cyberattaques, inondations, pannes : qui organise vraiment la résilience des col",
-      "signal_detail": "Face aux cyberattaques et aux catastrophes naturelles, la France multiplie les obligations de sécurité sans toujours donner aux collectivités les moyens de les appliquer. Samuel Le Port, fondateur de ",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/gestion-crise-collectivites-cyberattaques-treebal-251751",
-      "date": "2026-11-17",
       "relevance_score": 20,
       "keywords_matched": [],
       "icp_match": [
