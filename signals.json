@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-11-19T22:58:59.199Z",
-  "total": 6,
+  "generated_at": "2026-11-20T15:15:08.743Z",
+  "total": 4,
   "signals": [
+    {
+      "id": "rss_QmVuamFtaW4gQmV1",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Benjamin Beurdouche (Mozilla) : « Le navigateur, c’est l’endroit critique où tou",
+      "signal_detail": "Longtemps cantonné au grand public et financé aux trois quarts par les moteurs de recherche, Firefox se lance sur le marché du navigateur d'entreprise, face à Chrome, Edge ou Island. Un navigateur peu",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/mozilla-entreprise-firefox-enterprise-chrome-251832",
+      "date": "2026-11-20",
+      "relevance_score": 55,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_UHLDqXNpZGVudGll",
       "company": "Silicon.fr",
@@ -22,6 +41,25 @@
       ]
     },
     {
+      "id": "rss_TGVzIGFnZW50cyBJ",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Les agents IA deviennent des solutions sur étagère",
+      "signal_detail": "Avec son Agent Store, Insight range des agents IA dans un catalogue, à côté des services pour les adapter, les déployer et les faire tourner. L’IA agentique passe du projet sur mesure à l’achat sur ét",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/ia-agentique-insight-agent-store-catalogue-251734",
+      "date": "2026-11-20",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
       "id": "rss_TlNBTmV0IGVuIHBh",
       "company": "Informatique News",
       "signal_type": "publication",
@@ -34,78 +72,6 @@
       "keywords_matched": [
         "DSI"
       ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_R1RBIFZJ4oCvOiBk",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "GTA VI : derrière les RTT, le vrai test de charge du cloud",
-      "signal_detail": "Ce jeudi, GTA VI débarque et certains salariés envisagent déjà de prendre leur journée. Chez Logitech, le congé est même offert. Mais derrière l'événement se dessine une expérience autrement intéressa",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/gta-6-xbox-one-cloud-gaming-microsoft-251743",
-      "date": "2026-11-19",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_TGEgQ2FsaWZvcm5p",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "La Californie poursuit OpenAI après des piratages menés par ses agents d’IA",
-      "signal_detail": "Le 16 novembre 2026, la Californie a poursuivi OpenAI pour avoir insuffisamment sécurisé ses agents autonomes. Le procureur Rob Bonta invoque notamment la notion de « nuisance publique » et affirme qu",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/openai-ses-californie-poursuit-agents-ia-251771",
-      "date": "2026-11-18",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_RW4gRnJhbmNlIGF1",
-      "company": "Silicon.fr",
-      "signal_type": "publication",
-      "signal_title": "En France aussi, l’aviation civile peine à moderniser ses systèmes",
-      "signal_detail": "À l’heure où les États-Unis admettent l’obsolescence de leur système de contrôle du trafic aérien, la situation apparaît aussi délicate en France.\nThe post En France aussi, l&rsquo;aviation civile pei",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/business-1367/aviation-civile-francaise-obsolescence-systemes-230351",
-      "date": "2026-11-16",
-      "relevance_score": 20,
-      "keywords_matched": [],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_T3JhbmdlIHZldXQg",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Orange veut transformer ses réseaux avec l’IA, mais refuse de jouer au casino de",
-      "signal_detail": "À Orange OpenTech 2026, le groupe imagine des réseaux capables d'orchestrer des intelligences artificielles et des agents autonomes. Mais derrière cette ambition, ses dirigeants défendent une approche",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/orange-opentech-251795",
-      "date": "2026-11-18",
-      "relevance_score": 20,
-      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
