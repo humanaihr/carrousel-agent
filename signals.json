@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T15:15:08.743Z",
+  "generated_at": "2026-11-20T16:38:52.658Z",
   "total": 4,
   "signals": [
     {
@@ -22,17 +22,17 @@
       ]
     },
     {
-      "id": "rss_UHLDqXNpZGVudGll",
-      "company": "Silicon.fr",
+      "id": "rss_V2luZG93cyAxMeKA",
+      "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Présidentielle 2027 : Numeum met cinq propositions sur la table",
-      "signal_detail": "À quelques mois de l&#8217;élection présidentielle de 2027, Numeum avance ses propositions. Dans un secteur où l&#8217;IA redistribue les cartes, notamment sur le développement des logiciels et la fac",
-      "source": "Silicon.fr",
-      "source_url": "https://www.silicon.fr/business-1367/presidentielle-2027-numeum-met-cinq-propositions-sur-la-table-230545",
-      "date": "2026-11-19",
+      "signal_title": "Windows 11 : les applications vont pouvoir refuser l’accès aux PC insuffisamment",
+      "signal_detail": "Un mot de passe valide et une authentification multifacteur ne suffisent pas à garantir la sécurité d'un ordinateur. Microsoft veut permettre aux applications de vérifier elles-mêmes si un PC dispose ",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/windows-11-microsoft-baseline-protection-applications-251843",
+      "date": "2026-11-20",
       "relevance_score": 35,
       "keywords_matched": [
-        "souveraineté numérique"
+        "DSI"
       ],
       "icp_match": [
         "DSI",
