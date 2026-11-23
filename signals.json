@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T22:34:36.062Z",
-  "total": 4,
+  "generated_at": "2026-11-23T17:52:34.089Z",
+  "total": 2,
   "signals": [
     {
       "id": "rss_QmVuamFtaW4gQmV1",
@@ -30,44 +30,6 @@
       "source": "Informatique News",
       "source_url": "https://www.informatiquenews.fr/windows-11-microsoft-baseline-protection-applications-251843",
       "date": "2026-11-20",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_TGVzIGFnZW50cyBJ",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Les agents IA deviennent des solutions sur étagère",
-      "signal_detail": "Avec son Agent Store, Insight range des agents IA dans un catalogue, à côté des services pour les adapter, les déployer et les faire tourner. L’IA agentique passe du projet sur mesure à l’achat sur ét",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/ia-agentique-insight-agent-store-catalogue-251734",
-      "date": "2026-11-20",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_TlNBTmV0IGVuIHBh",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "NSANet en panne : la NSA victime des correctifs qu’elle recommandait au monde en",
-      "signal_detail": "Le 21 octobre, la NSA exhortait les entreprises et les administrations à corriger immédiatement les failles PHP2Shell. Moins d'un mois plus tard, CNN révèle que nsanet, son propre réseau classifié tom",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/nsa-cnn-panne-nsanet-correctifs-php-251800",
-      "date": "2026-11-19",
       "relevance_score": 35,
       "keywords_matched": [
         "DSI"
