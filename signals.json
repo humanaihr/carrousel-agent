@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-24T03:55:04.312Z",
+  "generated_at": "2026-11-24T17:25:19.598Z",
   "total": 2,
   "signals": [
     {
-      "id": "rss_QmVuamFtaW4gQmV1",
+      "id": "rss_RGVsbCBwcsOpdmll",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Benjamin Beurdouche (Mozilla) : « Le navigateur, c’est l’endroit critique où tou",
-      "signal_detail": "Longtemps cantonné au grand public et financé aux trois quarts par les moteurs de recherche, Firefox se lance sur le marché du navigateur d'entreprise, face à Chrome, Edge ou Island. Un navigateur peu",
+      "signal_title": "Dell prévient : la pénurie s’aggrave et parfois le prix des serveurs peut dérape",
+      "signal_detail": "La pénurie de composants pourrait empirer en 2027, prévient le président de Dell pour l'Europe. Déjà, selon le Financial Times, plusieurs constructeurs réclameraient jusqu'à 45 % de plus pour livrer d",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/mozilla-entreprise-firefox-enterprise-chrome-251832",
-      "date": "2026-11-20",
-      "relevance_score": 55,
+      "source_url": "https://www.informatiquenews.fr/dell-serveur-ia-hausse-prix-apres-commande-251889",
+      "date": "2026-11-24",
+      "relevance_score": 35,
       "keywords_matched": [
         "DSI"
       ],
