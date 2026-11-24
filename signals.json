@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T17:25:19.598Z",
+  "generated_at": "2026-11-24T19:17:22.027Z",
   "total": 2,
   "signals": [
     {
@@ -22,18 +22,16 @@
       ]
     },
     {
-      "id": "rss_V2luZG93cyAxMeKA",
+      "id": "rss_w4l0dWRlIENFU0lO",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Windows 11 : les applications vont pouvoir refuser l’accès aux PC insuffisamment",
-      "signal_detail": "Un mot de passe valide et une authentification multifacteur ne suffisent pas à garantir la sécurité d'un ordinateur. Microsoft veut permettre aux applications de vérifier elles-mêmes si un PC dispose ",
+      "signal_title": "Étude CESIN x Campus Cyber: sommes-nous en train de mesurer les dépendances d’hi",
+      "signal_detail": "Le CESIN et le Campus Cyber publient leur première étude sur les dépendances en cybersécurité. Si les résultats confirment le décalage entre les ambitions de souveraineté des entreprises et leurs déci",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/windows-11-microsoft-baseline-protection-applications-251843",
-      "date": "2026-11-20",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
+      "source_url": "https://www.informatiquenews.fr/cesin-cybersecurite-souverainete-dependances-etude-251927",
+      "date": "2026-11-24",
+      "relevance_score": 20,
+      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
