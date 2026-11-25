@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-11-25T02:10:14.932Z",
-  "total": 2,
+  "generated_at": "2026-11-25T17:01:23.131Z",
+  "total": 4,
   "signals": [
+    {
+      "id": "rss_RMOpcGVuZGFuY2Vz",
+      "company": "Silicon.fr",
+      "signal_type": "publication",
+      "signal_title": "Dépendances cyber : la souveraineté s’invite dans les stratégies, pas encore dan",
+      "signal_detail": "Une étude du CESIN et du Campus Cyber révèle un décalage : la souveraineté numérique est largement affichée comme un axe stratégique mais la dépendance aux fournisseurs est peu mesurée.\nThe post Dépen",
+      "source": "Silicon.fr",
+      "source_url": "https://www.silicon.fr/cybersecurite-1371/dependances-cyber-la-souverainete-sinvite-dans-les-strategies-pas-encore-dans-les-outils-230666",
+      "date": "2026-11-25",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "souveraineté numérique"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
     {
       "id": "rss_RGVsbCBwcsOpdmll",
       "company": "Informatique News",
@@ -22,11 +41,30 @@
       ]
     },
     {
+      "id": "rss_SUEgZXQgYXNzdXJh",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "IA et assurance : après la dette technique, le défi de la gouvernance",
+      "signal_detail": "L’IA promet d’accélérer le traitement des sinistres et de simplifier la souscription. Mais à mesure que les usages se multiplient, les assureurs doivent garder la main sur les données, les droits d’ac",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/ia-et-assurance-dette-de-gouvernance-251891",
+      "date": "2026-11-25",
+      "relevance_score": 25,
+      "keywords_matched": [
+        "dette technique"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
       "id": "rss_w4l0dWRlIENFU0lO",
       "company": "Informatique News",
       "signal_type": "publication",
       "signal_title": "Étude CESIN x Campus Cyber: sommes-nous en train de mesurer les dépendances d’hi",
-      "signal_detail": "Le CESIN et le Campus Cyber publient leur première étude sur les dépendances en cybersécurité. Si les résultats confirment le décalage entre les ambitions de souveraineté des entreprises et leurs déci",
+      "signal_detail": "Le CESIN et le Campus Cyber publient leur première étude sur les dépendances en cybersécurité. Si les résultats confirment le décalage entre les ambitions de souveraineté des entreprises et leurs d��c",
       "source": "Informatique News",
       "source_url": "https://www.informatiquenews.fr/cesin-cybersecurite-souverainete-dependances-etude-251927",
       "date": "2026-11-24",
