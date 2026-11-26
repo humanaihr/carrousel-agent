@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T01:43:15.562Z",
+  "generated_at": "2026-11-26T16:42:49.724Z",
   "total": 4,
   "signals": [
     {
@@ -22,14 +22,33 @@
       ]
     },
     {
-      "id": "rss_RGVsbCBwcsOpdmll",
+      "id": "rss_QXZlYyBDbGF1ZGUs",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "Dell prévient : la pénurie s’aggrave et parfois le prix des serveurs peut dérape",
-      "signal_detail": "La pénurie de composants pourrait empirer en 2027, prévient le président de Dell pour l'Europe. Déjà, selon le Financial Times, plusieurs constructeurs réclameraient jusqu'à 45 % de plus pour livrer d",
+      "signal_title": "Avec Claude, Anthropic transforme chaque utilisateur en créateur de logiciels Ma",
+      "signal_detail": "Pourquoi chercher un logiciel répondant à ses besoins quand on peut demander à une IA de le créer sur mesure ? Anthropic franchit une nouvelle étape dans la démocratisation du développement logiciel e",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/dell-serveur-ia-hausse-prix-apres-commande-251889",
-      "date": "2026-11-24",
+      "source_url": "https://www.informatiquenews.fr/artefacts-claude-applications-bureau-mac-windows-251959",
+      "date": "2026-11-26",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_RGVsbCB2ZW5kIGRl",
+      "company": "ERP SA",
+      "signal_type": "publication",
+      "signal_title": "Dell vend de l’IA, mais il lui a fallu plusieurs années pour préparer sa propre ",
+      "signal_detail": "ERP SAP unifié, processus métiers repensés, chaîne d’approvisionnement agentifiée et seulement 85 projets IA approuvés sur 960 propositions. Adrian McDonald, président EMEA de Dell Technologies, nous ",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/adrian-mcdonald-dell-one-dell-way-ia-251951",
+      "date": "2026-11-26",
       "relevance_score": 35,
       "keywords_matched": [
         "DSI"
@@ -53,23 +72,6 @@
       "keywords_matched": [
         "dette technique"
       ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_w4l0dWRlIENFU0lO",
-      "company": "Informatique News",
-      "signal_type": "publication",
-      "signal_title": "Étude CESIN x Campus Cyber: sommes-nous en train de mesurer les dépendances d’hi",
-      "signal_detail": "Le CESIN et le Campus Cyber publient leur première étude sur les dépendances en cybersécurité. Si les résultats confirment le décalage entre les ambitions de souveraineté des entreprises et leurs d��c",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/cesin-cybersecurite-souverainete-dependances-etude-251927",
-      "date": "2026-11-24",
-      "relevance_score": 20,
-      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
