@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T01:37:42.958Z",
-  "total": 4,
+  "generated_at": "2026-11-27T16:28:49.111Z",
+  "total": 3,
   "signals": [
     {
       "id": "rss_RMOpcGVuZGFuY2Vz",
@@ -41,37 +41,16 @@
       ]
     },
     {
-      "id": "rss_RGVsbCB2ZW5kIGRl",
-      "company": "ERP SA",
-      "signal_type": "publication",
-      "signal_title": "Dell vend de l’IA, mais il lui a fallu plusieurs années pour préparer sa propre ",
-      "signal_detail": "ERP SAP unifié, processus métiers repensés, chaîne d’approvisionnement agentifiée et seulement 85 projets IA approuvés sur 960 propositions. Adrian McDonald, président EMEA de Dell Technologies, nous ",
-      "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/adrian-mcdonald-dell-one-dell-way-ia-251951",
-      "date": "2026-11-26",
-      "relevance_score": 35,
-      "keywords_matched": [
-        "DSI"
-      ],
-      "icp_match": [
-        "DSI",
-        "Transformation",
-        "SI"
-      ]
-    },
-    {
-      "id": "rss_SUEgZXQgYXNzdXJh",
+      "id": "rss_UsOpbXkgTWFuZG9u",
       "company": "Informatique News",
       "signal_type": "publication",
-      "signal_title": "IA et assurance : après la dette technique, le défi de la gouvernance",
-      "signal_detail": "L’IA promet d’accélérer le traitement des sinistres et de simplifier la souscription. Mais à mesure que les usages se multiplient, les assureurs doivent garder la main sur les données, les droits d’ac",
+      "signal_title": "Rémy Mandon (Red Hat France) : « La souveraineté ou l’autonomie stratégique, ça ",
+      "signal_detail": "Deux tiers des clients français réclament davantage de souveraineté, mais très peu savent réellement migrer une charge critique. Comment Red Hat, éditeur américain filiale d'IBM, répond-il à cette exi",
       "source": "Informatique News",
-      "source_url": "https://www.informatiquenews.fr/ia-et-assurance-dette-de-gouvernance-251891",
-      "date": "2026-11-25",
-      "relevance_score": 25,
-      "keywords_matched": [
-        "dette technique"
-      ],
+      "source_url": "https://www.informatiquenews.fr/red-hat-openshift-5-sortie-vmware-251983",
+      "date": "2026-11-27",
+      "relevance_score": 20,
+      "keywords_matched": [],
       "icp_match": [
         "DSI",
         "Transformation",
