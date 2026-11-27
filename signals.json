@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T16:28:49.111Z",
-  "total": 3,
+  "generated_at": "2026-11-27T17:47:37.953Z",
+  "total": 4,
   "signals": [
     {
       "id": "rss_RMOpcGVuZGFuY2Vz",
@@ -14,6 +14,25 @@
       "relevance_score": 35,
       "keywords_matched": [
         "souveraineté numérique"
+      ],
+      "icp_match": [
+        "DSI",
+        "Transformation",
+        "SI"
+      ]
+    },
+    {
+      "id": "rss_Q3J5cHRvZ3JhcGhp",
+      "company": "Informatique News",
+      "signal_type": "publication",
+      "signal_title": "Cryptographie post-quantique : l’Europe a un plan pour éviter une crise mondiale",
+      "signal_detail": "Et si, pour une fois, nous prenions de vitesse une menace informatique ? Avec son Quantum Act, présenté le 25 novembre, la Commission européenne entend organiser la migration vers une cryptographie ca",
+      "source": "Informatique News",
+      "source_url": "https://www.informatiquenews.fr/quantum-act-cryptographie-post-quantique-europe-251996",
+      "date": "2026-11-27",
+      "relevance_score": 35,
+      "keywords_matched": [
+        "DSI"
       ],
       "icp_match": [
         "DSI",
